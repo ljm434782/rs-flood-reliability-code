@@ -1,0 +1,29 @@
+# Environments and credentials
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Generated caches and binaries
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+regenerated_main_artifacts/
+# Downloaded imagery, model tensors and runtime streams
+data/raw/
+data/interim/
+data/processed/
+*.pt
+*.pth
+*.ckpt
+*.tar
+*.tif
+*.tiff
+*.zarr/
+*.log
+# Frozen JSON/CSV/JSONL evidence is intentionally tracked.

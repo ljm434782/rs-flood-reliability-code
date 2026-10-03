@@ -1,0 +1,12 @@
+{
+  "source": "ImpactMesh-Flood v1 official train TARs, candidate training role only",
+  "sample_count": 12305,
+  "rows": 49220,
+  "s1_tar_sha256": "f742b9b2f9362c0635d372129b640b525e0d300d062d72cc647f864fc20a28ee",
+  "s2_tar_sha256": "0a58335297971c4a6e5e4f4e4aa8d2afe9201dedaad35e08babd03f3a1bb0c6f",
+  "official_train_split_sha256": "f7b0d7b9650171b97ac65a1d1543c504cd46855ac221c2864e78d4d38a871038",
+  "candidate_process_split_sha256": "eca7d82279fed979ac517112c897c310d34215963237d43400b0af3821878c25",
+  "output_sha256": "7708dffd3c337652614dae6ff2cebcd7c3f37696ddcc47ffb9875fb9c7cc9751",
+  "meaning": "Mask-only upper bound on visible optical pixels; S2 band finiteness/fill values not yet checked",
+  "use_limit": "Candidate training-role audit only; no validation, calibration, internal or external test used; no eligibility threshold or final result"
+}

@@ -1,0 +1,24 @@
+\begin{table}[H]
+\caption{Retrospective B4 benefit relative to the frozen S1-only B2 on the same owned pixels. Positive values favor B4. Entries average process-level gains over three fixed seeds; 95\% descriptive process intervals are in the accompanying CSV. Outcome counts classify process-level three-seed means. These are synthetic optical-retention conditions, not natural absence.}
+\label{tab:opticalbenefit}
+\centering\small
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{@{}llrrrr@{}}
+\hline
+Role & S2 kept & Flood IoU gain & Flood Brier gain & Both better & Both worse \\
+\hline
+Internal & 100\% & +0.0391 & +0.0203 & 12/18 & 3/18 \\
+Internal & 75\% & +0.0339 & +0.0160 & 11/18 & 3/18 \\
+Internal & 50\% & +0.0229 & +0.0067 & 9/18 & 4/18 \\
+Internal & 25\% & +0.0072 & -0.0106 & 2/18 & 8/18 \\
+Internal & 0\% & -0.0120 & -0.0602 & 2/18 & 11/18 \\
+\hline
+Holdout & 100\% & +0.0373 & +0.0211 & 7/9 & 1/9 \\
+Holdout & 75\% & +0.0236 & +0.0145 & 7/9 & 1/9 \\
+Holdout & 50\% & +0.0100 & +0.0034 & 6/9 & 1/9 \\
+Holdout & 25\% & +0.0011 & -0.0091 & 0/9 & 2/9 \\
+Holdout & 0\% & +0.0012 & -0.0292 & 1/9 & 6/9 \\
+\hline
+\end{tabular}
+\end{table}

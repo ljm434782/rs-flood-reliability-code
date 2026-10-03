@@ -1,0 +1,34 @@
+{
+  "model": "B4",
+  "completed_utc": "2026-09-27T03:38:40.026429+00:00",
+  "device": "xpu",
+  "torch": "2.14.0+xpu",
+  "config": {
+    "version": "impactmesh-formal-v1-20260927",
+    "seed": 20260927,
+    "sample_order_seed": "impactmesh-v1-process-balanced-tile-order-20260927",
+    "base_width": 16,
+    "epochs": 8,
+    "batch_size": 4,
+    "learning_rate": 0.001,
+    "training_chips_per_process_per_epoch": 4,
+    "validation_chips_per_process": 2,
+    "normalization_chips_per_process": 4,
+    "optical_modality_dropout": 0.5,
+    "maximum_class_weight": 10.0
+  },
+  "config_sha256": "06f422be2c21c46f87e1413ec1fe3b872656dfa048e050bdff74119e3f8b40fa",
+  "split_sha256": "537617bdabeaa2e0fd1c01a11282d425d31c1d477315159aad0b68eb62e52e95",
+  "eligibility_sha256": "92925c8289c81041d99a8b67131de7e025861094386881daf44d12511b30d9a0",
+  "statistics_sha256": "7095d9658cde9d42956ac5e9f3c9b94c02c645be9e4948ae474a75a2ab1f0757",
+  "code_sha256": {
+    "scripts/train_impactmesh_formal.py": "2fc1d2631ed83081e6d706f9de4c32f8de382d6e69d5666036cc75b35337fb14",
+    "src/flood_reliability/models.py": "205e1091f8941d4f20d67d601c6f3e4b6e9a2d09d41ce988b2193c8ac6a9e8d7",
+    "src/flood_reliability/impactmesh_io.py": "165a33bdb326833c8f6a91e69591a55e283224344969ca1951f68950b822176c",
+    "src/flood_reliability/availability.py": "a1b4e2d1681c16c17d9752aba6cd85fc1febd4427e4d7b707bc058e64f5faaf1"
+  },
+  "checkpoint_sha256": "03e5476c1799a0b2682939961d397810845c9e158b0e1ea0028d59de37e45a94",
+  "training_processes": 81,
+  "validation_processes": 20,
+  "selection": "fixed final epoch, no validation-based model selection"
+}

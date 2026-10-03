@@ -1,0 +1,6 @@
+activation,original_role,reason,official_source
+EMSR233,calibration,same_hurricane_irma_as_validation_EMSR232,https://mapping.emergency.copernicus.eu/news/copernicus-ems-is-mapping-the-impact-of-hurricane-irma-over-the-carribbean-islands/
+EMSR762,internal_test,same_storm_boris_as_calibration_EMSR756,https://mapping.emergency.copernicus.eu/news/information-bulletin-173-the-copernicus-emergency-management-service-monitors-floods-in-central-and-eastern-europe/
+EMSR757,official_test_holdout,same_storm_boris_as_calibration_EMSR756,https://mapping.emergency.copernicus.eu/news/information-bulletin-173-the-copernicus-emergency-management-service-monitors-floods-in-central-and-eastern-europe/
+EMSR763,official_test_holdout,same_storm_boris_as_calibration_EMSR756,https://mapping.emergency.copernicus.eu/news/information-bulletin-173-the-copernicus-emergency-management-service-monitors-floods-in-central-and-eastern-europe/
+EMSR766,official_test_holdout,same_storm_boris_as_calibration_EMSR756,https://mapping.emergency.copernicus.eu/news/information-bulletin-173-the-copernicus-emergency-management-service-monitors-floods-in-central-and-eastern-europe/

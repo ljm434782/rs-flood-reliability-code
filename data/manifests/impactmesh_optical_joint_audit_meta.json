@@ -1,0 +1,9 @@
+{
+  "frozen_frame_sha256": "72528576a595ff05493efd01fc53d6555c1aef3b6a75105b3981e96dc197fb39",
+  "source": "24 fixed train samples; four S2 times per sample; local verified member ZIPs",
+  "rows": 96,
+  "pixels_per_row": 65536,
+  "joint_visible_definition": "SCL in {4,5,6} AND cloud_mask==0 AND nan_mask==0 AND all 12 bands finite and !=-9999 AND data_mask==1",
+  "use_limit": "descriptive training-source audit only; no age/coverage eligibility threshold, no process-pass rate or main-data selection",
+  "scl_reference": "https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Data/S2L2A.html"
+}

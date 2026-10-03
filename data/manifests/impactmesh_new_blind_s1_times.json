@@ -1,0 +1,41 @@
+{
+  "completed_utc": "2026-09-27T06:27:19.080964+00:00",
+  "purpose": "event chronology and source independence review; no labels",
+  "raw_sha256": "75bdf46b475b01835685e86bc37921ca8760b75ef4d6e5c693701a2a89bde234",
+  "ids_sha256": "895f8b931d62be04d50eae9139905b383cca0fc818a2dbe270f4cb769ed9f5a8",
+  "output_sha256": "ba382834f6b08900a6b10f65b68a2c74e8c88a1d26539480ae16405c6d418fce",
+  "event_ranges": {
+    "EMSR410": {
+      "tiles": 6,
+      "first": "2019-11-22T15:18:12.011739Z",
+      "last": "2019-11-22T15:18:12.011739Z"
+    },
+    "EMSR411": {
+      "tiles": 29,
+      "first": "2019-11-25T05:36:28.406268Z",
+      "last": "2019-11-25T05:36:28.406268Z"
+    },
+    "EMSR496": {
+      "tiles": 9,
+      "first": "2021-01-27T05:11:58.643479Z",
+      "last": "2021-01-27T05:11:58.643479Z"
+    },
+    "EMSR559": {
+      "tiles": 14,
+      "first": "2022-01-27T02:19:46.669542Z",
+      "last": "2022-01-27T02:19:46.669542Z"
+    },
+    "EMSR788": {
+      "tiles": 131,
+      "first": "2025-01-30T17:57:11.935163Z",
+      "last": "2025-02-03T06:16:29.468421Z"
+    },
+    "EMSR843": {
+      "tiles": 13,
+      "first": "2025-09-24T05:34:56.579634Z",
+      "last": "2025-09-24T05:34:56.579634Z"
+    }
+  },
+  "label_pixels_read": false,
+  "model_outputs_read": false
+}

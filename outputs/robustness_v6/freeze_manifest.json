@@ -1,0 +1,31 @@
+{
+  "purpose": "post-test robustness supplement; no test tuning, no new blind set, no architecture search",
+  "frozen_utc": "2026-09-28T09:54:23.856148+00:00",
+  "config_sha256": "2cabbb87e58a7cd6fd7f03524e81f1c8880882d924119deb7a5d4faddb169855",
+  "source_v5_config_sha256": "c37809c88f9583d8d2fa63fa063ebdcfd757f0ddb11d8fd8a9bb913c9805caec",
+  "source_v5_split_sha256": "6ab6186699e2e22bc672e54ec5f3ba0efdc4e7edb3fc17a7667b29a4f080e0a9",
+  "source_v5_frame_sha256": "a58bcb1ecb28ea8a30de555a23fb1541869046ccd6e08b5b4360e7654c0e8d99",
+  "source_v5_fit_statistics_sha256": "9898d1f3797ef891a2057a3552a48a350832fff3a41412014d03066899b118b6",
+  "source_split_json_sha256": "0d9e6ce6ed9e9847ff56111cc0bd9727b762b7226a0bf29414a5d36d63be661a",
+  "original_split_sha256": "537617bdabeaa2e0fd1c01a11282d425d31c1d477315159aad0b68eb62e52e95",
+  "v4_split_sha256": "7cbb3a870fd2df8aac53c1d17039b3c2b2f9386db8171dbfbae330e7988348ea",
+  "eligibility_sha256": "92925c8289c81041d99a8b67131de7e025861094386881daf44d12511b30d9a0",
+  "grid_sha256": "1319ba52972add2ea4f5069830bb69eae748263b7021d7dc7218006a0f9c132b",
+  "v6_frame_sha256": "b289904d2fce683d62543e9aebdb9e7f9ca886b71897a4e56d6668f9250c540c",
+  "v6_fit_statistics_sha256": "569d7db926e0089b4abee53de8f7a97dc353e66a578e9bcdb6a8ad3103d4bed2",
+  "code_sha256": {
+    "configs/impactmesh_robustness_v6.json": "2cabbb87e58a7cd6fd7f03524e81f1c8880882d924119deb7a5d4faddb169855",
+    "configs/impactmesh_exploratory_v5.json": "c37809c88f9583d8d2fa63fa063ebdcfd757f0ddb11d8fd8a9bb913c9805caec",
+    "scripts/train_impactmesh_robustness_v6.py": "f2f316d2b062e1132a441611b91359e5f07c344cd8fac7a3f425c844d3d7bdd7",
+    "scripts/train_impactmesh_exploratory_v5.py": "d85da95cad1804017d9e9ee913669985b01a2bbbb6a8681fb216bd6513c8740d",
+    "scripts/train_impactmesh_exploratory_v2.py": "7fee9877800206d6ae82ad4f419b87d146252c06b8ec316831ee5179b889eeff",
+    "scripts/train_impactmesh_formal.py": "fc4a4e91c97c67eb13a056f3bb79586413614101346301a1b63ef2a82e3e4917",
+    "src/flood_reliability/models.py": "205e1091f8941d4f20d67d601c6f3e4b6e9a2d09d41ce988b2193c8ac6a9e8d7",
+    "src/flood_reliability/models_v5.py": "dffe097a368c09210727bb9c32f2e8a7d47e98dbe35669a5f01a841ed4f2868e"
+  },
+  "fit_process_count": 65,
+  "development_process_count": 16,
+  "development_real_missing_process_count": 11,
+  "contains_test_or_holdout_data": false,
+  "contains_model_scores": false
+}

@@ -1,0 +1,142 @@
+{
+  "source": "official ImpactMesh mask TIFF headers from fully verified train/val/test MASK.tar, official ID lists, and locally verified Sen1Floods11 hand-test label rasters",
+  "source_list_sha256": {
+    "train": "f7b0d7b9650171b97ac65a1d1543c504cd46855ac221c2864e78d4d38a871038",
+    "val": "895f8b931d62be04d50eae9139905b383cca0fc818a2dbe270f4cb769ed9f5a8",
+    "test": "a73188e0226896dfc24f77f9b191c7ffc3d90be23991473dfe47cec3e7fb8ab9",
+    "test_holdout": "8d095b68b271fbe6e7735175d265fb6e3d27634405a31a3ced61cf6b09cbab64"
+  },
+  "mask_grid_index_sha256": {
+    "train": "1319ba52972add2ea4f5069830bb69eae748263b7021d7dc7218006a0f9c132b",
+    "val": "ad2c61a360214471799f26e0eab85b2adc853032ae082f88fee19f0148470b70",
+    "test": "076f6cb08b7a76ca9de37fc3853225ae12099bba5a2b9005158c4d9ea5ab61ca"
+  },
+  "sen1_manifest_sha256": "279fd5a7f21f66b86d2209b676683fe6c8ae4dde7691f815d64a297e2921b6c1",
+  "impactmesh_geometry_rule": "Actual TIFF header CRS and bounds, never inferred ID MGRS zone",
+  "geometry_checked_against_local_labels": [
+    "EMSR264_16_38KMD_x493425_y7815805",
+    "EMSR150_1_30UXE_x614815_y5977235",
+    "EMSR200_11_56JNP_x538975_y6842965",
+    "EMSR251_3_32VML_x473405_y6512885",
+    "EMSR156_1_29UNV_x545285_y5951505",
+    "EMSR636_9_51PUS_x348445_y1633025",
+    "EMSR640_2_30VWJ_x547805_y6332575",
+    "EMSR424_1_38LQH_x786235_y8282875",
+    "EMSR480_1_35SLV_x353295_y3909345",
+    "EMSR868_1_35TMF_x440035_y4571445",
+    "EMSR468_2_32TMP_x410975_y4893975",
+    "EMSR554_2_56JKP_x241845_y6830575",
+    "EMSR243_3_19QHA_x815785_y1997425",
+    "EMSR838_7_43RCP_x327085_y3332525",
+    "EMSR813_1_17MQR_x738105_y9559115",
+    "EMSR203_1_14SQF_x732085_y4027095",
+    "EMSR323_5_31SED_x524615_y4398675",
+    "EMSR642_3_32TQQ_x279785_y4928275",
+    "EMSR637_12_55HBA_x303975_y6006605",
+    "EMSR502_3_29UNT_x558575_y5776795",
+    "EMSR414_2_33TVM_x404775_y5167735",
+    "EMSR851_2_44NLN_x387545_y767665",
+    "EMSR283_10_32VNP_x524975_y6853225",
+    "EMSR694_3_30TVK_x418245_y4462945",
+    "EMSR192_5_32TLR_x388535_y5006795",
+    "EMSR850_6_34TCM_x363545_y4645875",
+    "EMSR166_4_33UUP_x375705_y5347715",
+    "EMSR864_3_29SNC_x510605_y4284775"
+  ],
+  "id_zone_crs_mismatch_count_by_split": {
+    "train": 870,
+    "val": 424,
+    "test": 132
+  },
+  "sen1_hand_test_scene_count": 90,
+  "impactmesh_sample_count_by_split": {
+    "train": 19448,
+    "val": 2171,
+    "test": 2959,
+    "test_holdout": 562
+  },
+  "impactmesh_activation_count_by_split": {
+    "train": 182,
+    "val": 49,
+    "test": 67,
+    "test_holdout": 12
+  },
+  "overlap_sample_count_by_split": {
+    "train": 0,
+    "val": 0,
+    "test": 4,
+    "test_holdout": 0
+  },
+  "overlap_activation_count_by_split": {
+    "train": 0,
+    "val": 0,
+    "test": 1,
+    "test_holdout": 0
+  },
+  "overlap_sen1_scene_count_by_split": {
+    "train": 0,
+    "val": 0,
+    "test": 3,
+    "test_holdout": 0
+  },
+  "overlap_pair_count": 7,
+  "overlaps": [
+    {
+      "split": "test",
+      "test_holdout": false,
+      "sample_id": "EMSR388_7_30SXH_x694325_y4222635",
+      "activation": "EMSR388",
+      "sen1_scene": "Spain_6095801",
+      "sen1_event": "Spain"
+    },
+    {
+      "split": "test",
+      "test_holdout": false,
+      "sample_id": "EMSR388_7_30SXH_x694325_y4222635",
+      "activation": "EMSR388",
+      "sen1_scene": "Spain_7370579",
+      "sen1_event": "Spain"
+    },
+    {
+      "split": "test",
+      "test_holdout": false,
+      "sample_id": "EMSR388_7_30SXH_x694325_y4222635",
+      "activation": "EMSR388",
+      "sen1_scene": "Spain_7387658",
+      "sen1_event": "Spain"
+    },
+    {
+      "split": "test",
+      "test_holdout": false,
+      "sample_id": "EMSR388_7_30SXH_x694325_y4225195",
+      "activation": "EMSR388",
+      "sen1_scene": "Spain_7387658",
+      "sen1_event": "Spain"
+    },
+    {
+      "split": "test",
+      "test_holdout": false,
+      "sample_id": "EMSR388_7_30SXH_x696885_y4220075",
+      "activation": "EMSR388",
+      "sen1_scene": "Spain_7370579",
+      "sen1_event": "Spain"
+    },
+    {
+      "split": "test",
+      "test_holdout": false,
+      "sample_id": "EMSR388_7_30SXH_x696885_y4222635",
+      "activation": "EMSR388",
+      "sen1_scene": "Spain_7370579",
+      "sen1_event": "Spain"
+    },
+    {
+      "split": "test",
+      "test_holdout": false,
+      "sample_id": "EMSR388_7_30SXH_x696885_y4222635",
+      "activation": "EMSR388",
+      "sen1_scene": "Spain_7387658",
+      "sen1_event": "Spain"
+    }
+  ],
+  "limits": "Footprint comparison only. No label pixels read. Spatial nonoverlap does not prove distinct flood processes or Sentinel source imagery. Final selected assets require renewed process-level review."
+}

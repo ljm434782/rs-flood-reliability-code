@@ -1,0 +1,29 @@
+{
+  "freeze_commit_before_held_role_scan": "d68cea8e91a0ab06dbc61baef667f34c42561d4e",
+  "preregistration_sha256": "e2b739f8b91a6d9870250e81a0e03517bd8678ae1231f63a1204809674963999",
+  "official_train_sample_count": 19448,
+  "official_train_process_count": 182,
+  "paired_eligible_sample_count": 11538,
+  "paired_eligible_process_count": 145,
+  "frozen_rule": {
+    "max_pre_s1_age_days": 30.0,
+    "minimum_joint_visible_fraction": 0.5,
+    "minimum_samples_per_process": 5,
+    "selection": "maximum joint visible fraction; ties to fresher S2"
+  },
+  "role_process_counts": {
+    "train": 85,
+    "excluded_paired": 37,
+    "internal_test": 20,
+    "calibration": 20,
+    "validation": 20,
+    "official_test_holdout": 12
+  },
+  "s1_tar_sha256": "f742b9b2f9362c0635d372129b640b525e0d300d062d72cc647f864fc20a28ee",
+  "s2_tar_sha256": "0a58335297971c4a6e5e4f4e4aa8d2afe9201dedaad35e08babd03f3a1bb0c6f",
+  "sample_output_sha256": "92925c8289c81041d99a8b67131de7e025861094386881daf44d12511b30d9a0",
+  "process_output_sha256": "b73b439d174fc518247197f88f307274ab1d18ce59d447450066ba12f1dd735a",
+  "split_output_sha256": "f0a687ac62581e139a27a7e747261cc6a0f18d45a05728ec2893442f386a696e",
+  "labels_read": false,
+  "official_test_or_holdout_imagery_read": false
+}

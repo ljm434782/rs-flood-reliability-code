@@ -1,0 +1,366 @@
+{
+  "scope": "validation only; descriptive paired process bootstrap; no multiplicity correction",
+  "completed_utc": "2026-09-27T05:45:56.404109+00:00",
+  "frame_sha256": "eb4b7bd65e07c802f520d629879251c2bcc4bac68dfcabec4718f828143248ef",
+  "stats_sha256": "7095d9658cde9d42956ac5e9f3c9b94c02c645be9e4948ae474a75a2ab1f0757",
+  "checkpoint_sha256": {
+    "P_no_sar_gate": "dad3842771305425a7bb37ad74d57d58eecb42dad9e1dfcc5c91d5105b20a770",
+    "P_gate_both": "64cd8c7633eacab8f00e6f6c47896291b4612bcf76f79e1134cfd0086aa50db0",
+    "B5_drop050": "f719376bffa53c68d9d4116691fc4721279b962eefd70bb750ade316ce93b55e",
+    "B4_bestval": "3e1788baea907505f41255e0ed0ce219b38aafc5d332b1438a2ba50199302988"
+  },
+  "comparisons": {
+    "P_no_sar_gate_minus_P_gate_both": {
+      "full": {
+        "nll": {
+          "mean_left_minus_right": -0.004370242171646153,
+          "ci95": [
+            -0.013858022507234873,
+            0.005430046187818267
+          ],
+          "processes": 20,
+          "defined_processes": 20
+        },
+        "flood_iou": {
+          "mean_left_minus_right": 0.011650620548141028,
+          "ci95": [
+            -0.004006771563710019,
+            0.03127422022334409
+          ],
+          "processes": 20,
+          "defined_processes": 20
+        }
+      },
+      "half": {
+        "nll": {
+          "mean_left_minus_right": -0.0014185490515093379,
+          "ci95": [
+            -0.012393688356056773,
+            0.010083726171488479
+          ],
+          "processes": 20,
+          "defined_processes": 20
+        },
+        "flood_iou": {
+          "mean_left_minus_right": -0.0041717736042063015,
+          "ci95": [
+            -0.016196866613138933,
+            0.005476951069204951
+          ],
+          "processes": 20,
+          "defined_processes": 20
+        }
+      },
+      "zero": {
+        "nll": {
+          "mean_left_minus_right": 0.00479011616511116,
+          "ci95": [
+            -0.00689580238168772,
+            0.019334602546695865
+          ],
+          "processes": 20,
+          "defined_processes": 20
+        },
+        "flood_iou": {
+          "mean_left_minus_right": -0.015932206874877775,
+          "ci95": [
+            -0.030228197549797744,
+            -0.004206234749595979
+          ],
+          "processes": 20,
+          "defined_processes": 19
+        }
+      },
+      "real_missing": {
+        "nll": {
+          "mean_left_minus_right": -0.007117814751965315,
+          "ci95": [
+            -0.01764075063812899,
+            0.0022708876341663914
+          ],
+          "processes": 13,
+          "defined_processes": 13
+        },
+        "flood_iou": {
+          "mean_left_minus_right": 0.005994883162378999,
+          "ci95": [
+            -0.0479687266741824,
+            0.0710876522480672
+          ],
+          "processes": 13,
+          "defined_processes": 12
+        }
+      }
+    },
+    "P_no_sar_gate_minus_B5_drop050": {
+      "full": {
+        "nll": {
+          "mean_left_minus_right": -0.016032894248178765,
+          "ci95": [
+            -0.033251589477915296,
+            0.00012923899044210802
+          ],
+          "processes": 20,
+          "defined_processes": 20
+        },
+        "flood_iou": {
+          "mean_left_minus_right": 0.03204916795488607,
+          "ci95": [
+            -0.005002187592178343,
+            0.08218722988912452
+          ],
+          "processes": 20,
+          "defined_processes": 19
+        }
+      },
+      "half": {
+        "nll": {
+          "mean_left_minus_right": -0.005989712320653552,
+          "ci95": [
+            -0.020275247503023282,
+            0.007549010864014527
+          ],
+          "processes": 20,
+          "defined_processes": 20
+        },
+        "flood_iou": {
+          "mean_left_minus_right": 0.012237101157057562,
+          "ci95": [
+            -0.01269663783019753,
+            0.04279027794353738
+          ],
+          "processes": 20,
+          "defined_processes": 19
+        }
+      },
+      "zero": {
+        "nll": {
+          "mean_left_minus_right": 0.003467058070201385,
+          "ci95": [
+            -0.005253743967576089,
+            0.011754284958876026
+          ],
+          "processes": 20,
+          "defined_processes": 20
+        },
+        "flood_iou": {
+          "mean_left_minus_right": 0.03438632705327474,
+          "ci95": [
+            -0.02225977256614725,
+            0.12638862708891274
+          ],
+          "processes": 20,
+          "defined_processes": 19
+        }
+      },
+      "real_missing": {
+        "nll": {
+          "mean_left_minus_right": -0.0014624086418671583,
+          "ci95": [
+            -0.010674008573232512,
+            0.0077739409417333484
+          ],
+          "processes": 13,
+          "defined_processes": 13
+        },
+        "flood_iou": {
+          "mean_left_minus_right": 0.09480477094858608,
+          "ci95": [
+            0.0038733873711720877,
+            0.21504647982076508
+          ],
+          "processes": 13,
+          "defined_processes": 12
+        }
+      }
+    },
+    "P_no_sar_gate_minus_B4_bestval": {
+      "full": {
+        "nll": {
+          "mean_left_minus_right": 0.010572564572275497,
+          "ci95": [
+            -0.019262687438341905,
+            0.04671302112838199
+          ],
+          "processes": 20,
+          "defined_processes": 20
+        },
+        "flood_iou": {
+          "mean_left_minus_right": -0.01125462839259661,
+          "ci95": [
+            -0.0444168029061523,
+            0.017584199000633696
+          ],
+          "processes": 20,
+          "defined_processes": 20
+        }
+      },
+      "half": {
+        "nll": {
+          "mean_left_minus_right": 0.0017477920127308047,
+          "ci95": [
+            -0.027745899314693512,
+            0.04575727423853428
+          ],
+          "processes": 20,
+          "defined_processes": 20
+        },
+        "flood_iou": {
+          "mean_left_minus_right": -0.035981711654490225,
+          "ci95": [
+            -0.0971708985978987,
+            0.004712738349883558
+          ],
+          "processes": 20,
+          "defined_processes": 20
+        }
+      },
+      "zero": {
+        "nll": {
+          "mean_left_minus_right": -0.033285179566345746,
+          "ci95": [
+            -0.06016465715816426,
+            -0.010293508445823815
+          ],
+          "processes": 20,
+          "defined_processes": 20
+        },
+        "flood_iou": {
+          "mean_left_minus_right": 0.04946376047425446,
+          "ci95": [
+            0.008415159109045403,
+            0.10174338585644649
+          ],
+          "processes": 20,
+          "defined_processes": 19
+        }
+      },
+      "real_missing": {
+        "nll": {
+          "mean_left_minus_right": -0.04137359974677479,
+          "ci95": [
+            -0.07591162640123557,
+            0.0015524953905284643
+          ],
+          "processes": 13,
+          "defined_processes": 13
+        },
+        "flood_iou": {
+          "mean_left_minus_right": 0.05020140927806735,
+          "ci95": [
+            0.011511489277317669,
+            0.09599056640461198
+          ],
+          "processes": 13,
+          "defined_processes": 12
+        }
+      }
+    }
+  },
+  "validation_summaries": {
+    "P_no_sar_gate": {
+      "full": {
+        "processes": 20,
+        "nll": 0.35765495317462725,
+        "flood_iou": 0.2582677786370908,
+        "flood_iou_defined_processes": 20
+      },
+      "half": {
+        "processes": 20,
+        "nll": 0.37216440872379714,
+        "flood_iou": 0.26269191500801264,
+        "flood_iou_defined_processes": 20
+      },
+      "zero": {
+        "processes": 20,
+        "nll": 0.37865184849772726,
+        "flood_iou": 0.26032464476366735,
+        "flood_iou_defined_processes": 19
+      },
+      "real_missing": {
+        "processes": 13,
+        "nll": 0.45412593596998374,
+        "flood_iou": 0.25394155300812077,
+        "flood_iou_defined_processes": 12
+      }
+    },
+    "P_gate_both": {
+      "full": {
+        "processes": 20,
+        "nll": 0.3620251953462735,
+        "flood_iou": 0.2466171580889498,
+        "flood_iou_defined_processes": 20
+      },
+      "half": {
+        "processes": 20,
+        "nll": 0.37358295777530653,
+        "flood_iou": 0.266863688612219,
+        "flood_iou_defined_processes": 20
+      },
+      "zero": {
+        "processes": 20,
+        "nll": 0.37386173233261616,
+        "flood_iou": 0.2624440090566179,
+        "flood_iou_defined_processes": 20
+      },
+      "real_missing": {
+        "processes": 13,
+        "nll": 0.4612437507219492,
+        "flood_iou": 0.24794666984574174,
+        "flood_iou_defined_processes": 12
+      }
+    },
+    "B5_drop050": {
+      "full": {
+        "processes": 20,
+        "nll": 0.37368784742280603,
+        "flood_iou": 0.23981165166310422,
+        "flood_iou_defined_processes": 19
+      },
+      "half": {
+        "processes": 20,
+        "nll": 0.37815412104445073,
+        "flood_iou": 0.2642807041145348,
+        "flood_iou_defined_processes": 19
+      },
+      "zero": {
+        "processes": 20,
+        "nll": 0.3751847904275259,
+        "flood_iou": 0.21464140182487296,
+        "flood_iou_defined_processes": 20
+      },
+      "real_missing": {
+        "processes": 13,
+        "nll": 0.455588344611851,
+        "flood_iou": 0.1591367820595346,
+        "flood_iou_defined_processes": 12
+      }
+    },
+    "B4_bestval": {
+      "full": {
+        "processes": 20,
+        "nll": 0.3470823886023518,
+        "flood_iou": 0.26952240702968744,
+        "flood_iou_defined_processes": 20
+      },
+      "half": {
+        "processes": 20,
+        "nll": 0.3704166167110664,
+        "flood_iou": 0.2986736266625029,
+        "flood_iou_defined_processes": 20
+      },
+      "zero": {
+        "processes": 20,
+        "nll": 0.411937028064073,
+        "flood_iou": 0.20031784007494227,
+        "flood_iou_defined_processes": 20
+      },
+      "real_missing": {
+        "processes": 13,
+        "nll": 0.49549953571675853,
+        "flood_iou": 0.1880678249815877,
+        "flood_iou_defined_processes": 13
+      }
+    }
+  }
+}

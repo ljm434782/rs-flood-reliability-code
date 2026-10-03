@@ -1,0 +1,215 @@
+{
+  "sample_id": "EMSR200_11_56JNP_x538975_y6842965",
+  "split": "test",
+  "selection": "first member in official test tar; convenience sample only",
+  "S1RTC": {
+    "bands_shape": [
+      4,
+      2,
+      256,
+      256
+    ],
+    "band_names": [
+      "vv",
+      "vh"
+    ],
+    "timestamps_utc": [
+      "2017-01-27T19:05:52.847766Z",
+      "2017-03-04T19:05:52.246503Z",
+      "2017-04-02T19:14:02.463270Z",
+      "2017-05-03T19:05:54.563098Z"
+    ],
+    "data_mask_values": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "nan_mask_value_counts_by_time": [
+      {
+        "0": 65536
+      },
+      {
+        "0": 65536
+      },
+      {
+        "0": 65536
+      },
+      {
+        "0": 65536
+      }
+    ],
+    "event_index_2_band0_finite_fraction": 1.0,
+    "event_index_2_band0_quantiles_finite": [
+      -41.375,
+      -7.890625,
+      -1.4690917968749986,
+      4.2421875
+    ]
+  },
+  "S2L2A": {
+    "bands_shape": [
+      4,
+      12,
+      256,
+      256
+    ],
+    "band_names": [
+      "B01",
+      "B02",
+      "B03",
+      "B04",
+      "B05",
+      "B06",
+      "B07",
+      "B08",
+      "B8A",
+      "B09",
+      "B11",
+      "B12"
+    ],
+    "timestamps_utc": [
+      "2017-01-31T23:52:41.026000Z",
+      "2017-03-02T23:52:41.026000Z",
+      "2017-04-01T23:52:41.026000Z",
+      "2017-05-01T23:52:51.026000Z"
+    ],
+    "data_mask_values": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "nan_mask_value_counts_by_time": [
+      {
+        "0": 65536
+      },
+      {
+        "0": 65536
+      },
+      {
+        "0": 65536
+      },
+      {
+        "0": 65536
+      }
+    ],
+    "event_index_2_band0_finite_fraction": 1.0,
+    "event_index_2_band0_quantiles_finite": [
+      3098.0,
+      10609.0,
+      12669.0,
+      13260.0
+    ],
+    "cloud_mask_attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "time",
+        "y",
+        "x"
+      ],
+      "coordinates": "spatial_ref",
+      "description": "SCL cloud mask",
+      "labels": "-1: No data/NaNs; 0: No cloud; 1: Cloud (medium or high probability); 2: Thin cirrus."
+    },
+    "cloud_mask_value_counts_by_time": [
+      {
+        "0.0": 65536
+      },
+      {
+        "0.0": 50320,
+        "1.0": 15216
+      },
+      {
+        "1.0": 65536
+      },
+      {
+        "0.0": 65536
+      }
+    ],
+    "SCL_value_counts_by_time": [
+      {
+        "2.0": 52,
+        "4.0": 65352,
+        "5.0": 100,
+        "6.0": 4,
+        "7.0": 28
+      },
+      {
+        "2.0": 68,
+        "3.0": 3240,
+        "4.0": 43166,
+        "5.0": 260,
+        "7.0": 3586,
+        "8.0": 3864,
+        "9.0": 11352
+      },
+      {
+        "9.0": 65536
+      },
+      {
+        "2.0": 1808,
+        "4.0": 63536,
+        "5.0": 28,
+        "6.0": 16,
+        "7.0": 148
+      }
+    ],
+    "scene_cloud_metadata": {
+      "s2_high_proba_clouds_percentage": [
+        "0.921513",
+        "16.268946",
+        "90.376699",
+        "4.16348"
+      ],
+      "s2_medium_proba_clouds_percentage": [
+        "0.569053",
+        "4.948952",
+        "4.209843",
+        "3.863381"
+      ],
+      "s2_cloud_shadow_percentage": [
+        "0.189396",
+        "2.027569",
+        "0.134754",
+        "0.520891"
+      ],
+      "s2_nodata_pixel_percentage": [
+        "3e-06",
+        "2.745535",
+        "0.0",
+        "0.0"
+      ]
+    }
+  },
+  "s2_minus_s1_days_by_index": [
+    4.199168729560185,
+    -1.8008243113773148,
+    -0.8064981165509258,
+    -1.8007353830787036
+  ],
+  "s1_s2_coordinates_match": true,
+  "label": {
+    "shape": [
+      256,
+      256
+    ],
+    "crs": "EPSG:32756",
+    "transform": [
+      10.0,
+      0.0,
+      538970.0,
+      0.0,
+      -10.0,
+      6842970.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "class_counts": {
+      "-1": 5,
+      "0": 65421,
+      "1": 110
+    },
+    "sensor_grid_matches_label_centers": true
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "completed_utc": "2026-09-27T06:40:44.467159+00:00",
+  "purpose": "source-prequalified val process blind panel, input-only lock",
+  "source_inventory_sha256": "81c261e584a59a7506a337a61c31d28af5610ece9521750d634b30a328dfc5d3",
+  "official_val_ids_sha256": "895f8b931d62be04d50eae9139905b383cca0fc818a2dbe270f4cb769ed9f5a8",
+  "raw_sha256": {
+    "S1RTC": "75bdf46b475b01835685e86bc37921ca8760b75ef4d6e5c693701a2a89bde234",
+    "S2L2A": "2faf00f8e7e926917f1696bc805b51e6503c0ac589148af5c5b702967d433601",
+    "MASK": "c5675b95582b86341f12fe07a16963ae4b1e3d7f1c5f5fbb5c943eb8bbf1bdf9"
+  },
+  "prequalified_events": [
+    "EMSR410",
+    "EMSR411",
+    "EMSR496",
+    "EMSR559",
+    "EMSR788",
+    "EMSR843"
+  ],
+  "prequalified_tiles": 202,
+  "eligible_counts_before_process_minimum": {
+    "EMSR411": 28,
+    "EMSR559": 14,
+    "EMSR788": 131,
+    "EMSR843": 13
+  },
+  "locked_events": [
+    "EMSR411",
+    "EMSR559",
+    "EMSR788",
+    "EMSR843"
+  ],
+  "locked_tiles": 186,
+  "eligibility_sha256": "135a26df1efd0a756237b4de24f7ee6f4d8acf246ed59d998121191030e2688c",
+  "locked_manifest_sha256": "2626bc17b7051262b8ced0ef39575c30dda766d273e763f04de8d9631ec7f9da",
+  "label_pixels_read": false,
+  "model_outputs_read": false,
+  "event_selection_using_label_distribution": false
+}

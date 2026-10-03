@@ -1,0 +1,17 @@
+{
+  "source": "Official verified train S1 archive and train MASK TIFF georeferencing only",
+  "purpose": "Conservative candidate pairs for manual CEMS same-event review; proximity is not a grouping rule",
+  "activation_count": 182,
+  "candidate_pair_count": 37,
+  "cross_role_candidate_count": 29,
+  "candidate_window_days": 30,
+  "candidate_centroid_distance_km": 500,
+  "s1_archive_sha256": "f742b9b2f9362c0635d372129b640b525e0d300d062d72cc647f864fc20a28ee",
+  "official_train_split_sha256": "f7b0d7b9650171b97ac65a1d1543c504cd46855ac221c2864e78d4d38a871038",
+  "grid_index_sha256": "1319ba52972add2ea4f5069830bb69eae748263b7021d7dc7218006a0f9c132b",
+  "frozen_split_sha256": "f0a687ac62581e139a27a7e747261cc6a0f18d45a05728ec2893442f386a696e",
+  "times_output_sha256": "59dcc31e9871f2361a2ac7fb8791d733c3d7f0de2b171cee7440db3d00fad99b",
+  "pairs_output_sha256": "861a22ce27cf140f69c45ca194f7f34a6bd499331e6047406e73e87a719f4c96",
+  "labels_read": false,
+  "official_test_imagery_read": false
+}

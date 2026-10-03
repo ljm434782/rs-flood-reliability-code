@@ -1,0 +1,9 @@
+# Portable research extras; not an exact historical environment lock.
+# Select/install the PyTorch and torchvision builds for the intended device.
+torch>=2.4
+torchvision>=0.19
+zarr==2.18.0
+numcodecs==0.15.1
+segmentation-models-pytorch==0.5.0
+timm>=1.0
+pytest>=8

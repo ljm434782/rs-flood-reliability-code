@@ -1,0 +1,227 @@
+{
+  "repository": "ibm-esa-geospatial/ImpactMesh-Flood",
+  "assets": [
+    {
+      "type": "file",
+      "oid": "1ef325f1b111266a6b26e0196871bd78baa8c2f3",
+      "size": 2461,
+      "path": ".gitattributes"
+    },
+    {
+      "type": "file",
+      "oid": "961e6cf8d064c6734a1e34ef0f3e3c4b3e767e34",
+      "size": 4713,
+      "path": "README.md"
+    },
+    {
+      "type": "file",
+      "oid": "d243e9f52c2ebd1208bf1cd70e014edf20c7974c",
+      "size": 97960,
+      "path": "split/impactmesh_flood_test.txt"
+    },
+    {
+      "type": "file",
+      "oid": "88627d77792c5dce4f4040bd9c5cc98c1731d452",
+      "size": 18546,
+      "path": "split/impactmesh_flood_test_holdout.txt"
+    },
+    {
+      "type": "file",
+      "oid": "80ecd15b1e27b778746fb75874c1a45ec518529d",
+      "size": 86271,
+      "path": "split/impactmesh_flood_test_seen_events.txt"
+    },
+    {
+      "type": "file",
+      "oid": "91b30c1d55e343a02b3bc53faf594c6da570bd86",
+      "size": 642435,
+      "path": "split/impactmesh_flood_train.txt"
+    },
+    {
+      "type": "file",
+      "oid": "c2ce41fb76b7d340299671f9d54cffe8623b0feb",
+      "size": 72024,
+      "path": "split/impactmesh_flood_val.txt"
+    },
+    {
+      "type": "file",
+      "oid": "2a218b03ffd89191a59c82892b1fae9a8ca09e0a",
+      "size": 40970240,
+      "lfs": {
+        "oid": "cdd2330bd7e02871010d672b558334d36607c383a763b25402629de31190b8d8",
+        "size": 40970240,
+        "pointerSize": 133
+      },
+      "xetHash": "fd850791b8488aa0c0d5c29b28239fbefb8e0b88d9e3c4a561c29b5bd4be7117",
+      "path": "test/DEM.tar"
+    },
+    {
+      "type": "file",
+      "oid": "c1669cadf03529ba48c4374bfec282f3bd89382b",
+      "size": 7608320,
+      "lfs": {
+        "oid": "8e2b805020e9ef7adda33856e579fdb454a07f7c6469f30cfb8a92a5b52597aa",
+        "size": 7608320,
+        "pointerSize": 132
+      },
+      "xetHash": "6b5166245beb81281aab4bb49144694e5ba46d22c0eae7dae96373de951a408c",
+      "path": "test/MASK.tar"
+    },
+    {
+      "type": "file",
+      "oid": "f1a7a235a21dc7f68484a19c3c14a5080bc5b06e",
+      "size": 2087639040,
+      "lfs": {
+        "oid": "2c056513a05edc4ee2db474c33af5ce0f7d7b89256ae60811726db64b63cdcde",
+        "size": 2087639040,
+        "pointerSize": 135
+      },
+      "xetHash": "2b821b171c7819423cac3258e4962c93214c9063b81f2b1306af80e546e15d41",
+      "path": "test/S1RTC.tar"
+    },
+    {
+      "type": "file",
+      "oid": "044350705d3e10ef09b4f7b9cffce4e2adfa6a2f",
+      "size": 6395484160,
+      "lfs": {
+        "oid": "a001c7165c4264ae119a013c396a2e54e1f4fdfab48b55e704f4238c78906829",
+        "size": 6395484160,
+        "pointerSize": 135
+      },
+      "xetHash": "8e2be4e894d0bebdb90028f72434196c467b8da254ab690dedc5862e4389f049",
+      "path": "test/S2L2A.tar"
+    },
+    {
+      "type": "file",
+      "oid": "e31b657d381e72092a31c8c0db22755347e06cf3",
+      "size": 150077440,
+      "lfs": {
+        "oid": "0531adc82179d3b92f5ec90a34298be7146d9031694e80b2ae882cf890d4917f",
+        "size": 150077440,
+        "pointerSize": 134
+      },
+      "xetHash": "7b100c3c5599e206aa48f438668575ba4bb35f303c535566fd2230c9bc551bc8",
+      "path": "test/S2RGB.tar"
+    },
+    {
+      "type": "file",
+      "oid": "3071d9d737f16cdf37f76f7a6d2cc4228801635f",
+      "size": 245985280,
+      "lfs": {
+        "oid": "f3e4cc0a432968a8f391da048e26fce6a238db7e6f4df38e3cb84238efe0f9b4",
+        "size": 245985280,
+        "pointerSize": 134
+      },
+      "xetHash": "9e326695956fcea456a8212138120346673b91cedb4a3e9e80457452b081b24f",
+      "path": "train/DEM.tar"
+    },
+    {
+      "type": "file",
+      "oid": "54e47e22c4a3afd016d7525f4d27f9b2c0294316",
+      "size": 48650240,
+      "lfs": {
+        "oid": "dc9f2003ac8a1e55511d98f00564f5d967564deb8be41d4270a55192a53c1876",
+        "size": 48650240,
+        "pointerSize": 133
+      },
+      "xetHash": "9a10e665111386be257c1b7e2332d0c3270d86bd5db80de10b4bb8eb97367039",
+      "path": "train/MASK.tar"
+    },
+    {
+      "type": "file",
+      "oid": "eba5f8c00fd15b4b7ce45fc57a6117651120d318",
+      "size": 13719961600,
+      "lfs": {
+        "oid": "f742b9b2f9362c0635d372129b640b525e0d300d062d72cc647f864fc20a28ee",
+        "size": 13719961600,
+        "pointerSize": 136
+      },
+      "xetHash": "3f49a277ed464e6bac5acb83193be5564d1d54657b9eb6945137614b10ad1e52",
+      "path": "train/S1RTC.tar"
+    },
+    {
+      "type": "file",
+      "oid": "3424f101a8a0560f360eb9da22adea6ae152a668",
+      "size": 42587596800,
+      "lfs": {
+        "oid": "0a58335297971c4a6e5e4f4e4aa8d2afe9201dedaad35e08babd03f3a1bb0c6f",
+        "size": 42587596800,
+        "pointerSize": 136
+      },
+      "xetHash": "75f59c339f4618654f6cf8ffbc90b67546d5910a67b30445de6a4e82cf9ffd47",
+      "path": "train/S2L2A.tar"
+    },
+    {
+      "type": "file",
+      "oid": "bf966d462c5c7659451a75d6691eecf2c3038fab",
+      "size": 1653995520,
+      "lfs": {
+        "oid": "0aff13a4205a7b07fe1ea7809b55048cb344a131ff9510116c4dc8824287ac05",
+        "size": 1653995520,
+        "pointerSize": 135
+      },
+      "xetHash": "cc7e467a27a3d47ab806768d56f5d1e803fe2a03f17c44ed5077f42532ad7156",
+      "path": "train/S2RGB.tar"
+    },
+    {
+      "type": "file",
+      "oid": "c54c395e24eb27f9e97822dbe49a701156edd4a8",
+      "size": 27791360,
+      "lfs": {
+        "oid": "c5a07887c31e40a87f4269e3b69fa8ea2c6442fceabf42ed1f6dbbc5e41fea3a",
+        "size": 27791360,
+        "pointerSize": 133
+      },
+      "xetHash": "c4c08e38e03e7bdc6b0ed3c06b8e98633c685dd44d4a3fc6d78fc285ce886097",
+      "path": "val/DEM.tar"
+    },
+    {
+      "type": "file",
+      "oid": "028413280c12e46f16e2f4405394eec072155d0d",
+      "size": 5877760,
+      "lfs": {
+        "oid": "c5675b95582b86341f12fe07a16963ae4b1e3d7f1c5f5fbb5c943eb8bbf1bdf9",
+        "size": 5877760,
+        "pointerSize": 132
+      },
+      "xetHash": "0cb9dbf6cb5b38d162a3eb44ed48e34264f3540dc4167a55ae506b763792d082",
+      "path": "val/MASK.tar"
+    },
+    {
+      "type": "file",
+      "oid": "8a5b309dd0ead99ea00b70f99b701846719d39f2",
+      "size": 1543649280,
+      "lfs": {
+        "oid": "75bdf46b475b01835685e86bc37921ca8760b75ef4d6e5c693701a2a89bde234",
+        "size": 1543649280,
+        "pointerSize": 135
+      },
+      "xetHash": "32249e3368ba48a3ca2c5a65c2c14402cf2b470a8f4b548e48f076625cc03884",
+      "path": "val/S1RTC.tar"
+    },
+    {
+      "type": "file",
+      "oid": "00a4a9a4382feece4dc90c831f7c6057eb50fcff",
+      "size": 4748851200,
+      "lfs": {
+        "oid": "2faf00f8e7e926917f1696bc805b51e6503c0ac589148af5c5b702967d433601",
+        "size": 4748851200,
+        "pointerSize": 135
+      },
+      "xetHash": "d15f606789701a70b8494ef97a1bc589ba8dd1d5ffd975840cdab5a47b8f35a2",
+      "path": "val/S2L2A.tar"
+    },
+    {
+      "type": "file",
+      "oid": "775f1a43a2b82d92f702e453b3f70d866ab72aa3",
+      "size": 128624640,
+      "lfs": {
+        "oid": "f5b6db232733258ba35b8ac6857d9a22d9891dae3953f2a71d347a36cf8ecaa4",
+        "size": 128624640,
+        "pointerSize": 134
+      },
+      "xetHash": "51147a7e9698fef3d947186c244bf09987c1b445e6bbd4919bcd4351121dbd24",
+      "path": "val/S2RGB.tar"
+    }
+  ]
+}

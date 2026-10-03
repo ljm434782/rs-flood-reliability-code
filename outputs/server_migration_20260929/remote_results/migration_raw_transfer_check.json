@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "archives": [
+    {
+      "path": "data/raw/impactmesh/train/MASK.tar",
+      "size_bytes": 48650240,
+      "sha256": "dc9f2003ac8a1e55511d98f00564f5d967564deb8be41d4270a55192a53c1876",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/raw/impactmesh/train/S1RTC.tar",
+      "size_bytes": 13719961600,
+      "sha256": "f742b9b2f9362c0635d372129b640b525e0d300d062d72cc647f864fc20a28ee",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/raw/impactmesh/train/S2L2A.tar",
+      "size_bytes": 42587596800,
+      "sha256": "0a58335297971c4a6e5e4f4e4aa8d2afe9201dedaad35e08babd03f3a1bb0c6f",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/raw/impactmesh/test/MASK.tar",
+      "size_bytes": 7608320,
+      "sha256": "8e2b805020e9ef7adda33856e579fdb454a07f7c6469f30cfb8a92a5b52597aa",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/raw/impactmesh/test/S1RTC.tar",
+      "size_bytes": 2087639040,
+      "sha256": "2c056513a05edc4ee2db474c33af5ce0f7d7b89256ae60811726db64b63cdcde",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/raw/impactmesh/test/S2L2A.tar",
+      "size_bytes": 6395484160,
+      "sha256": "a001c7165c4264ae119a013c396a2e54e1f4fdfab48b55e704f4238c78906829",
+      "status": "MATCH"
+    }
+  ],
+  "elapsed_seconds": 263.9325101780705
+}

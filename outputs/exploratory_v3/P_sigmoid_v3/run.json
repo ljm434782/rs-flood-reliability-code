@@ -1,0 +1,29 @@
+{
+  "candidate": "P_sigmoid_v3",
+  "seed": 20260929,
+  "spec": {
+    "model": "P",
+    "dropout": 0.25,
+    "gate": "sigmoid_sar_optical"
+  },
+  "completed_utc": "2026-09-27T06:35:32.767196+00:00",
+  "selection": "equal_mean_process_nll_minus_equal_mean_process_flood_iou_across_four_states",
+  "selected_epoch": 5,
+  "selected_score": 0.07276321987244294,
+  "selected_sha256": "ae051e0a3a3c8ecb5e31add6866d59f60f2052ff6d6ee70ea0b325a3607f52ff",
+  "config_sha256": "55105dfc97aac48cbac5fbc722bbfb1f180870ed013a2a84581209abdcb87c2d",
+  "v3_split_sha256": "c33b85be14b3244776e25d30c387df3aa2a048370ae04f9237783cbcacffbead",
+  "frame_sha256": "31682627929f86d91bebcf61894b14790d8aa1851fc0e8599858c876fecbdf35",
+  "stats_sha256": "8be7dce1a38b382c6998adaa3fb82a59115bec4e0fb3a5ae4c17961cd249e377",
+  "code_sha256": {
+    "scripts/train_impactmesh_exploratory_v3.py": "9e3d6a9cee067b95a8878cda16c42bade93601e3466f1e3e94e145ae37c748e2",
+    "src/flood_reliability/models_v3.py": "1d5b887d0972b01478d8aeca08676c1f0c581719520e8762a06510067392cc53",
+    "src/flood_reliability/models.py": "205e1091f8941d4f20d67d601c6f3e4b6e9a2d09d41ce988b2193c8ac6a9e8d7",
+    "scripts/train_impactmesh_exploratory_v2.py": "7fee9877800206d6ae82ad4f419b87d146252c06b8ec316831ee5179b889eeff",
+    "scripts/train_impactmesh_formal.py": "fc4a4e91c97c67eb13a056f3bb79586413614101346301a1b63ef2a82e3e4917"
+  },
+  "fit_processes": 65,
+  "development_processes": 16,
+  "real_missing_development_processes": 10,
+  "no_formal_test_or_previous_validation_used_for_selection": true
+}

@@ -1,0 +1,33 @@
+{
+  "completed_utc": "2026-09-27T04:39:32.264431+00:00",
+  "source_results_sha256": {
+    "outputs/formal_v1/B1/internal_test.json": "0c49b95d8c488f0e2a58cd9f17286555e38c7107a8a58efbd6de5c27509f8368",
+    "outputs/formal_v1/B1/external_sen1floods11.json": "21569b1defdac6d51865fa18562b40598214ccb0a2c5b59d0491f2bb6b49913e",
+    "outputs/formal_v1/B1/official_holdout.json": "dad09056dfddfcebf1fc749936399a562d773ee504b57d7f84878e978abcf467",
+    "outputs/formal_v1/B1/real_missing_s2.json": "5ad1b85a0185012ff6a24144ced10a72c443d0c1b8c129f6974047c3d098d58c",
+    "outputs/formal_v1/B2/internal_test.json": "6763c973da71a1811b6a5fb7c96529ae3e7a559cc6475b9cf86ef5a23edc8ca4",
+    "outputs/formal_v1/B2/external_sen1floods11.json": "99ef58c526ede9b7c384dbc69cc0cee49707ad11821e638d89df6fe952d64cfc",
+    "outputs/formal_v1/B2/official_holdout.json": "328ea5783321a2d44067814f770f29521a03e45f93e5128865311f7d08a2748b",
+    "outputs/formal_v1/B2/real_missing_s2.json": "93797a94ec5cc3fe99a11ebda3e797a0db04d1712fb91cdc12c0b0274a5a044d",
+    "outputs/formal_v1/B4/internal_test.json": "fbab030d585e41553c2ad9854d584b31cfdab6a165d66e1f6ac23e319e72d24b",
+    "outputs/formal_v1/B4/external_sen1floods11.json": "0c64b4a0d7a7929fd11e9a14a6a1a4f763f513e5e5aa9496fdb5ea05b3107fe8",
+    "outputs/formal_v1/B4/official_holdout.json": "00716d34a3e904fdf2a2c15f02dc5b1fc870acb63c94c33cc5e8b5f3387e028c",
+    "outputs/formal_v1/B4/real_missing_s2.json": "206b5660aea79c8002d3620240d089906b1e6ed81eedf6aaa4e16188079d04de",
+    "outputs/formal_v1/B5/internal_test.json": "5877556306f81d83db40a778ea75cd0d65058d09c4981643dd52552c2f586992",
+    "outputs/formal_v1/B5/external_sen1floods11.json": "68bbe823b75be368f102aebc91a9bc6f817178a96da25a5dc75a6785de549730",
+    "outputs/formal_v1/B5/official_holdout.json": "7ae470166b5a3580d720f1381742cfec58fcf0b4e25de07a966f1b96cd1b80c2",
+    "outputs/formal_v1/B5/real_missing_s2.json": "d23263cf1e262284a9823eebb81f9b7d69949afbecd7124171e30718ea7b8616",
+    "outputs/formal_v1/P/internal_test.json": "97e917b74422f6327415b505f1a276e3a2e3653be44fbb08e4726412ef42a4f1",
+    "outputs/formal_v1/P/external_sen1floods11.json": "7cda3b2991478b72907674487a3693a3ed2e31cfe16d238c23635b0c5938975a",
+    "outputs/formal_v1/P/official_holdout.json": "fe45ffd2d5c7848c7be92dba10dd2da55c20e9d506fa7227c4e772586126adb6",
+    "outputs/formal_v1/P/real_missing_s2.json": "1edcbaec01aed3207759aaf80467a0938c7e2251c1830f2baeb546b9e0553cd5"
+  },
+  "table_sha256": {
+    "primary": "177b50475baf625c18572d8a4746f99aeb1e459633d53c2a6edb5d0af7a68336",
+    "curve": "272aa5f9ea5259cce9ce12d0e820fbecc8c5e7123dd37cbd073a3dbf02702ed3",
+    "calibration": "91799521bf197a7c9023cd8f4d207560d246ada7c12a1b6a108b5b669fbb1df4",
+    "real_missing": "c551a5649646b3dd6cc65959a640a5273fdbf568ec8d0e59d052c7d1ffd74a1b"
+  },
+  "script_sha256": "d5fd67275ea7e758e9cc1a5f05b2945df7fd8bb52f82452a34bc322ec7266eb6",
+  "interpretation": "descriptive extraction only; process bootstrap intervals from frozen evaluation"
+}

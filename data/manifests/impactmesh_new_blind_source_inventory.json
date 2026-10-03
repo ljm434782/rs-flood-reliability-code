@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-09-27T06:09:16.423720Z",
+  "source_api": "https://mapping.emergency.copernicus.eu/activations/api/activations/?limit=2000",
+  "api_snapshot_sha256": "859ab6a22017f9ef53d1ca1f8d9a7e467f2d945fd4b9f4e844dd54947beda11e",
+  "split_sha256": {
+    "train": "f7b0d7b9650171b97ac65a1d1543c504cd46855ac221c2864e78d4d38a871038",
+    "val": "895f8b931d62be04d50eae9139905b383cca0fc818a2dbe270f4cb769ed9f5a8",
+    "test": "a73188e0226896dfc24f77f9b191c7ffc3d90be23991473dfe47cec3e7fb8ab9",
+    "test_holdout": "8d095b68b271fbe6e7735175d265fb6e3d27634405a31a3ced61cf6b09cbab64"
+  },
+  "output_sha256": "81c261e584a59a7506a337a61c31d28af5610ece9521750d634b30a328dfc5d3",
+  "candidate_count": 12,
+  "read_label_pixels": false,
+  "read_model_outputs": false,
+  "limitation": "activation centroids and 30d/500km screens do not establish process independence"
+}

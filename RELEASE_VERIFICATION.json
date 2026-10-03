@@ -1,0 +1,204 @@
+{
+  "kind": "public release verification; not an experiment freeze attestation",
+  "release_date": "2026-10-02",
+  "source_zip_sha256": "c3c52c705b31bda47672b91fe59bb639362f0a1aad9182477b9e7c8e285a6d82",
+  "source_zip_unchanged": true,
+  "source_file_count": 853,
+  "source_file_action_coverage": 853,
+  "unchanged_original_files": 750,
+  "excluded_original_files": 100,
+  "public_derivatives": 3,
+  "python_syntax": {
+    "status": "PASS",
+    "files": 173
+  },
+  "pytest": {
+    "status": "PASS",
+    "exit_code": 0,
+    "passed": 59,
+    "deselected": 1,
+    "same_existing_12_module_scope_as_baseline": true,
+    "deselected_reason": "Historical Windows self-PID probe incompatibility; no fitting/inference smoke tests run"
+  },
+  "cached_renderer": {
+    "status": "PASS",
+    "exit_code": 0,
+    "plots_created": 2,
+    "renderer_and_plot_source_unchanged": true,
+    "numerical_inputs_byte_identical": true,
+    "PDF_byte_identity_claimed": false
+  },
+  "expected_table_identity": {
+    "status": "PASS",
+    "checks": [
+      {
+        "table": "optical_benefit_table.tex",
+        "prior_renderer_byte_identical": true,
+        "expected_reference_text_identical_after_LF_CRLF_normalization": true,
+        "expected_reference_raw_byte_identical": false,
+        "rendered_sha256": "23cc7c93e61004d1b40218ff64d04edc6de51fb5eafdec415bf67caf93b7ca8f"
+      },
+      {
+        "table": "optical_class_contributions.tex",
+        "prior_renderer_byte_identical": true,
+        "expected_reference_text_identical_after_LF_CRLF_normalization": true,
+        "expected_reference_raw_byte_identical": false,
+        "rendered_sha256": "74c14abc3415e851c5a0fcbe867420e2b2adc660b5689445105c565c54089737"
+      }
+    ],
+    "note": "Only original expected-example LF vs Windows renderer CRLF differs; no text or numerical changes"
+  },
+  "specified_core_gains": {
+    "status": "PASS",
+    "values": [
+      {
+        "role": "internal_retro",
+        "state": "100",
+        "flood_iou_gain": "+0.0391",
+        "flood_brier_gain": "+0.0203"
+      },
+      {
+        "role": "internal_retro",
+        "state": "25",
+        "flood_iou_gain": "+0.0072",
+        "flood_brier_gain": "-0.0106"
+      },
+      {
+        "role": "internal_retro",
+        "state": "0",
+        "flood_iou_gain": "-0.0120",
+        "flood_brier_gain": "-0.0602"
+      },
+      {
+        "role": "holdout_retro",
+        "state": "100",
+        "flood_iou_gain": "+0.0373",
+        "flood_brier_gain": "+0.0211"
+      },
+      {
+        "role": "holdout_retro",
+        "state": "25",
+        "flood_iou_gain": "+0.0011",
+        "flood_brier_gain": "-0.0091"
+      },
+      {
+        "role": "holdout_retro",
+        "state": "0",
+        "flood_iou_gain": "+0.0012",
+        "flood_brier_gain": "-0.0292"
+      }
+    ]
+  },
+  "true_class_decomposition": {
+    "status": "PASS",
+    "unchanged_cache_and_expected_table": true
+  },
+  "credential_and_internal_administrative_scan": {
+    "status": "PASS",
+    "scanned_files": 771,
+    "gzip_metadata_decoded": 5,
+    "credential_pattern_names": [
+      "private_key",
+      "github_token",
+      "api_token",
+      "aws_key",
+      "credential_literal",
+      "credential_json",
+      "credential_url"
+    ],
+    "administrative_pattern_names": [
+      "excluded_instruction_literal",
+      "excluded_authorization_identifier",
+      "internal_identity_fields",
+      "private_machine_identity",
+      "private_host_address"
+    ],
+    "credential_hits": 0,
+    "forbidden_administrative_hits": 0,
+    "unclassified_identifier_hits": 0,
+    "permitted_public_identifier": "One unchanged JRC public data catalogue UUID; not an internal identity",
+    "historical_paths_policy": "Generic original project/build paths retained as historical environment provenance",
+    "dependency_version_classification": "Standalone package==version entries are dependency versions, not private IPv4 hosts; all credential patterns still inspect them",
+    "scan_limit": "Pattern and structured-content inspection; not a guarantee against every possible secret encoding"
+  },
+  "project_license_status": "MIT License",
+  "author_decisions_required": [],
+  "third_party_license_presence": {
+    "status": "PASS",
+    "SMAGNet_original_license_byte_identical": true,
+    "original_source_record_byte_identical": true,
+    "license_sha256": "67b44fefa9e1d4ef9d71ea00097dbdc4e556d2ee0eec755f496051e3b9a75855"
+  },
+  "scientific_config_projection_checks": [
+    {
+      "path": "configs/upgrade_20260929.json",
+      "original_sha256": "d1c211b5e8931b4faf6f3e186180455d3e54fb4b25d795351db9bbcc90ea17f1",
+      "public_sha256": "951dc3cff3afa69aed8dbb88af6db2876f0a076952552de994ef8f3d1eb6c93f",
+      "all_scientific_fields_identical": true
+    },
+    {
+      "path": "outputs/server_migration_20260929/package/configs/upgrade_20260929.json",
+      "original_sha256": "72af5dc7d742fe2f3f21acf72f6bdffc7226d9068a5d699db49eaae48b3c7549",
+      "public_sha256": "399976970f1ad6e1944a4c3141fdd3972c0de67c89dd819ae3c643ac21245479",
+      "all_scientific_fields_identical": true
+    }
+  ],
+  "scientific_module_identity": {
+    "all_gate_module_AST_nodes_except_administrative_gate_identical": true,
+    "public_gate_unconditionally_refuses_execution": true
+  },
+  "retained_numeric_manifest_run_temperature_files_byte_identical": 543,
+  "historical_failures_preserved": [
+    {
+      "source_path": "outputs/server_migration_20260929/package/migration_source/outputs/upgrade_20260929/orchestrator/runs.jsonl",
+      "events": 7,
+      "nonzero_exit_FINISH_events": 1
+    },
+    {
+      "source_path": "outputs/server_migration_20260929/remote_results/outputs/upgrade_20260929/orchestrator/runs.jsonl",
+      "events": 190,
+      "nonzero_exit_FINISH_events": 4
+    }
+  ],
+  "raw_imagery_excluded": true,
+  "model_tensors_excluded": true,
+  "credentials_excluded": true,
+  "historical_execution_control_metadata_excluded": true,
+  "independent_review_passed": false,
+  "execution_authorization": "researcher-directed",
+  "interpretation": "retrospective descriptive only",
+  "new_blind_confirmation": false,
+  "new_experiments": false,
+  "retraining": false,
+  "recalibration": false,
+  "inference_rerun": false,
+  "full_raw_checkpoint_recomputation_verified": false,
+  "package_manifest_hash_verification": "PASS; actual public files checked after manifest generation",
+  "no_automatic_upload": true,
+  "license_finalization": {
+    "author_selected_project_license": "MIT License",
+    "copyright": "Copyright (c) 2026 Zhiyong Guo et al.",
+    "root_license_sha256": "b3a84e85a13b700c599e8667ad3abeadc565e570f1e93f6fe01a2829bc0dea17",
+    "prior_public_zip_sha256": "e47315bb2abe2f28a952ef79ea4c5625201238489e52f8ed3df7ab07afa07cda",
+    "prior_public_zip_unchanged": true,
+    "original_research_zip_unchanged": true,
+    "third_party_SMagNet_license_byte_identical": true,
+    "author_code_only_scope": "Third-party code and datasets remain subject to their own licenses",
+    "protected_existing_files_byte_identical": 762,
+    "changed_document_and_release_record_paths": [
+      "PACKAGE_MANIFEST.json",
+      "README.md",
+      "RELEASE_VERIFICATION.json",
+      "THIRD_PARTY_NOTICES.md",
+      "docs/CODE_RELEASE_SCOPE.md",
+      "docs/DATA_ACCESS.md",
+      "docs/GITHUB_UPLOAD.md",
+      "docs/PUBLIC_RELEASE_CHANGES.md"
+    ],
+    "new_files": [
+      "LICENSE"
+    ],
+    "scientific_code_configs_manifests_caches_tables_figures_tests_unchanged": true,
+    "unresolved_license_decisions": []
+  }
+}

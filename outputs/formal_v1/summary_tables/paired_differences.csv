@@ -1,0 +1,8 @@
+dataset,condition,metric,first_model,second_model,processes,defined_processes,mean_first_minus_second,ci95_low,ci95_high,description
+internal_test,100,flood_iou,P,B4,19,19,-0.044709579047623224,-0.0640816116326297,-0.026067114369908162,descriptive paired process bootstrap; no multiplicity adjustment
+internal_test,0,flood_iou,P,B4,19,19,-0.018983977970339044,-0.07138178070188252,0.02821828336186847,descriptive paired process bootstrap; no multiplicity adjustment
+internal_test,100,flood_iou,P,B5,19,19,-0.03440940540778481,-0.0729819063175476,0.005058506358478922,descriptive paired process bootstrap; no multiplicity adjustment
+internal_test,0,flood_iou,P,B5,19,19,-0.0019303369536987928,-0.0263772963030508,0.02659621543167786,descriptive paired process bootstrap; no multiplicity adjustment
+official_holdout,100,flood_iou,P,B4,8,8,-0.03189523093825662,-0.08745515616050348,0.029796683767493618,descriptive paired process bootstrap; no multiplicity adjustment
+external_sen1floods11,0,water_iou,P,B4,8,8,0.0026021848290591447,-0.0072556662804511216,0.01200769306104133,descriptive paired process bootstrap; no multiplicity adjustment
+real_missing_s2,all_unqualified,flood_iou,P,B4,15,15,-0.07986049949944948,-0.17153332475187363,-0.01601532414976487,descriptive paired process bootstrap; no multiplicity adjustment

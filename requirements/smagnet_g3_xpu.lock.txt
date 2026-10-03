@@ -1,0 +1,26 @@
+# G3 SMAGNet technical-audit runtime lock (Windows, Python 3.12, XPU).
+# Exact installed versions; each comment is the installed dist-info/METADATA SHA-256.
+# Wheel artifact hashes are UNVERIFIED because the pre-existing torch wheel provenance
+# was not retained. Do not substitute a CUDA/CPU torch build under this lock.
+torch==2.14.0+xpu  # METADATA sha256:199c9d60aee36e2eef326504a8c3d36fe2a4c34457d37d321d8aa3fda05a3517
+torchvision==0.29.0+xpu  # METADATA sha256:e2b2e8ca4141c061ce7de2680bdd6c037fe4c7a083492cb81b89719571ecc51e
+segmentation-models-pytorch==0.5.0  # METADATA sha256:2e2be520bb242c0f78ecf960d70b209d18722a8c9f9d59c4ef0e9e2e5e04305b
+timm==1.0.24  # METADATA sha256:a346f2421b448f460c2ae2dce3e7a7f767c86d747ee4bdcc69975fd3ff52d589
+safetensors==0.8.0  # METADATA sha256:597731d1baf7a94219753fa0a74abd1a8a18562d50d98b2e25d91e11e3224d36
+tensorboard==2.21.0  # METADATA sha256:819632abede8687d314bc65aeb4ac89512873ce31eb97e57c2c11f51ace59d23
+absl-py==2.5.0  # METADATA sha256:24eb8b2dbab3053ea20e46ae02ddb3b9157b5be7e7a38ad931fd0c596f517015
+grpcio==1.84.0  # METADATA sha256:dadf965afbe37e38506947f2d6b294eb29d4934c28ba7b154b0bb863f6734c9a
+markdown==3.11  # METADATA sha256:84a4d674fdc3fc155d45301db416b52c4268e9d6def1a06e186c25472fbbbcb8
+protobuf==7.36.2  # METADATA sha256:445916389cc3a87d5f815d763192372a17a221339d474cb661523157bf07d61c
+tensorboard-data-server==0.7.2  # METADATA sha256:6b38aea33eeccd55a2644d9b7eb6c61d574a496188f4ac498e68e6230b1b9096
+werkzeug==3.1.9  # METADATA sha256:9f04352e946ecb0883fbf379994c1cacf6720a124acdd7fd59029a889f4eebba
+numpy==2.5.3  # METADATA sha256:451a9b8028000588e66b0b415587b6aef0bbc51a96d8e8a0cba0dc23acf64f99
+scipy==1.18.1  # METADATA sha256:c8313d18ca0168ff291fe0a3b50532f3a18b14547695e9aa7ca1c1ce6eca92dc
+scikit-learn==1.9.1  # METADATA sha256:32e503c710a61e4e04be4edb450f9f8141233ac6af3f3db59a877667538fa4ec
+matplotlib==3.11.2  # METADATA sha256:e5f532226d1025af2dd15ff951df27391f66d46403b8244ea61e6b8eb3e4d806
+pandas==3.0.6  # METADATA sha256:9eb4d20fc21b7851d6f782bd5186ded152fce80a48ac93120bf88e03c89ebc39
+tqdm==4.70.1  # METADATA sha256:a5da70b966afea3a759716041bad7187f2ece02c22348cf9e7c0a512bbf15f57
+pillow==12.3.0  # METADATA sha256:2c4378001803cfac65809a50722d46e0da4ce8061e717f103e5d52734bab30f5
+requests==2.34.2  # METADATA sha256:8c384ba3e979480faae2859d3c5e6c1276dd2c3616e322e124d52c8cfc556f27
+packaging==26.3  # METADATA sha256:70fdb89fc4d4a9a043bf7372b8972bcc883fddff34ab55e9cf80d73875384763
+typing-extensions==4.16.0  # METADATA sha256:b05084ca1d50879865178d9fff9fabeab61bdfb1f361bfbde95421ffc8f9be46

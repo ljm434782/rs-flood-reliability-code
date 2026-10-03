@@ -1,0 +1,18 @@
+{
+  "source": "ImpactMesh-Flood v1 official train/MASK.tar, candidate training role only",
+  "sample_count": 12305,
+  "process_count": 122,
+  "samples_with_permanent_water": 8913,
+  "samples_with_flood": 8072,
+  "processes_with_flood": 114,
+  "class_pixel_totals": {
+    "-1": 14112234,
+    "0": 655009695,
+    "1": 65725934,
+    "2": 71572617
+  },
+  "mask_tar_sha256": "dc9f2003ac8a1e55511d98f00564f5d967564deb8be41d4270a55192a53c1876",
+  "optical_input_sha256": "7189cd8334f2abbbae3282a1fe813f4906394e69c5e94aac822b7060782d8980",
+  "output_sha256": "c72fe9bf2107a7bf18c43012e30e9d1fb26f723f893cb3e227d06365dd89e31b",
+  "use_limit": "Candidate training role only; descriptive audit, not a rule for excluding no-flood chips"
+}

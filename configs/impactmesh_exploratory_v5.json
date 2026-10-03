@@ -1,0 +1,31 @@
+{
+  "version": "impactmesh-exploratory-v5-20260927",
+  "status": "post-v1-v2-v3-v4-test diagnostic; no viewed result used for selection",
+  "seeds": [20261001, 20261002],
+  "dev_process_hash_seed": "impactmesh-v5-dev-from-v4-fit-20260927",
+  "dev_source_role": "v4_fit_only",
+  "sample_order_seed": "impactmesh-v1-process-balanced-tile-order-20260927",
+  "dev_process_count": 16,
+  "base_width": 16,
+  "initial_reliability_gate_bias": -2.0,
+  "epochs": 12,
+  "batch_size": 4,
+  "initial_learning_rate": 0.001,
+  "late_learning_rate": 0.0003,
+  "learning_rate_change_after_epoch": 6,
+  "training_chips_per_process_per_epoch": 8,
+  "normalization_chips_per_process": 4,
+  "maximum_class_weight": 10.0,
+  "development_paired_chips_per_process": 2,
+  "development_real_missing_chips_per_process": 2,
+  "flood_dice_weight": 0.3,
+  "selection_states": ["full", "half", "zero", "real_missing"],
+  "selection_metric": "equal_mean_process_nll_minus_equal_mean_process_flood_iou_across_four_states",
+  "per_seed_epoch_tie_break": "earliest_epoch",
+  "candidate_selection": "lowest_mean_of_two_seed_selected_development_scores_then_candidate_name",
+  "candidates": {
+    "B4_v5": {"architecture": "dual_unet", "dropout": 0.0, "radar_auxiliary_weight": 0.0},
+    "B5_v5": {"architecture": "dual_unet", "dropout": 0.25, "radar_auxiliary_weight": 0.0},
+    "F_aux_v5": {"architecture": "radar_feature_residual", "dropout": 0.25, "radar_auxiliary_weight": 0.3}
+  }
+}

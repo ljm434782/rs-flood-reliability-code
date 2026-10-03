@@ -1,0 +1,264 @@
+{
+  "scope": "candidate training role only; no validation, calibration, internal test, or official holdout read",
+  "input_sha256": "7189cd8334f2abbbae3282a1fe813f4906394e69c5e94aac822b7060782d8980",
+  "input_meta_sha256": "b43b653ccc35c1d1bb82489d147402226dd4865a9a90f5d684257c8ab3438fb8",
+  "sample_count": 12305,
+  "process_count": 122,
+  "visibility_limit": "full joint-visible definition including all 12 bands",
+  "selection": "within each pre-S1 window choose maximum joint_visible_fraction; ties choose freshest S2",
+  "s1_input_failures": {
+    "data_mask_not_one": 1,
+    "nan_pixels_nonzero": 1
+  },
+  "process_source_sample_counts": {
+    "min": 1,
+    "median": 39.0,
+    "max": 754
+  },
+  "windows": [
+    {
+      "window_days": 7,
+      "samples_with_pre_s1_candidate": 3991,
+      "processes_with_pre_s1_candidate": 82,
+      "selected_age_days": {
+        "p25": 0.36945737309027776,
+        "median": 0.8196174181944444,
+        "p75": 1.363102292673611
+      },
+      "selected_visible_upper_fraction": {
+        "p25": 0.0,
+        "median": 0.4201812744140625,
+        "p75": 0.8829498291015625
+      },
+      "thresholds": [
+        {
+          "minimum_visible_upper_fraction": 0.0,
+          "eligible_samples": 3991,
+          "eligible_processes": 82,
+          "processes_by_minimum_eligible_samples": {
+            "1": 82,
+            "5": 67,
+            "10": 55,
+            "20": 39
+          }
+        },
+        {
+          "minimum_visible_upper_fraction": 0.25,
+          "eligible_samples": 2200,
+          "eligible_processes": 58,
+          "processes_by_minimum_eligible_samples": {
+            "1": 58,
+            "5": 46,
+            "10": 34,
+            "20": 25
+          }
+        },
+        {
+          "minimum_visible_upper_fraction": 0.5,
+          "eligible_samples": 1890,
+          "eligible_processes": 55,
+          "processes_by_minimum_eligible_samples": {
+            "1": 55,
+            "5": 41,
+            "10": 32,
+            "20": 24
+          }
+        },
+        {
+          "minimum_visible_upper_fraction": 0.75,
+          "eligible_samples": 1375,
+          "eligible_processes": 48,
+          "processes_by_minimum_eligible_samples": {
+            "1": 48,
+            "5": 36,
+            "10": 27,
+            "20": 19
+          }
+        }
+      ]
+    },
+    {
+      "window_days": 14,
+      "samples_with_pre_s1_candidate": 5114,
+      "processes_with_pre_s1_candidate": 96,
+      "selected_age_days": {
+        "p25": 0.8002580978935185,
+        "median": 1.3286171992013889,
+        "p75": 8.290925455636575
+      },
+      "selected_visible_upper_fraction": {
+        "p25": 0.00016021728515625,
+        "median": 0.54376220703125,
+        "p75": 0.9262657165527344
+      },
+      "thresholds": [
+        {
+          "minimum_visible_upper_fraction": 0.0,
+          "eligible_samples": 5114,
+          "eligible_processes": 96,
+          "processes_by_minimum_eligible_samples": {
+            "1": 96,
+            "5": 80,
+            "10": 70,
+            "20": 51
+          }
+        },
+        {
+          "minimum_visible_upper_fraction": 0.25,
+          "eligible_samples": 3142,
+          "eligible_processes": 80,
+          "processes_by_minimum_eligible_samples": {
+            "1": 80,
+            "5": 61,
+            "10": 48,
+            "20": 33
+          }
+        },
+        {
+          "minimum_visible_upper_fraction": 0.5,
+          "eligible_samples": 2666,
+          "eligible_processes": 76,
+          "processes_by_minimum_eligible_samples": {
+            "1": 76,
+            "5": 55,
+            "10": 43,
+            "20": 33
+          }
+        },
+        {
+          "minimum_visible_upper_fraction": 0.75,
+          "eligible_samples": 1969,
+          "eligible_processes": 67,
+          "processes_by_minimum_eligible_samples": {
+            "1": 67,
+            "5": 46,
+            "10": 38,
+            "20": 27
+          }
+        }
+      ]
+    },
+    {
+      "window_days": 30,
+      "samples_with_pre_s1_candidate": 10542,
+      "processes_with_pre_s1_candidate": 119,
+      "selected_age_days": {
+        "p25": 12.817015890844907,
+        "median": 19.811294970810184,
+        "p75": 22.796527685497686
+      },
+      "selected_visible_upper_fraction": {
+        "p25": 0.513641357421875,
+        "median": 0.924652099609375,
+        "p75": 0.995361328125
+      },
+      "thresholds": [
+        {
+          "minimum_visible_upper_fraction": 0.0,
+          "eligible_samples": 10542,
+          "eligible_processes": 119,
+          "processes_by_minimum_eligible_samples": {
+            "1": 119,
+            "5": 107,
+            "10": 98,
+            "20": 74
+          }
+        },
+        {
+          "minimum_visible_upper_fraction": 0.25,
+          "eligible_samples": 8834,
+          "eligible_processes": 115,
+          "processes_by_minimum_eligible_samples": {
+            "1": 115,
+            "5": 102,
+            "10": 90,
+            "20": 65
+          }
+        },
+        {
+          "minimum_visible_upper_fraction": 0.5,
+          "eligible_samples": 7972,
+          "eligible_processes": 113,
+          "processes_by_minimum_eligible_samples": {
+            "1": 113,
+            "5": 97,
+            "10": 82,
+            "20": 60
+          }
+        },
+        {
+          "minimum_visible_upper_fraction": 0.75,
+          "eligible_samples": 6776,
+          "eligible_processes": 109,
+          "processes_by_minimum_eligible_samples": {
+            "1": 109,
+            "5": 85,
+            "10": 69,
+            "20": 53
+          }
+        }
+      ]
+    },
+    {
+      "window_days": 45,
+      "samples_with_pre_s1_candidate": 12036,
+      "processes_with_pre_s1_candidate": 121,
+      "selected_age_days": {
+        "p25": 16.811415526585648,
+        "median": 22.79589101702546,
+        "p75": 34.28399622230324
+      },
+      "selected_visible_upper_fraction": {
+        "p25": 0.6660041809082031,
+        "median": 0.96197509765625,
+        "p75": 0.99755859375
+      },
+      "thresholds": [
+        {
+          "minimum_visible_upper_fraction": 0.0,
+          "eligible_samples": 12036,
+          "eligible_processes": 121,
+          "processes_by_minimum_eligible_samples": {
+            "1": 121,
+            "5": 112,
+            "10": 105,
+            "20": 82
+          }
+        },
+        {
+          "minimum_visible_upper_fraction": 0.25,
+          "eligible_samples": 10608,
+          "eligible_processes": 120,
+          "processes_by_minimum_eligible_samples": {
+            "1": 120,
+            "5": 108,
+            "10": 99,
+            "20": 76
+          }
+        },
+        {
+          "minimum_visible_upper_fraction": 0.5,
+          "eligible_samples": 9797,
+          "eligible_processes": 117,
+          "processes_by_minimum_eligible_samples": {
+            "1": 117,
+            "5": 106,
+            "10": 95,
+            "20": 72
+          }
+        },
+        {
+          "minimum_visible_upper_fraction": 0.75,
+          "eligible_samples": 8592,
+          "eligible_processes": 115,
+          "processes_by_minimum_eligible_samples": {
+            "1": 115,
+            "5": 98,
+            "10": 88,
+            "20": 65
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "model": "B1",
+  "purpose": "final water/non-water hand-QC external test only",
+  "completed_utc": "2026-09-27T04:14:26.286161+00:00",
+  "external_audit_sha256": "2bb6409cb6eef883c4738136f0db7010c5dae93a6c7f2aba02c070c13a70641f",
+  "external_manifest_sha256": "279fd5a7f21f66b86d2209b676683fe6c8ae4dde7691f815d64a297e2921b6c1",
+  "event_exclusions_sha256": "d7e5498b191084b5ec81326527d68f23b3f078247dd5488e250466f961179978",
+  "excluded_main_events": [
+    "Nigeria",
+    "Spain"
+  ],
+  "config_sha256": "06f422be2c21c46f87e1413ec1fe3b872656dfa048e050bdff74119e3f8b40fa",
+  "stats_sha256": "7095d9658cde9d42956ac5e9f3c9b94c02c645be9e4948ae474a75a2ab1f0757",
+  "checkpoint_sha256": null,
+  "temperature_sha256": null,
+  "thresholds_sha256": "582c9014fe16f8da89b7e7d7ddf1ceb789b8f5865e03f7530273b43d8180e8f9",
+  "script_sha256": "e1c4fb9432451e60fd781c4e9c118447920243123ad600bfe3d1499ae1219d2b",
+  "events": {
+    "Ghana": {
+      "scenes": 11,
+      "excluded_nonfinite_s1_pixels": 0,
+      "scores": {
+        "hard": {
+          "pixels": 2133857,
+          "confusion": [
+            [
+              1891829,
+              70759
+            ],
+            [
+              66102,
+              105167
+            ]
+          ],
+          "water_iou": 0.4345241046490489,
+          "water_f1": 0.6058094154581719
+        }
+      }
+    },
+    "India": {
+      "scenes": 14,
+      "excluded_nonfinite_s1_pixels": 0,
+      "scores": {
+        "hard": {
+          "pixels": 3224168,
+          "confusion": [
+            [
+              2381972,
+              155689
+            ],
+            [
+              126823,
+              559684
+            ]
+          ],
+          "water_iou": 0.6645531443986911,
+          "water_f1": 0.7984763317830342
+        }
+      }
+    },
+    "Mekong": {
+      "scenes": 6,
+      "excluded_nonfinite_s1_pixels": 0,
+      "scores": {
+        "hard": {
+          "pixels": 1453220,
+          "confusion": [
+            [
+              1219483,
+              23428
+            ],
+            [
+              33563,
+              176746
+            ]
+          ],
+          "water_iou": 0.7561746749551846,
+          "water_f1": 0.8611611199489382
+        }
+      }
+    },
+    "Nigeria": {
+      "scenes": 4,
+      "excluded_nonfinite_s1_pixels": 22629,
+      "scores": {
+        "hard": {
+          "pixels": 737475,
+          "confusion": [
+            [
+              574018,
+              41189
+            ],
+            [
+              13771,
+              108497
+            ]
+          ],
+          "water_iou": 0.6637647821751286,
+          "water_f1": 0.7979069989777683
+        }
+      }
+    },
+    "Pakistan": {
+      "scenes": 6,
+      "excluded_nonfinite_s1_pixels": 0,
+      "scores": {
+        "hard": {
+          "pixels": 1107924,
+          "confusion": [
+            [
+              616322,
+              292705
+            ],
+            [
+              113919,
+              84978
+            ]
+          ],
+          "water_iou": 0.17285934556816288,
+          "water_f1": 0.2947656873287315
+        }
+      }
+    },
+    "Paraguay": {
+      "scenes": 14,
+      "excluded_nonfinite_s1_pixels": 50779,
+      "scores": {
+        "hard": {
+          "pixels": 3255418,
+          "confusion": [
+            [
+              2783358,
+              280970
+            ],
+            [
+              28002,
+              163088
+            ]
+          ],
+          "water_iou": 0.3454815065881456,
+          "water_f1": 0.5135433001442183
+        }
+      }
+    },
+    "Somalia": {
+      "scenes": 6,
+      "excluded_nonfinite_s1_pixels": 0,
+      "scores": {
+        "hard": {
+          "pixels": 1326678,
+          "confusion": [
+            [
+              1083834,
+              156180
+            ],
+            [
+              27124,
+              59540
+            ]
+          ],
+          "water_iou": 0.24517797433743474,
+          "water_f1": 0.39380390496851686
+        }
+      }
+    },
+    "Spain": {
+      "scenes": 6,
+      "excluded_nonfinite_s1_pixels": 0,
+      "scores": {
+        "hard": {
+          "pixels": 1481713,
+          "confusion": [
+            [
+              981698,
+              147648
+            ],
+            [
+              53073,
+              299294
+            ]
+          ],
+          "water_iou": 0.5985700428987131,
+          "water_f1": 0.7488818466950828
+        }
+      }
+    },
+    "Sri-Lanka": {
+      "scenes": 9,
+      "excluded_nonfinite_s1_pixels": 0,
+      "scores": {
+        "hard": {
+          "pixels": 2053984,
+          "confusion": [
+            [
+              1567187,
+              106570
+            ],
+            [
+              23216,
+              357011
+            ]
+          ],
+          "water_iou": 0.7333878392841369,
+          "water_f1": 0.8461901285600516
+        }
+      }
+    },
+    "USA": {
+      "scenes": 14,
+      "excluded_nonfinite_s1_pixels": 0,
+      "scores": {
+        "hard": {
+          "pixels": 3669522,
+          "confusion": [
+            [
+              3115501,
+              438611
+            ],
+            [
+              16617,
+              98793
+            ]
+          ],
+          "water_iou": 0.1783199553807527,
+          "water_f1": 0.302668141308244
+        }
+      }
+    }
+  },
+  "summary": {
+    "independent_excluding_spain_nigeria": {
+      "hard": {
+        "water_iou": {
+          "mean": 0.4413098181451947,
+          "median": 0.39000280561859724,
+          "ci95": [
+            0.28397998436214084,
+            0.6018461587158916
+          ],
+          "defined_processes": 8,
+          "undefined_processes": 0
+        },
+        "water_f1": {
+          "mean": 0.5770522536874882,
+          "median": 0.5596763578011952,
+          "ci95": [
+            0.42221349323517315,
+            0.728502676484332
+          ],
+          "defined_processes": 8,
+          "undefined_processes": 0
+        }
+      }
+    },
+    "all_with_overlap_sensitivity": {
+      "hard": {
+        "water_iou": {
+          "mean": 0.47928133702353987,
+          "median": 0.516547073773881,
+          "ci95": [
+            0.34135066274608483,
+            0.611533670176537
+          ],
+          "defined_processes": 10,
+          "undefined_processes": 0
+        },
+        "water_f1": {
+          "mean": 0.6163206875172758,
+          "median": 0.6773456310766274,
+          "ci95": [
+            0.481202866044942,
+            0.7436859014950221
+          ],
+          "defined_processes": 10,
+          "undefined_processes": 0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,589 @@
+{
+  "paired": {
+    "EMSR166": [
+      {
+        "sample_id": "EMSR166_4_33UUP_x380825_y5363455",
+        "activation": "EMSR166",
+        "paired_eligible": "1",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2016-05-06T10:00:32.027000Z",
+        "selected_age_days": "27.80398420196759",
+        "selected_joint_visible_fraction": "0.98419189453125",
+        "failure_reasons": ""
+      },
+      {
+        "sample_id": "EMSR166_4_33UUP_x380825_y5366015",
+        "activation": "EMSR166",
+        "paired_eligible": "1",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2016-05-06T10:00:32.027000Z",
+        "selected_age_days": "27.80398420196759",
+        "selected_joint_visible_fraction": "0.95306396484375",
+        "failure_reasons": ""
+      }
+    ],
+    "EMSR215": [
+      {
+        "sample_id": "EMSR215_1_32UNC_x599095_y5789195",
+        "activation": "EMSR215",
+        "paired_eligible": "1",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2017-07-21T10:20:29.027000Z",
+        "selected_age_days": "9.277203664907407",
+        "selected_joint_visible_fraction": "0.590179443359375",
+        "failure_reasons": ""
+      },
+      {
+        "sample_id": "EMSR215_1_32UNC_x604215_y5786635",
+        "activation": "EMSR215",
+        "paired_eligible": "1",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2017-07-06T10:20:21.026000Z",
+        "selected_age_days": "24.277296269074075",
+        "selected_joint_visible_fraction": "0.594970703125",
+        "failure_reasons": ""
+      }
+    ],
+    "EMSR354": [
+      {
+        "sample_id": "EMSR354_2_37LFG_x618105_y8684365",
+        "activation": "EMSR354",
+        "paired_eligible": "1",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2019-04-03T07:16:21.024000Z",
+        "selected_age_days": "25.352836265914352",
+        "selected_joint_visible_fraction": "1.0",
+        "failure_reasons": ""
+      },
+      {
+        "sample_id": "EMSR354_2_37LFG_x630905_y8679245",
+        "activation": "EMSR354",
+        "paired_eligible": "1",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2019-04-03T07:16:21.024000Z",
+        "selected_age_days": "25.352836265914352",
+        "selected_joint_visible_fraction": "1.0",
+        "failure_reasons": ""
+      }
+    ],
+    "EMSR468": [
+      {
+        "sample_id": "EMSR468_2_32TLP_x398175_y4893975",
+        "activation": "EMSR468",
+        "paired_eligible": "1",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2020-09-13T10:16:29.024000Z",
+        "selected_age_days": "18.805335330833334",
+        "selected_joint_visible_fraction": "0.906402587890625",
+        "failure_reasons": ""
+      },
+      {
+        "sample_id": "EMSR468_2_32TMQ_x423775_y4917015",
+        "activation": "EMSR468",
+        "paired_eligible": "1",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2020-09-18T10:20:31.024000Z",
+        "selected_age_days": "15.293673718159722",
+        "selected_joint_visible_fraction": "0.996917724609375",
+        "failure_reasons": ""
+      }
+    ],
+    "EMSR481": [
+      {
+        "sample_id": "EMSR481_3_16PEC_x602025_y1735075",
+        "activation": "EMSR481",
+        "paired_eligible": "1",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2020-10-10T16:02:11.024000Z",
+        "selected_age_days": "26.816350600555555",
+        "selected_joint_visible_fraction": "0.8590087890625",
+        "failure_reasons": ""
+      },
+      {
+        "sample_id": "EMSR481_3_16PFC_x640425_y1761245",
+        "activation": "EMSR481",
+        "paired_eligible": "1",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2020-10-10T16:02:11.024000Z",
+        "selected_age_days": "26.816350600555555",
+        "selected_joint_visible_fraction": "0.905303955078125",
+        "failure_reasons": ""
+      }
+    ],
+    "EMSR489": [
+      {
+        "sample_id": "EMSR489_2_60KXG_x667745_y8144445",
+        "activation": "EMSR489",
+        "paired_eligible": "1",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2020-11-29T22:19:39.024000Z",
+        "selected_age_days": "23.806308203171298",
+        "selected_joint_visible_fraction": "0.994384765625",
+        "failure_reasons": ""
+      },
+      {
+        "sample_id": "EMSR489_2_60KXG_x670305_y8139325",
+        "activation": "EMSR489",
+        "paired_eligible": "1",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2020-11-29T22:19:39.024000Z",
+        "selected_age_days": "23.806308203171298",
+        "selected_joint_visible_fraction": "0.9952392578125",
+        "failure_reasons": ""
+      }
+    ],
+    "EMSR498": [
+      {
+        "sample_id": "EMSR498_1_31TDK_x417925_y4999235",
+        "activation": "EMSR498",
+        "paired_eligible": "1",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2021-01-10T10:53:29.024000Z",
+        "selected_age_days": "22.796749716875",
+        "selected_joint_visible_fraction": "0.585693359375",
+        "failure_reasons": ""
+      },
+      {
+        "sample_id": "EMSR498_1_31TCK_x407115_y4988995",
+        "activation": "EMSR498",
+        "paired_eligible": "1",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2021-01-10T10:53:29.024000Z",
+        "selected_age_days": "22.796749716875",
+        "selected_joint_visible_fraction": "0.608306884765625",
+        "failure_reasons": ""
+      }
+    ],
+    "EMSR657": [
+      {
+        "sample_id": "EMSR657_1_35VMC_x466115_y6200705",
+        "activation": "EMSR657",
+        "paired_eligible": "1",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2023-03-17T09:30:39.024000Z",
+        "selected_age_days": "16.79487824039352",
+        "selected_joint_visible_fraction": "0.52215576171875",
+        "failure_reasons": ""
+      },
+      {
+        "sample_id": "EMSR657_1_35VMC_x463555_y6195585",
+        "activation": "EMSR657",
+        "paired_eligible": "1",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2023-03-17T09:30:39.024000Z",
+        "selected_age_days": "16.795167597118056",
+        "selected_joint_visible_fraction": "0.6016693115234375",
+        "failure_reasons": ""
+      }
+    ],
+    "EMSR680": [
+      {
+        "sample_id": "EMSR680_3_33TVM_x475465_y5140065",
+        "activation": "EMSR680",
+        "paired_eligible": "1",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2023-07-14T09:55:59.024000Z",
+        "selected_age_days": "22.288321658425925",
+        "selected_joint_visible_fraction": "0.826446533203125",
+        "failure_reasons": ""
+      },
+      {
+        "sample_id": "EMSR680_3_33TWM_x511905_y5121945",
+        "activation": "EMSR680",
+        "paired_eligible": "1",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2023-07-09T10:00:31.024000Z",
+        "selected_age_days": "27.285173510277776",
+        "selected_joint_visible_fraction": "0.9893798828125",
+        "failure_reasons": ""
+      }
+    ],
+    "EMSR694": [
+      {
+        "sample_id": "EMSR694_3_30TVK_x413125_y4452705",
+        "activation": "EMSR694",
+        "paired_eligible": "1",
+        "selected_time_index": "2",
+        "selected_s2_utc": "2023-09-08T11:06:21.024000Z",
+        "selected_age_days": "2.8060575410185185",
+        "selected_joint_visible_fraction": "0.97845458984375",
+        "failure_reasons": ""
+      },
+      {
+        "sample_id": "EMSR694_3_30TVK_x415685_y4455265",
+        "activation": "EMSR694",
+        "paired_eligible": "1",
+        "selected_time_index": "2",
+        "selected_s2_utc": "2023-09-08T11:06:21.024000Z",
+        "selected_age_days": "2.8060575410185185",
+        "selected_joint_visible_fraction": "0.99578857421875",
+        "failure_reasons": ""
+      }
+    ],
+    "EMSR711": [
+      {
+        "sample_id": "EMSR711_1_30TXR_x654665_y5094705",
+        "activation": "EMSR711",
+        "paired_eligible": "1",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2023-12-04T11:04:21.024000Z",
+        "selected_age_days": "13.79479563045139",
+        "selected_joint_visible_fraction": "0.990020751953125",
+        "failure_reasons": ""
+      },
+      {
+        "sample_id": "EMSR711_1_30TYR_x723785_y5063945",
+        "activation": "EMSR711",
+        "paired_eligible": "1",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2023-12-06T10:53:39.024000Z",
+        "selected_age_days": "8.288267635543981",
+        "selected_joint_visible_fraction": "1.0",
+        "failure_reasons": ""
+      }
+    ],
+    "EMSR742": [
+      {
+        "sample_id": "EMSR742_3_34VFH_x689115_y6259915",
+        "activation": "EMSR742",
+        "paired_eligible": "1",
+        "selected_time_index": "2",
+        "selected_s2_utc": "2024-08-04T09:45:49.024000Z",
+        "selected_age_days": "1.2628891411342593",
+        "selected_joint_visible_fraction": "0.72650146484375",
+        "failure_reasons": ""
+      },
+      {
+        "sample_id": "EMSR742_3_34VFH_x702445_y6270155",
+        "activation": "EMSR742",
+        "paired_eligible": "1",
+        "selected_time_index": "2",
+        "selected_s2_utc": "2024-08-04T09:45:49.024000Z",
+        "selected_age_days": "1.2628891411342593",
+        "selected_joint_visible_fraction": "0.9989013671875",
+        "failure_reasons": ""
+      }
+    ],
+    "EMSR805": [
+      {
+        "sample_id": "EMSR805_1_14QLD_x386695_y1875485",
+        "activation": "EMSR805",
+        "paired_eligible": "1",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2025-05-25T16:59:11.025000Z",
+        "selected_age_days": "26.32496928474537",
+        "selected_joint_visible_fraction": "0.99359130859375",
+        "failure_reasons": ""
+      },
+      {
+        "sample_id": "EMSR805_1_14QLD_x407175_y1870365",
+        "activation": "EMSR805",
+        "paired_eligible": "1",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2025-05-25T16:59:11.025000Z",
+        "selected_age_days": "26.32496928474537",
+        "selected_joint_visible_fraction": "0.9974822998046875",
+        "failure_reasons": ""
+      }
+    ],
+    "EMSR851": [
+      {
+        "sample_id": "EMSR851_1_44NLN_x373635_y769265",
+        "activation": "EMSR851",
+        "paired_eligible": "1",
+        "selected_time_index": "2",
+        "selected_s2_utc": "2025-11-30T05:00:49.024000Z",
+        "selected_age_days": "1.8082524313657407",
+        "selected_joint_visible_fraction": "0.993560791015625",
+        "failure_reasons": ""
+      },
+      {
+        "sample_id": "EMSR851_2_44NLN_x379865_y770225",
+        "activation": "EMSR851",
+        "paired_eligible": "1",
+        "selected_time_index": "2",
+        "selected_s2_utc": "2025-11-30T05:00:49.024000Z",
+        "selected_age_days": "1.8082524313657407",
+        "selected_joint_visible_fraction": "0.99871826171875",
+        "failure_reasons": ""
+      }
+    ],
+    "EMSR855": [
+      {
+        "sample_id": "EMSR855_1_32TQM_x304355_y4644955",
+        "activation": "EMSR855",
+        "paired_eligible": "1",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2025-12-27T10:04:41.024000Z",
+        "selected_age_days": "10.796175998090277",
+        "selected_joint_visible_fraction": "0.99945068359375",
+        "failure_reasons": ""
+      },
+      {
+        "sample_id": "EMSR855_1_32TQM_x299235_y4647515",
+        "activation": "EMSR855",
+        "paired_eligible": "1",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2025-12-27T10:04:41.024000Z",
+        "selected_age_days": "10.796175998090277",
+        "selected_joint_visible_fraction": "0.997650146484375",
+        "failure_reasons": ""
+      }
+    ],
+    "EMSR868": [
+      {
+        "sample_id": "EMSR868_1_35TMF_x445155_y4574005",
+        "activation": "EMSR868",
+        "paired_eligible": "1",
+        "selected_time_index": "2",
+        "selected_s2_utc": "2026-02-23T09:08:59.024000Z",
+        "selected_age_days": "0.8014086811458333",
+        "selected_joint_visible_fraction": "1.0",
+        "failure_reasons": ""
+      },
+      {
+        "sample_id": "EMSR868_1_35TMF_x445155_y4576565",
+        "activation": "EMSR868",
+        "paired_eligible": "1",
+        "selected_time_index": "2",
+        "selected_s2_utc": "2026-02-23T09:08:59.024000Z",
+        "selected_age_days": "0.8014086811458333",
+        "selected_joint_visible_fraction": "1.0",
+        "failure_reasons": ""
+      }
+    ]
+  },
+  "real_missing": {
+    "EMSR215": [
+      {
+        "sample_id": "EMSR215_1_32UNC_x601655_y5791755",
+        "activation": "EMSR215",
+        "paired_eligible": "0",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2017-07-21T10:20:29.027000Z",
+        "selected_age_days": "9.277203664907407",
+        "selected_joint_visible_fraction": "0.17987060546875",
+        "failure_reasons": "visible_below_0.5"
+      },
+      {
+        "sample_id": "EMSR215_1_32UNC_x606775_y5794315",
+        "activation": "EMSR215",
+        "paired_eligible": "0",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2017-07-06T10:20:21.026000Z",
+        "selected_age_days": "24.277296269074075",
+        "selected_joint_visible_fraction": "0.483154296875",
+        "failure_reasons": "visible_below_0.5"
+      }
+    ],
+    "EMSR354": [
+      {
+        "sample_id": "EMSR354_6_37LFG_x662605_y8648825",
+        "activation": "EMSR354",
+        "paired_eligible": "0",
+        "selected_time_index": "2",
+        "selected_s2_utc": "2019-05-03T07:16:21.024000Z",
+        "selected_age_days": "1.3533373578472223",
+        "selected_joint_visible_fraction": "0.05517578125",
+        "failure_reasons": "visible_below_0.5"
+      },
+      {
+        "sample_id": "EMSR354_6_37LFG_x662605_y8651385",
+        "activation": "EMSR354",
+        "paired_eligible": "0",
+        "selected_time_index": "2",
+        "selected_s2_utc": "2019-05-03T07:16:21.024000Z",
+        "selected_age_days": "1.3533373578472223",
+        "selected_joint_visible_fraction": "0.029632568359375",
+        "failure_reasons": "visible_below_0.5"
+      }
+    ],
+    "EMSR489": [
+      {
+        "sample_id": "EMSR489_3_60KXG_x683295_y8156745",
+        "activation": "EMSR489",
+        "paired_eligible": "0",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2020-11-29T22:19:39.024000Z",
+        "selected_age_days": "19.342107993252313",
+        "selected_joint_visible_fraction": "0.0",
+        "failure_reasons": "visible_below_0.5"
+      },
+      {
+        "sample_id": "EMSR489_3_60KXG_x685855_y8159305",
+        "activation": "EMSR489",
+        "paired_eligible": "0",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2020-11-29T22:19:39.024000Z",
+        "selected_age_days": "19.342107993252313",
+        "selected_joint_visible_fraction": "0.0",
+        "failure_reasons": "visible_below_0.5"
+      }
+    ],
+    "EMSR498": [
+      {
+        "sample_id": "EMSR498_1_31TDK_x420485_y4999235",
+        "activation": "EMSR498",
+        "paired_eligible": "0",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2021-01-10T10:53:29.024000Z",
+        "selected_age_days": "22.796749716875",
+        "selected_joint_visible_fraction": "0.3958740234375",
+        "failure_reasons": "visible_below_0.5"
+      },
+      {
+        "sample_id": "EMSR498_1_31TDK_x423045_y4991555",
+        "activation": "EMSR498",
+        "paired_eligible": "0",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2021-01-10T10:53:29.024000Z",
+        "selected_age_days": "22.796749716875",
+        "selected_joint_visible_fraction": "0.25872802734375",
+        "failure_reasons": "visible_below_0.5"
+      }
+    ],
+    "EMSR657": [
+      {
+        "sample_id": "EMSR657_1_35UMB_x481475_y6198145",
+        "activation": "EMSR657",
+        "paired_eligible": "0",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2023-03-17T09:30:39.024000Z",
+        "selected_age_days": "16.795167597118056",
+        "selected_joint_visible_fraction": "0.3504180908203125",
+        "failure_reasons": "visible_below_0.5"
+      },
+      {
+        "sample_id": "EMSR657_1_35VMC_x447715_y6233985",
+        "activation": "EMSR657",
+        "paired_eligible": "0",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2023-03-17T09:30:39.024000Z",
+        "selected_age_days": "16.79487824039352",
+        "selected_joint_visible_fraction": "0.4278564453125",
+        "failure_reasons": "visible_below_0.5"
+      }
+    ],
+    "EMSR711": [
+      {
+        "sample_id": "EMSR711_1_30TXR_x649545_y5092145",
+        "activation": "EMSR711",
+        "paired_eligible": "0",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2023-12-04T11:04:21.024000Z",
+        "selected_age_days": "13.79479563045139",
+        "selected_joint_visible_fraction": "0.00689697265625",
+        "failure_reasons": "visible_below_0.5"
+      },
+      {
+        "sample_id": "EMSR711_1_30TXR_x657225_y5087025",
+        "activation": "EMSR711",
+        "paired_eligible": "0",
+        "selected_time_index": "1",
+        "selected_s2_utc": "2023-12-04T11:04:21.024000Z",
+        "selected_age_days": "13.79479563045139",
+        "selected_joint_visible_fraction": "0.4891204833984375",
+        "failure_reasons": "visible_below_0.5"
+      }
+    ],
+    "EMSR742": [
+      {
+        "sample_id": "EMSR742_3_34VFH_x691675_y6249285",
+        "activation": "EMSR742",
+        "paired_eligible": "0",
+        "selected_time_index": "",
+        "selected_s2_utc": "",
+        "selected_age_days": "",
+        "selected_joint_visible_fraction": "",
+        "failure_reasons": "no_pre_s1_s2_within_30d"
+      },
+      {
+        "sample_id": "EMSR742_3_34VFH_x696795_y6254795",
+        "activation": "EMSR742",
+        "paired_eligible": "0",
+        "selected_time_index": "2",
+        "selected_s2_utc": "2024-08-04T09:45:49.024000Z",
+        "selected_age_days": "1.2628891411342593",
+        "selected_joint_visible_fraction": "0.45184326171875",
+        "failure_reasons": "visible_below_0.5"
+      }
+    ],
+    "EMSR805": [
+      {
+        "sample_id": "EMSR805_1_14QMD_x425095_y1860125",
+        "activation": "EMSR805",
+        "paired_eligible": "0",
+        "selected_time_index": "",
+        "selected_s2_utc": "",
+        "selected_age_days": "",
+        "selected_joint_visible_fraction": "",
+        "failure_reasons": "no_pre_s1_s2_within_30d"
+      },
+      {
+        "sample_id": "EMSR805_1_14QMD_x473785_y1839375",
+        "activation": "EMSR805",
+        "paired_eligible": "0",
+        "selected_time_index": "",
+        "selected_s2_utc": "",
+        "selected_age_days": "",
+        "selected_joint_visible_fraction": "",
+        "failure_reasons": "no_pre_s1_s2_within_30d"
+      }
+    ],
+    "EMSR851": [
+      {
+        "sample_id": "EMSR851_15_44NMP_x473765_y852975",
+        "activation": "EMSR851",
+        "paired_eligible": "0",
+        "selected_time_index": "2",
+        "selected_s2_utc": "2025-12-07T05:05:59.024000Z",
+        "selected_age_days": "1.3221959552546296",
+        "selected_joint_visible_fraction": "0.02813720703125",
+        "failure_reasons": "visible_below_0.5"
+      },
+      {
+        "sample_id": "EMSR851_3_44NMP_x457505_y812535",
+        "activation": "EMSR851",
+        "paired_eligible": "0",
+        "selected_time_index": "",
+        "selected_s2_utc": "",
+        "selected_age_days": "",
+        "selected_joint_visible_fraction": "",
+        "failure_reasons": "no_pre_s1_s2_within_30d"
+      }
+    ],
+    "EMSR868": [
+      {
+        "sample_id": "EMSR868_2_35TMF_x438605_y4540095",
+        "activation": "EMSR868",
+        "paired_eligible": "0",
+        "selected_time_index": "",
+        "selected_s2_utc": "",
+        "selected_age_days": "",
+        "selected_joint_visible_fraction": "",
+        "failure_reasons": "no_pre_s1_s2_within_30d"
+      },
+      {
+        "sample_id": "EMSR868_2_35TMF_x436045_y4532415",
+        "activation": "EMSR868",
+        "paired_eligible": "0",
+        "selected_time_index": "",
+        "selected_s2_utc": "",
+        "selected_age_days": "",
+        "selected_joint_visible_fraction": "",
+        "failure_reasons": "no_pre_s1_s2_within_30d"
+      }
+    ]
+  },
+  "selection_states": [
+    "full",
+    "half",
+    "zero",
+    "real_missing"
+  ],
+  "seed": 20260929,
+  "split_sha256": "537617bdabeaa2e0fd1c01a11282d425d31c1d477315159aad0b68eb62e52e95",
+  "v3_split_sha256": "c33b85be14b3244776e25d30c387df3aa2a048370ae04f9237783cbcacffbead",
+  "eligibility_sha256": "92925c8289c81041d99a8b67131de7e025861094386881daf44d12511b30d9a0",
+  "grid_sha256": "1319ba52972add2ea4f5069830bb69eae748263b7021d7dc7218006a0f9c132b"
+}

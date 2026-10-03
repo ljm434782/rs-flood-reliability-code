@@ -1,0 +1,230 @@
+{
+  "sample_id": "EMSR283_10_32VNP_x524975_y6853225",
+  "split": "train",
+  "selection": "fixed train-only temporal-audit frame rank 19; member ordinal 4212 in train/MASK.tar",
+  "S1RTC": {
+    "bands_shape": [
+      4,
+      2,
+      256,
+      256
+    ],
+    "band_names": [
+      "vv",
+      "vh"
+    ],
+    "timestamps_utc": [
+      "2018-04-02T05:47:20.723629Z",
+      "2018-04-14T05:47:21.181354Z",
+      "2018-05-14T17:02:21.396933Z",
+      "2018-05-20T05:47:22.946250Z"
+    ],
+    "data_mask_values": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "nan_mask_value_counts_by_time": [
+      {
+        "0": 65536
+      },
+      {
+        "0": 65536
+      },
+      {
+        "0": 65536
+      },
+      {
+        "0": 65536
+      }
+    ],
+    "event_index_2_band0_finite_fraction": 1.0,
+    "event_index_2_band0_quantiles_finite": [
+      -23.109375,
+      -9.2109375,
+      -3.921875,
+      0.434814453125
+    ]
+  },
+  "S2L2A": {
+    "bands_shape": [
+      4,
+      12,
+      256,
+      256
+    ],
+    "band_names": [
+      "B01",
+      "B02",
+      "B03",
+      "B04",
+      "B05",
+      "B06",
+      "B07",
+      "B08",
+      "B8A",
+      "B09",
+      "B11",
+      "B12"
+    ],
+    "timestamps_utc": [
+      "2018-04-01T10:50:31.026000Z",
+      "2018-04-11T10:50:31.026000Z",
+      "2018-05-16T10:50:29.027000Z",
+      "2018-05-19T10:56:19.027000Z"
+    ],
+    "data_mask_values": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "nan_mask_value_counts_by_time": [
+      {
+        "0": 65536
+      },
+      {
+        "0": 65536
+      },
+      {
+        "0": 65536
+      },
+      {
+        "0": 65536
+      }
+    ],
+    "event_index_2_band0_finite_fraction": 1.0,
+    "event_index_2_band0_quantiles_finite": [
+      306.0,
+      523.0,
+      1567.0,
+      2633.0
+    ],
+    "cloud_mask_attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "time",
+        "y",
+        "x"
+      ],
+      "coordinates": "spatial_ref",
+      "description": "SCL cloud mask",
+      "labels": "-1: No data/NaNs; 0: No cloud; 1: Cloud (medium or high probability); 2: Thin cirrus."
+    },
+    "cloud_mask_value_counts_by_time": [
+      {
+        "0.0": 63166,
+        "1.0": 1048,
+        "2.0": 1322
+      },
+      {
+        "0.0": 64136,
+        "1.0": 1400
+      },
+      {
+        "0.0": 64648,
+        "1.0": 888
+      },
+      {
+        "0.0": 65508,
+        "1.0": 28
+      }
+    ],
+    "SCL_value_counts_by_time": [
+      {
+        "2.0": 557,
+        "4.0": 150,
+        "7.0": 1678,
+        "8.0": 1036,
+        "9.0": 12,
+        "10.0": 1322,
+        "11.0": 60781
+      },
+      {
+        "2.0": 266,
+        "4.0": 36,
+        "7.0": 1093,
+        "8.0": 1346,
+        "9.0": 54,
+        "11.0": 62741
+      },
+      {
+        "2.0": 222,
+        "3.0": 144,
+        "4.0": 46994,
+        "5.0": 15144,
+        "7.0": 1598,
+        "8.0": 718,
+        "9.0": 170,
+        "11.0": 546
+      },
+      {
+        "2.0": 250,
+        "4.0": 55328,
+        "5.0": 8914,
+        "6.0": 152,
+        "7.0": 552,
+        "8.0": 20,
+        "9.0": 8,
+        "11.0": 312
+      }
+    ],
+    "scene_cloud_metadata": {
+      "s2_high_proba_clouds_percentage": [
+        "0.024661",
+        "0.018076",
+        "35.541758",
+        "0.36195"
+      ],
+      "s2_medium_proba_clouds_percentage": [
+        "5.260928",
+        "0.663113",
+        "8.353693",
+        "0.581194"
+      ],
+      "s2_cloud_shadow_percentage": [
+        "0.227282",
+        "0.053567",
+        "5.201556",
+        "0.201484"
+      ],
+      "s2_nodata_pixel_percentage": [
+        "0.0",
+        "0.0",
+        "1.3e-05",
+        "34.803724"
+      ]
+    }
+  },
+  "s2_minus_s1_days_by_index": [
+    -0.7894640929282407,
+    -2.789469390671296,
+    1.7417549776273147,
+    -0.7854620283564816
+  ],
+  "s1_s2_coordinates_match": true,
+  "label": {
+    "shape": [
+      256,
+      256
+    ],
+    "crs": "EPSG:32632",
+    "transform": [
+      10.0,
+      0.0,
+      524970.0,
+      0.0,
+      -10.0,
+      6853230.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "class_counts": {
+      "0": 65204,
+      "1": 228,
+      "2": 104
+    },
+    "sensor_grid_matches_label_centers": true
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "conclusion": "No candidate tile has a confirmed CEMS product ID or reference/acquisition time attributable to its native ImpactMesh label. Dataset-level input source/version/licence and S1-anchor evidence are recorded, but label-time and product provenance remain UNVERIFIED.",
+  "counts": {
+    "activations_with_any_local_cems_product_candidate": [
+      "EMSR251",
+      "EMSR424",
+      "EMSR640"
+    ],
+    "candidate_activation_count": 113,
+    "candidate_tiles": 8040,
+    "candidate_units": 106,
+    "holdout_tiles_not_paired_eligible": 60,
+    "holdout_tiles_paired_eligible": 432,
+    "holdout_tiles_with_inferred_s1_anchor": 481,
+    "holdout_tiles_with_unavailable_s1_anchor": 11,
+    "tiles_with_any_activation_level_local_cems_product_candidate": 453,
+    "tiles_with_confirmed_tile_to_cems_product_mapping": 0,
+    "tiles_with_unverified_tile_to_cems_product_mapping": 8040,
+    "train_role_tiles_with_direct_s1_anchor": 7548
+  },
+  "independent_holdout_assessment": {
+    "basis": "Rule-A official holdout is explicitly retrospective; its nine activations lack confirmed per-tile label product/time chains, and existing alternative-source audits have cleared no new independent multi-process G3 source.",
+    "cleared_real_independent_holdout_processes": 0
+  },
+  "output_sha256": {
+    "G3_RULE_A_SOURCE_TIME_CHAIN_TILE_AUDIT.csv": "26ea9a9b444b8981ce9dccba793659da82ca0fea493d846c442065df7e1aacee",
+    "G3_RULE_A_SOURCE_TIME_CHAIN_UNIT_AUDIT.csv": "7a59348f343288931c65acba94a52bb3668adeb380d75317f20c65a391345724"
+  },
+  "published_mapping_evidence": {
+    "cems_api_scope": "CEMS product metadata can enumerate activation/AOI products, but that does not identify which product ImpactMesh used for a given tile.",
+    "impactmesh_published_asset_inventory": "data/manifests/impactmesh_assets.json",
+    "observed_dataset_card_scope": "README describes MASK.tar as flood annotations from Copernicus EMS and lists split TAR assets; it does not provide a sample-ID-to-CEMS-product-ID/AOI/reference-time table.",
+    "official_cems_api_documentation_url": "https://mapping.emergency.copernicus.eu/about/how-to-harvest-cems-mapping-data/",
+    "official_dataset_card_url": "https://huggingface.co/datasets/ibm-esa-geospatial/ImpactMesh-Flood/blob/main/README.md",
+    "readme_git_object_id": "961e6cf8d064c6734a1e34ef0f3e3c4b3e767e34"
+  },
+  "purpose": "Bounded metadata-only source/product/time-chain audit for Rule-A candidate rows and units",
+  "read_boundary": {
+    "dataset_reader_called": false,
+    "prediction_or_score_read": false,
+    "training_or_holdout_image_values_read": false,
+    "training_or_holdout_label_pixels_read": false
+  },
+  "reproduction_script": "scripts/audit_g3_rule_a_source_time.py",
+  "reproduction_script_sha256": "414020f41d8fa142aef02dc7f9a4f8ad4749be33b48a6a9d5651e82db3bb371f",
+  "source_sha256": {
+    "data/manifests/cems_index.csv": "463e07fbbcdc8317373227736174a0a0f1855eb734b0c2ce7e9ac7ff928213a9",
+    "data/manifests/g3_rule_a_derived_candidate_calibration.csv": "6d8f0fa9270bda3098aaca87ffb63defc72223d07b29591ebba2adfda3656b28",
+    "data/manifests/g3_rule_a_derived_candidate_fit.csv": "c6c71467f9d535ff07493e7356f107aa3d99d07721ba48facc2358d53758ad9c",
+    "data/manifests/g3_rule_a_derived_candidate_holdout_retro.csv": "bed3cba0a85a2da4d24a26e1b38065fe47a211f61f93e88752361628849e4df3",
+    "data/manifests/g3_rule_a_derived_candidate_internal_retro.csv": "91f5d87c8fad9c491cfe1612b76641f5a71f4ffca893e22610ff3ea5325dfc0e",
+    "data/manifests/impactmesh_archive_download_S1RTC.json": "9bbdb4321ca1e8226405476b39d560ce5b31e9c3ab822719c851c80d6569ae40",
+    "data/manifests/impactmesh_archive_download_S2L2A.json": "3f86c89a294213b2e3e755dade95e2d0ea0c6bca0857386b8db65ccf62c8b7fa",
+    "data/manifests/impactmesh_archive_download_test_S1RTC.json": "3bcf2c6395ef20cd08c344a9692bc8ec738cab3c40842f7bf0ec6bed120e135c",
+    "data/manifests/impactmesh_archive_download_test_S2L2A.json": "e2e78b1a4d6897b96dc13e09734bad39af3c28b51e770272e90c12aded7734d5",
+    "data/manifests/impactmesh_assets.json": "e9a3c894d178d77bd5e63a2a1ccaa981fe0a53c637543b3c0408360b59c698db",
+    "data/manifests/impactmesh_holdout_frozen_eligibility.csv": "9c50d14ad19b5d26ec93d28e2933dc66f477b7a968da424156e3e1f918e47859",
+    "data/manifests/impactmesh_holdout_frozen_eligibility_meta.json": "69a7a8332aaa21cb46ae0e879c6d7db02da3136647d5c777b15ee08c2e609c13",
+    "data/manifests/impactmesh_train_event_times.csv.gz": "59dcc31e9871f2361a2ac7fb8791d733c3d7f0de2b171cee7440db3d00fad99b",
+    "data/manifests/impactmesh_v1_label_time_chain_audit.csv": "7b591c1c6cf9d4d0a93f5edfadbb043859f937919c4ae4bd70123450bb01bde7"
+  },
+  "status": "CANDIDATE_RETROSPECTIVE_ONLY_NOT_FROZEN"
+}

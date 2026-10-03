@@ -1,0 +1,63 @@
+{
+  "created_utc": "2026-09-27T10:15:35.715352+00:00",
+  "choice": "B5_v5",
+  "ranking": [
+    {
+      "candidate": "B5_v5",
+      "mean_score": 0.08617220790000354,
+      "seeds": {
+        "20261001": {
+          "score": 0.09518674483462476,
+          "epoch": 9,
+          "checkpoint_sha256": "16c717f57c1dcd23cedf07190978fee01b7359054b9400d9aba7e0e049af26f5",
+          "parameter_count": 203491
+        },
+        "20261002": {
+          "score": 0.07715767096538234,
+          "epoch": 9,
+          "checkpoint_sha256": "a0a2408d1e321d6af50f7d85ea2f166ba3db519b0167e238a4967476b0cd0aab",
+          "parameter_count": 203491
+        }
+      }
+    },
+    {
+      "candidate": "F_aux_v5",
+      "mean_score": 0.08750311356489873,
+      "seeds": {
+        "20261001": {
+          "score": 0.094418985415479,
+          "epoch": 10,
+          "checkpoint_sha256": "0d6d6d48e129c85c4f8d7ff751e2d9d7fcc129d5079d581e19bb91c8e3a0a633",
+          "parameter_count": 198530
+        },
+        "20261002": {
+          "score": 0.08058724171431847,
+          "epoch": 6,
+          "checkpoint_sha256": "1db7109b6f6cbfad273ad5ec982aec486feff4a617030b6b9f447665b6c41228",
+          "parameter_count": 198530
+        }
+      }
+    },
+    {
+      "candidate": "B4_v5",
+      "mean_score": 0.09030969414778472,
+      "seeds": {
+        "20261001": {
+          "score": 0.09116342792671792,
+          "epoch": 8,
+          "checkpoint_sha256": "a5ba901b5fae90195e136d00d5e47fccba91ddb0057b6e5dc7b1cb5193cc5063",
+          "parameter_count": 203491
+        },
+        "20261002": {
+          "score": 0.08945596036885153,
+          "epoch": 10,
+          "checkpoint_sha256": "aa6593988e58475b8b1ae717cef5df3e069e5c538189897b184c87407d14677a",
+          "parameter_count": 203491
+        }
+      }
+    }
+  ],
+  "basis": "new training-only 16-process v5 fold; mean of two fixed seed scores",
+  "config_sha256": "c37809c88f9583d8d2fa63fa063ebdcfd757f0ddb11d8fd8a9bb913c9805caec",
+  "selection_uses_viewed_data": false
+}

@@ -1,0 +1,54 @@
+{
+  "purpose": "pretraining process-identity amendment; no label pixels or model scores",
+  "screen": "official-train S1 date ranges within 30 days and activation footprint centroids within 500 km",
+  "interpretation": "Four event-supported merges; proximity alone does not prove a shared flood process",
+  "merged_event_pairs": [
+    [
+      "EMSR228",
+      "EMSR231"
+    ],
+    [
+      "EMSR421",
+      "EMSR422"
+    ],
+    [
+      "EMSR550",
+      "EMSR554"
+    ],
+    [
+      "EMSR777",
+      "EMSR778"
+    ]
+  ],
+  "screened_edges": 37,
+  "grouped_edges": 4,
+  "groups": 178,
+  "eligible_groups": 141,
+  "eligible_nonpilot_groups": 122,
+  "role_group_counts": {
+    "train": 81,
+    "excluded_paired": 37,
+    "internal_test": 20,
+    "calibration": 20,
+    "validation": 20
+  },
+  "role_activation_counts": {
+    "train": 83,
+    "excluded_paired": 37,
+    "internal_test": 20,
+    "calibration": 21,
+    "validation": 21,
+    "official_test_holdout": 12
+  },
+  "seed": "impactmesh-v1-final-process-split-20260927",
+  "input_sha256": {
+    "impactmesh_process_neighbor_candidates.csv": "861a22ce27cf140f69c45ca194f7f34a6bd499331e6047406e73e87a719f4c96",
+    "impactmesh_all_train_frozen_process_counts.csv": "b73b439d174fc518247197f88f307274ab1d18ce59d447450066ba12f1dd735a",
+    "impactmesh_temporal_audit_frame.csv": "72528576a595ff05493efd01fc53d6555c1aef3b6a75105b3981e96dc197fb39",
+    "impactmesh_process_split_frozen.csv": "f0a687ac62581e139a27a7e747261cc6a0f18d45a05728ec2893442f386a696e"
+  },
+  "output_sha256": {
+    "impactmesh_process_split_grouped.csv": "537617bdabeaa2e0fd1c01a11282d425d31c1d477315159aad0b68eb62e52e95",
+    "impactmesh_process_groups.csv": "b4859cc26b37a2c5e4343f14e628318170e17633d958edc65100f7c82d70165d"
+  }
+}

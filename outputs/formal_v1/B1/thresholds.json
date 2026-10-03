@@ -1,0 +1,43 @@
+{
+  "model": "B1",
+  "rule": "event VH <= water threshold; among water, prior VH minus event VH >= change threshold -> flood, else permanent water",
+  "pre_event_choice": "most recent valid earlier S1 index 1, else 0, else event VH as no-change fallback",
+  "training_pixel_sample": "fixed first four hash-order tiles per training process, every fourth row and column; Ignore excluded",
+  "train_process_macro_iou": 0.4324237484360098,
+  "water_threshold_db": -20.625,
+  "change_threshold_db": 2.765625,
+  "water_grid_db": [
+    -24.484375,
+    -22.375,
+    -20.625,
+    -19.234375,
+    -18.21875,
+    -17.453125,
+    -16.8125,
+    -16.265625,
+    -15.75,
+    -15.2734375,
+    -14.8203125,
+    -14.375
+  ],
+  "change_grid_db": [
+    0.0,
+    0.578125,
+    1.546875,
+    2.765625,
+    4.6875
+  ],
+  "pre_event_source_counts": {
+    "index_1": 324,
+    "index_0": 0,
+    "missing_fallback_event": 0
+  },
+  "training_process_count": 81,
+  "selected_training_pixels": 1272982,
+  "fitted_utc": "2026-09-27T03:41:26.198271+00:00",
+  "split_sha256": "537617bdabeaa2e0fd1c01a11282d425d31c1d477315159aad0b68eb62e52e95",
+  "eligibility_sha256": "92925c8289c81041d99a8b67131de7e025861094386881daf44d12511b30d9a0",
+  "config_sha256": "06f422be2c21c46f87e1413ec1fe3b872656dfa048e050bdff74119e3f8b40fa",
+  "script_sha256": "bdee9385149aeccc281af9e1ec815ce3a706b2791394a3d8d0659b78a3bc89de",
+  "fit_limit": "training roles only; no calibration, validation, internal or external test labels"
+}

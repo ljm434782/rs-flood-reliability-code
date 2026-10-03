@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "device": "cpu",
+  "torch": "2.14.0+xpu",
+  "device_name": "CPU",
+  "precision": "FP32; no AMP; TF32 disabled on CUDA",
+  "batch_size": 4,
+  "data_access": "none; synthetic tensors only",
+  "models": {
+    "B2": {
+      "mean_batch_loss": 1.4391484260559082,
+      "batches": 1,
+      "non_ignore_pixels": 262140,
+      "duration_seconds": 2.842999999999847,
+      "resume_step": 1.3539257049560547
+    },
+    "B5_whole": {
+      "mean_batch_loss": 1.270328164100647,
+      "batches": 1,
+      "non_ignore_pixels": 262140,
+      "duration_seconds": 1.030999999999949,
+      "resume_step": 1.2129075527191162
+    },
+    "B5_local": {
+      "mean_batch_loss": 1.3130775690078735,
+      "batches": 1,
+      "non_ignore_pixels": 262140,
+      "duration_seconds": 1.0320000000001528,
+      "resume_step": 1.245003342628479
+    },
+    "P": {
+      "mean_batch_loss": 1.2784826755523682,
+      "batches": 1,
+      "non_ignore_pixels": 262140,
+      "duration_seconds": 1.2350000000001273,
+      "resume_step": 1.2042406797409058
+    }
+  }
+}

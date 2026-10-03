@@ -1,0 +1,19 @@
+{
+  "hashes": {
+    "code": {
+      "scripts/upgrade_train.py": "b29e7cfa949451d2358df8abbc2d644c969bcf7ce8b1c3db95f83c6d37704ad3",
+      "src/flood_reliability/availability.py": "a1b4e2d1681c16c17d9752aba6cd85fc1febd4427e4d7b707bc058e64f5faaf1",
+      "src/flood_reliability/impactmesh_io.py": "664705e07f84402230bfa5ad272e862047868aefcf90fe92b40ad6904a59f54d",
+      "src/flood_reliability/models.py": "205e1091f8941d4f20d67d601c6f3e4b6e9a2d09d41ce988b2193c8ac6a9e8d7",
+      "src/flood_reliability/smagnet_adapter.py": "2e237fffb16cacde60590641f54e81273469129918cf24301b92b6445775705e",
+      "src/flood_reliability/upgrade_masks.py": "155a258714d2cd6d8503cc51d8bbd1649a1f26d9701b37677b861f9154f5123e",
+      "third_party/smagnet/smagnet.py": "0f2bc65ba0b163c475772bbb3171a818e3947c29fbc5ec54f7bc5c479e4a4a58"
+    },
+    "config": "72af5dc7d742fe2f3f21acf72f6bdffc7226d9068a5d699db49eaae48b3c7549",
+    "fit_manifest": "c6c71467f9d535ff07493e7356f107aa3d99d07721ba48facc2358d53758ad9c",
+    "freeze": "2e2c75ab0d1cfc783b735d7eaa341432d5ef4ef71820d7cde06ff5bfdd4abf8b",
+    "independent_review": "94ce12642353343968e58620c508c9de5c3013812af6870cfa248e78771cfae3"
+  },
+  "run_id": "P_seed_20261013",
+  "seed": 20261013
+}

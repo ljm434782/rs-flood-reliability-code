@@ -1,0 +1,8 @@
+{
+  "config_sha256": "2cabbb87e58a7cd6fd7f03524e81f1c8880882d924119deb7a5d4faddb169855",
+  "freeze_manifest_sha256": "ac51ed1274f172b9188fdeceeccff3ef24b4915b27f3dfb3f855373b9e67374c",
+  "summary_sha256": "e2c092bc0de6927fc4ef9e8572434db7bba77a915a7b35e443c967f8398f1fd5",
+  "state_metrics_sha256": "f72bfa1f47d2048a1420e2c78741a199e6d5f56777d0bc2d1e431539cb337e29",
+  "interaction_sha256": "40315b2e3bd1304dee73cff52931bfa580ab9e32f6180dc9586ab642d94100fc",
+  "script_sha256": "dd9736d57fc9de915f79ccdc761fd0a57ea27088b64b563ebb3f3d31b401c227"
+}

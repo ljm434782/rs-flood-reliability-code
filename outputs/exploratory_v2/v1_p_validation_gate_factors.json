@@ -1,0 +1,45 @@
+{
+  "purpose": "descriptive v1 P gate factors on frozen v2 validation input frame",
+  "completed_utc": "2026-09-27T05:19:00.858090+00:00",
+  "checkpoint_sha256": "beafaf66049b809ae5c4c480cde0c686ab41fe5b6dda1ed1444d66897c315441",
+  "frame_sha256": "eb4b7bd65e07c802f520d629879251c2bcc4bac68dfcabec4718f828143248ef",
+  "stats_sha256": "7095d9658cde9d42956ac5e9f3c9b94c02c645be9e4948ae474a75a2ab1f0757",
+  "summary": {
+    "sar_level_0": {
+      "mean_tile_factor": 0.5062780812382698,
+      "min_tile_factor": 0.4946346580982208,
+      "max_tile_factor": 0.5339176058769226,
+      "tile_count": 40
+    },
+    "optical_level_0": {
+      "mean_tile_factor": 0.4948259875178337,
+      "min_tile_factor": 0.47554653882980347,
+      "max_tile_factor": 0.5306510925292969,
+      "tile_count": 40
+    },
+    "sar_level_1": {
+      "mean_tile_factor": 0.4915019065141678,
+      "min_tile_factor": 0.47697320580482483,
+      "max_tile_factor": 0.49689024686813354,
+      "tile_count": 40
+    },
+    "optical_level_1": {
+      "mean_tile_factor": 0.5098171398043633,
+      "min_tile_factor": 0.5036534070968628,
+      "max_tile_factor": 0.5150045156478882,
+      "tile_count": 40
+    },
+    "sar_level_2": {
+      "mean_tile_factor": 0.4923884153366089,
+      "min_tile_factor": 0.4226903021335602,
+      "max_tile_factor": 0.5204201936721802,
+      "tile_count": 40
+    },
+    "optical_level_2": {
+      "mean_tile_factor": 0.38732644990086557,
+      "min_tile_factor": 0.3832167387008667,
+      "max_tile_factor": 0.39895662665367126,
+      "tile_count": 40
+    }
+  }
+}

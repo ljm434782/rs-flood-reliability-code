@@ -1,0 +1,67 @@
+{
+  "scope": "asset inventory and train-only pilot ZIP layout; not optical eligibility or process qualification",
+  "pilot_frame_sha256": "72528576a595ff05493efd01fc53d6555c1aef3b6a75105b3981e96dc197fb39",
+  "train_mask_index_sha256": "e81fd40e937a99ab0622afe66b726c5d102d28df7a891454e55dd4902c47d048",
+  "train_mask_tar_verified_sha256": "dc9f2003ac8a1e55511d98f00564f5d967564deb8be41d4270a55192a53c1876",
+  "asset_manifest_sha256": "e9a3c894d178d77bd5e63a2a1ccaa981fe0a53c637543b3c0408360b59c698db",
+  "train_archives": {
+    "train/MASK.tar": {
+      "bytes": 48650240,
+      "publisher_lfs_sha256": "dc9f2003ac8a1e55511d98f00564f5d967564deb8be41d4270a55192a53c1876"
+    },
+    "train/S1RTC.tar": {
+      "bytes": 13719961600,
+      "publisher_lfs_sha256": "f742b9b2f9362c0635d372129b640b525e0d300d062d72cc647f864fc20a28ee"
+    },
+    "train/S2L2A.tar": {
+      "bytes": 42587596800,
+      "publisher_lfs_sha256": "0a58335297971c4a6e5e4f4e4aa8d2afe9201dedaad35e08babd03f3a1bb0c6f"
+    }
+  },
+  "train_activation_count": 182,
+  "train_chip_count": 19448,
+  "chips_per_activation": {
+    "min": 1,
+    "median": 39.0,
+    "max": 1069
+  },
+  "activations_with_at_least_n_chips": {
+    "1": 182,
+    "2": 176,
+    "5": 167,
+    "10": 156,
+    "20": 120,
+    "50": 82,
+    "100": 56
+  },
+  "verified_pilot_s2_zip_count": 24,
+  "pilot_s2_zip_member_bytes": {
+    "min": 1956014,
+    "median": 2222725.5,
+    "max": 2557377,
+    "sum": 52586560
+  },
+  "pilot_s2_mask_chunk_bytes": {
+    "min": 1943,
+    "median": 11125.5,
+    "max": 23425,
+    "sum": 281880
+  },
+  "pilot_s2_consolidated_metadata_bytes": {
+    "min": 13609,
+    "median": 13689.0,
+    "max": 13718,
+    "sum": 328304
+  },
+  "pilot_s2_band_chunk_bytes": {
+    "min": 1921958,
+    "median": 2177616.0,
+    "max": 2520349,
+    "sum": 51622501
+  },
+  "limits": [
+    "ZIP chunks are small locally, but locating every member inside remote TAR still needs an index or remote reads.",
+    "SCL/cloud/nan/data chunks omit the 12-band finite/nonfill condition, so masks alone cannot certify the joint-visible definition.",
+    "Full S1RTC/S2L2A TAR publisher hashes and all-process optical/label quality remain unverified."
+  ]
+}

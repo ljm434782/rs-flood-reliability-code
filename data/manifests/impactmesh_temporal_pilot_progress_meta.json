@@ -1,0 +1,16 @@
+{
+  "frozen_frame_sha256": "72528576a595ff05493efd01fc53d6555c1aef3b6a75105b3981e96dc197fb39",
+  "fixed_frame_rows": 24,
+  "audited_rows": 24,
+  "pending_rows": 0,
+  "time_anchor": "S1 index 2; closest prior S2 chosen by timestamp across all four S2 indices",
+  "audited_sample_temporal_descriptives": {
+    "event_s2_after_s1": 14,
+    "event_s2_at_or_before_s1": 10,
+    "samples_with_prior_s2": 24,
+    "closest_prior_s2_age_days_min": 0.2709625383101852,
+    "closest_prior_s2_age_days_median": 18.30953088010417,
+    "closest_prior_s2_age_days_max": 33.25822188579861
+  },
+  "scope": "raw train-only pilot counts; no cloud eligibility cutoff, process-pass estimate, model result, or test data"
+}

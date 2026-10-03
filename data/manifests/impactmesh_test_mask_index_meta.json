@@ -1,0 +1,11 @@
+{
+  "source_url": "https://huggingface.co/datasets/ibm-esa-geospatial/ImpactMesh-Flood/resolve/main/test/MASK.tar",
+  "lfs_sha256": "8e2b805020e9ef7adda33856e579fdb454a07f7c6469f30cfb8a92a5b52597aa",
+  "downloaded_sha256": "8e2b805020e9ef7adda33856e579fdb454a07f7c6469f30cfb8a92a5b52597aa",
+  "size_bytes": 7608320,
+  "member_count": 2959,
+  "activation_count": 67,
+  "selection": "first test TAR member listed in official test_holdout.txt; index only, no label pixels read",
+  "first_holdout_ordinal": 3,
+  "first_holdout_sample_id": "EMSR251_3_32VML_x473405_y6512885"
+}

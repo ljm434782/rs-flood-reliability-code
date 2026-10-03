@@ -1,0 +1,48 @@
+{
+  "kind": "new public derivatives; old hashes do not bind new bytes",
+  "source_zip_sha256": "c3c52c705b31bda47672b91fe59bb639362f0a1aad9182477b9e7c8e285a6d82",
+  "files": [
+    {
+      "path": "configs/upgrade_20260929.json",
+      "size_bytes": 8679,
+      "sha256": "d1c211b5e8931b4faf6f3e186180455d3e54fb4b25d795351db9bbcc90ea17f1",
+      "public_path": "configs/upgrade_20260929.json",
+      "public_sha256": "951dc3cff3afa69aed8dbb88af6db2876f0a076952552de994ef8f3d1eb6c93f",
+      "public_size_bytes": 9902,
+      "reason": "public configuration projection; only free-text administrative authorization omitted",
+      "details": {
+        "omitted_json_pointer": "/execution_authorization/instruction",
+        "all_other_json_fields_identical": true,
+        "historical_status_field_is_not_a_public_freeze_attestation": true
+      }
+    },
+    {
+      "path": "outputs/server_migration_20260929/package/configs/upgrade_20260929.json",
+      "size_bytes": 9391,
+      "sha256": "72af5dc7d742fe2f3f21acf72f6bdffc7226d9068a5d699db49eaae48b3c7549",
+      "public_path": "outputs/server_migration_20260929/package/configs/upgrade_20260929.json",
+      "public_sha256": "399976970f1ad6e1944a4c3141fdd3972c0de67c89dd819ae3c643ac21245479",
+      "public_size_bytes": 10622,
+      "reason": "public configuration projection; only free-text administrative authorization omitted",
+      "details": {
+        "omitted_json_pointer": "/execution_authorization/instruction",
+        "all_other_json_fields_identical": true,
+        "historical_status_field_is_not_a_public_freeze_attestation": true
+      }
+    },
+    {
+      "path": "src/flood_reliability/upgrade_execution.py",
+      "size_bytes": 8879,
+      "sha256": "b1bb90b6ba61d384c94b34bed976c0d5649ae0caf9b86606b71659166cc1ab51",
+      "public_path": "src/flood_reliability/upgrade_execution.py",
+      "public_sha256": "ccbc464c987c904fec1d22e3c4e97ebeadf94b211d6dcdb865059915551d0457",
+      "public_size_bytes": 7042,
+      "reason": "public-only fail-closed administrative gate; original module excluded",
+      "details": {
+        "only_replaced_function": "require_dual_freeze",
+        "all_other_python_ast_nodes_identical": true,
+        "execution_can_never_be_authorized_by_this_gate": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "status": "COMPLETE",
+  "interpretation": "retrospective descriptive only",
+  "models": [
+    "B4",
+    "B5_whole",
+    "B5_local",
+    "P",
+    "SMAGNet"
+  ],
+  "baseline": "B2",
+  "seeds": [
+    20261013,
+    20261014,
+    20261015
+  ],
+  "states": [
+    "100",
+    "75",
+    "50",
+    "25",
+    "0"
+  ],
+  "temperature_strategy": "original; one fixed positive temperature per model and seed",
+  "score_direction": "positive gain means fusion is better than B2",
+  "missing_iou": "undefined remains undefined; common three-seed process support for joint outcomes",
+  "roles_separate": true,
+  "natural_no_s2_separate": true,
+  "bootstrap": {
+    "unit": "process",
+    "replicates": 10000,
+    "rng": "PCG64",
+    "seed": 20261029,
+    "interval": 0.95
+  },
+  "matrix_audit_sha256": "0772da8bbe6df60213a9a5c640d7457dd28626b4e0487d4cdad52748e06d765d",
+  "config_sha256": "72af5dc7d742fe2f3f21acf72f6bdffc7226d9068a5d699db49eaae48b3c7549",
+  "source_evaluation_hashes": {
+    "outputs/upgrade_20260929/B2_seed_20261013/evaluation_internal_retro_original.json": "f9be0b653dce1bc30055079dec545bb10727db28bef05067f0a0f2c278c4c2bb",
+    "outputs/upgrade_20260929/B4_seed_20261013/evaluation_internal_retro_original.json": "e19636e7a044aca2fe72024b1ab5db358dd6c189fbe9ce25be22682b1e2d134e",
+    "outputs/upgrade_20260929/B5_whole_seed_20261013/evaluation_internal_retro_original.json": "d8db69813bea3a2bbb12e765aa4cc60a0433bfe4bf329bd80d2e8e457a43ffb5",
+    "outputs/upgrade_20260929/B5_local_seed_20261013/evaluation_internal_retro_original.json": "4e2f7813c829b84b8e19518497237a3f20fc10d46602f061e049a214ccc4282b",
+    "outputs/upgrade_20260929/P_seed_20261013/evaluation_internal_retro_original.json": "20b016c12608d10fb542ad2251785140488b81b79bcd411610e30a3c038e50c4",
+    "outputs/upgrade_20260929/SMAGNet_seed_20261013/evaluation_internal_retro_original.json": "f9540d22014031ccbb42f16550678024b80767b3abcb3981c4a4f24709a340bf",
+    "outputs/upgrade_20260929/B2_seed_20261014/evaluation_internal_retro_original.json": "00f35752fed0396b284b2d9d27e276de1acddf775eb148165862bdcb31e32798",
+    "outputs/upgrade_20260929/B4_seed_20261014/evaluation_internal_retro_original.json": "aa74a9bac70c621b59025cc7631a80fbf288979afab004b26bd4c06acf53e6d1",
+    "outputs/upgrade_20260929/B5_whole_seed_20261014/evaluation_internal_retro_original.json": "03123705def987647a0efdafd6c36f736bd150d3420c1e7094961aecebffad4a",
+    "outputs/upgrade_20260929/B5_local_seed_20261014/evaluation_internal_retro_original.json": "0e3d95befa58391dd3c93ad1531d67a541b854d2977f77533f2c5f1a44dc8597",
+    "outputs/upgrade_20260929/P_seed_20261014/evaluation_internal_retro_original.json": "3cb5169fba5e7ebae9d8c296fe0ad7b72bac08a8e957bc653dcea490188439db",
+    "outputs/upgrade_20260929/SMAGNet_seed_20261014/evaluation_internal_retro_original.json": "3f481e9ef7a064b147943c73c17b9a52a4fe1126170983c358f568da696d1cb6",
+    "outputs/upgrade_20260929/B2_seed_20261015/evaluation_internal_retro_original.json": "411b41e423f8af9869cbce3f91bf836b1520717a267a55beb90f90f8a3431816",
+    "outputs/upgrade_20260929/B4_seed_20261015/evaluation_internal_retro_original.json": "e3e9c160cf6895ed2bf483c00687e9e43702d26d51a664cde38c683251682cba",
+    "outputs/upgrade_20260929/B5_whole_seed_20261015/evaluation_internal_retro_original.json": "f640e51130132c10f553a9be1ed2f4bc1aec5775d41f9bfe4a46c8fd741db8d1",
+    "outputs/upgrade_20260929/B5_local_seed_20261015/evaluation_internal_retro_original.json": "7ca553b167829e7931e2b124b2134dfedf5a4dea7044eaeb68b0482bdfb002d2",
+    "outputs/upgrade_20260929/P_seed_20261015/evaluation_internal_retro_original.json": "2754ae69a7753b07685d4e7d850ac762d47ce237cd6798ef52bfe0cd984c0e22",
+    "outputs/upgrade_20260929/SMAGNet_seed_20261015/evaluation_internal_retro_original.json": "e7b025bd8450622c0b8e18b63e0f95134451961989e5b7c0f308f80761e37c06",
+    "outputs/upgrade_20260929/B2_seed_20261013/evaluation_holdout_retro_original.json": "a26a6a77224dae260575d92731fbd5c98b57ae60eb06d649f71a8b15e7f14d4c",
+    "outputs/upgrade_20260929/B4_seed_20261013/evaluation_holdout_retro_original.json": "b82d0cf91e895086d8301822333323f2ea9a3a2aa9ef0c68ea1ffc3a1611dcc8",
+    "outputs/upgrade_20260929/B5_whole_seed_20261013/evaluation_holdout_retro_original.json": "7f761929e96facd9006f0fa5c783a1524f5b920bb30b7cd89c56e8e5a928182a",
+    "outputs/upgrade_20260929/B5_local_seed_20261013/evaluation_holdout_retro_original.json": "e85a2e2f07659ec4bf21c7dc40c0bafc29afa887c4243b92f14e081a117ebb0d",
+    "outputs/upgrade_20260929/P_seed_20261013/evaluation_holdout_retro_original.json": "eac29d5d87f22c15d36f8a796f6a489a218cb3855defab86d4ea3aede5a06d60",
+    "outputs/upgrade_20260929/SMAGNet_seed_20261013/evaluation_holdout_retro_original.json": "d7d8fcf073893c758b51f95dcbee0c1ad218d27d7da942cbd3e4f51061b8f873",
+    "outputs/upgrade_20260929/B2_seed_20261014/evaluation_holdout_retro_original.json": "b169df95786dbaa7aaadc0f8e45b32a912e9ea23f089e4fbb49059818a62c500",
+    "outputs/upgrade_20260929/B4_seed_20261014/evaluation_holdout_retro_original.json": "4e04c5d89b3e1d526d62074d96d9cbfbdb29b7c5ad3016aab4e1f9173e4a56db",
+    "outputs/upgrade_20260929/B5_whole_seed_20261014/evaluation_holdout_retro_original.json": "b999510f9f1354932e5ae3ba76f05b3eb40a1f3ce73f2b5782c0c4658a92643a",
+    "outputs/upgrade_20260929/B5_local_seed_20261014/evaluation_holdout_retro_original.json": "45e1fb236b76f7ddf9eb1b2d6890ed89d9bf0228e3100f2df4c26313d243f52a",
+    "outputs/upgrade_20260929/P_seed_20261014/evaluation_holdout_retro_original.json": "7e8326c24ea70dade63a2a47bcaef267b68558528329bef53b737bc8c3fee5e0",
+    "outputs/upgrade_20260929/SMAGNet_seed_20261014/evaluation_holdout_retro_original.json": "ba850cc6d2a536bf5bf6732b137f6ca350f2041e417623cbaf0fcd8bb15c9db8",
+    "outputs/upgrade_20260929/B2_seed_20261015/evaluation_holdout_retro_original.json": "53f880c4b30bc77467d5cf03896bc1a69cb01af0d26103888ac215a53238b85b",
+    "outputs/upgrade_20260929/B4_seed_20261015/evaluation_holdout_retro_original.json": "ad4b25ba5052fad593560aaf5c031b3b9640db2216f1147a5f4a2f0a4d05ab10",
+    "outputs/upgrade_20260929/B5_whole_seed_20261015/evaluation_holdout_retro_original.json": "bfa43a0e610cd8d56b99d5df45b830b087ba2f187940dfae3c8d4b1880de4c6a",
+    "outputs/upgrade_20260929/B5_local_seed_20261015/evaluation_holdout_retro_original.json": "dd8d9b87d598318cd8feff71fe90e027e59cd58a2b6057cd1224f7123b5a9f55",
+    "outputs/upgrade_20260929/P_seed_20261015/evaluation_holdout_retro_original.json": "1b8e02e69519a152363fb3ef49f62fe94324864359d6ed008552bc07505b5f30",
+    "outputs/upgrade_20260929/SMAGNet_seed_20261015/evaluation_holdout_retro_original.json": "d8a642e91c43a601acca35879f4107da233829fd3af3797acad63ff417468938"
+  },
+  "script_sha256": "ebc9f4e941f66543a05738390dc3e9f102717751a2e45f744eff3b89a466fc0b",
+  "plot_script_sha256": "77ae8996df02a14e8ae716d16004b36e4ca85333bcaad063d44971464918752c",
+  "generated_hashes": {
+    "process_seed_gain.csv": "d6a248a302fbdae67a5fae258508d903a3b170fc9583d25315cbb569ae693675",
+    "process_mean_gain.csv": "9dce57b0793daf29068d261aeab9ac9038e02aa5652157624ea77d0f5ee5311d",
+    "summary.csv": "91f2bfb73de61ff032c1bd6d4ac8cd83f2b9ac577f37da70a290d17aa7409551",
+    "unfavorable_processes.csv": "8dbb5858cc091f963a76fd28046a2d1a46a43d4b4b481f80a9c53f2227820285",
+    "natural_holdout_gain.csv": "82fa21bf06186a1b2ad605700f7ed4da41d87a1baa90e621fc93cf7bd059be34",
+    "natural_holdout_summary.csv": "8da6c64a3e4a097c7f461de085138a6ae3ea2384691f4cfb3dff297e0e948cd5",
+    "b4_joint_optical_benefit.pdf": "7d570ea3ee91f9504a85d67377968a8a99b50069a773528ec50f2986db4f7b5c",
+    "b4_joint_optical_benefit.png": "135041364fa74404a52b3b7c14f175eec014a92afbfef1c76d66d80219ffd204"
+  },
+  "paper_artifact_hashes": {
+    "paper/tables/optical_benefit_table.tex": "23cc7c93e61004d1b40218ff64d04edc6de51fb5eafdec415bf67caf93b7ca8f",
+    "paper/figures/optical_benefit_joint.pdf": "7d570ea3ee91f9504a85d67377968a8a99b50069a773528ec50f2986db4f7b5c"
+  }
+}

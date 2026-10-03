@@ -1,0 +1,9 @@
+{
+  "source_tar": "train/MASK.tar",
+  "source_tar_sha256_verified": "dc9f2003ac8a1e55511d98f00564f5d967564deb8be41d4270a55192a53c1876",
+  "fixed_frame_rank_count": 24,
+  "matched_offsets_and_sizes": 24,
+  "range_reads": 93,
+  "range_bytes_read": 134664192,
+  "limit": "validates locator against local MASK TAR, not full remote S1/S2 TAR integrity or order"
+}

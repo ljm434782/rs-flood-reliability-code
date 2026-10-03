@@ -1,0 +1,32 @@
+{
+  "split": "test",
+  "source_tar_sha256": "8e2b805020e9ef7adda33856e579fdb454a07f7c6469f30cfb8a92a5b52597aa",
+  "source_index_sha256": "c34d4f8039d6e143425f12e328f016682089384f31bfe564512de02011a845c3",
+  "grid_index_sha256": "076f6cb08b7a76ca9de37fc3853225ae12099bba5a2b9005158c4d9ea5ab61ca",
+  "member_count": 2959,
+  "id_zone_crs_mismatch_count": 132,
+  "id_zone_crs_mismatch_examples": [
+    "EMSR358_5_33TYK_x280925_y4993305",
+    "EMSR358_5_33TYK_x283485_y4988185",
+    "EMSR358_5_33TYK_x283485_y4990745",
+    "EMSR358_5_33TYK_x283485_y4993305",
+    "EMSR358_5_33TYK_x283485_y4995865",
+    "EMSR358_5_33TYK_x286045_y4988185",
+    "EMSR358_5_33TYK_x286045_y4995865",
+    "EMSR358_5_33TYK_x291165_y4988185",
+    "EMSR358_5_33TYK_x291165_y4990745",
+    "EMSR358_5_33TYK_x291165_y4993305",
+    "EMSR358_5_33TYK_x293725_y4988185",
+    "EMSR358_5_33TYK_x293725_y4990745",
+    "EMSR358_5_33TYK_x293725_y4993305",
+    "EMSR358_5_33TYK_x296285_y4990745",
+    "EMSR358_5_33TYK_x296285_y4993305",
+    "EMSR358_5_33TYK_x296285_y4995865",
+    "EMSR358_5_33TYK_x298845_y4990745",
+    "EMSR358_5_33TYK_x298845_y4993305",
+    "EMSR358_5_33TYK_x298845_y4995865",
+    "EMSR358_5_33TYK_x301405_y4985625"
+  ],
+  "header_only": true,
+  "scope": "Grid CRS and bounds from each TIFF header; no label pixel values read"
+}

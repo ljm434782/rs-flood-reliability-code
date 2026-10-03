@@ -1,0 +1,25 @@
+{
+  "completed_utc": "2026-09-27T06:44:44.887224+00:00",
+  "purpose": "locked legacy CEMS map situation-time audit only",
+  "map_source_manifest_sha256": "945cd1db4aab3023c95f03db8d6f7eea6a0bac026ccbb3b90145df0a2334dd4c",
+  "s1_times_sha256": "ba382834f6b08900a6b10f65b68a2c74e8c88a1d26539480ae16405c6d418fce",
+  "events": {
+    "EMSR411": {
+      "s1_event_utc": "2019-11-25T05:36:28.406268+00:00",
+      "map_situation_minute_utc": "25/11/201905:36",
+      "situation_minute_matches_s1": true,
+      "map_url": "https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR411/EMSR411_AOI01_DEL_PRODUCT_r1_RTP01_v1.pdf",
+      "map_sha256": "cbf367b45c5f1f5a49cf755ce169b7295702b012f5d246242de3dbb74d938537"
+    },
+    "EMSR559": {
+      "s1_event_utc": "2022-01-27T02:19:46.669542+00:00",
+      "map_situation_minute_utc": "27/01/202202:19",
+      "situation_minute_matches_s1": true,
+      "map_url": "https://cems-mapping-website.s3.eu-west-1.amazonaws.com/static/activations/EMSR559/EMSR559_AOI04_DEL_PRODUCT_r1_RTP01_v1.pdf",
+      "map_sha256": "1c6b5e77ae4d0c566218a3c95c1dd4fadc61be59b3875738aab9282bf1626133"
+    }
+  },
+  "limitation": "map time match does not establish ImpactMesh per-tile product identity",
+  "impactmesh_label_pixels_read": false,
+  "model_outputs_read": false
+}

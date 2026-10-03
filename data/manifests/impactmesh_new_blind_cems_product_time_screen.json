@@ -1,0 +1,39 @@
+{
+  "completed_utc": "2026-09-27T06:39:10.718399+00:00",
+  "api_source": "https://rapidmapping.emergency.copernicus.eu/backend/dashboard-api/public-activations/?code={}",
+  "raw_detail_sha256": {
+    "EMSR788": "afe37a6d4785036ea38e8791af2943292081b7c1af4756a59caa848ba89ec073",
+    "EMSR843": "924fd9acb178913544f19e140565e2e81efdc519da64cf0855dc2cbdb7e702e2"
+  },
+  "source_s1_times_sha256": "ba382834f6b08900a6b10f65b68a2c74e8c88a1d26539480ae16405c6d418fce",
+  "source_grid_sha256": "ad2c61a360214471799f26e0eab85b2adc853032ae082f88fee19f0148470b70",
+  "output_sha256": "5d7283fb0548dc0264819b1740bde704c84d52edf8ec0dd53cc5f2ee841dac76",
+  "event_summary": {
+    "EMSR788": {
+      "tiles": 131,
+      "tiles_with_aoi_overlap": 131,
+      "tiles_with_del_source_image": 131,
+      "tiles_with_del_source_within_1h": 131,
+      "related_events": [],
+      "cems_aoi_count": 6,
+      "cems_product_type_counts": {
+        "DEL": 24
+      }
+    },
+    "EMSR843": {
+      "tiles": 13,
+      "tiles_with_aoi_overlap": 13,
+      "tiles_with_del_source_image": 13,
+      "tiles_with_del_source_within_1h": 0,
+      "related_events": [],
+      "cems_aoi_count": 2,
+      "cems_product_type_counts": {
+        "DEL": 2,
+        "GRA": 1
+      }
+    }
+  },
+  "label_pixels_read": false,
+  "model_outputs_read": false,
+  "limitation": "closest CEMS product source image is not a verified per-tile mask product mapping"
+}

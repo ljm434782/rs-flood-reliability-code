@@ -1,0 +1,40 @@
+{
+  "status": "COMPLETE",
+  "interpretation": "retrospective descriptive only",
+  "scope": "B2 once per role/seed (architecture is S2-invariant); B4 at 100/0",
+  "models": [
+    "B2",
+    "B4"
+  ],
+  "seeds": [
+    20261013,
+    20261014,
+    20261015
+  ],
+  "roles": [
+    "internal_retro",
+    "holdout_retro"
+  ],
+  "job_hashes": {
+    "B2_20261013_internal_retro_100.json": "45c4a5668850cbf7f51760872542c453fc1fd875cb2e03ea056e706365d590e8",
+    "B2_20261013_holdout_retro_100.json": "13dac833b44504837b3edf02ebb6bcfb754273d303335815e591b8d64f3de6bf",
+    "B2_20261014_internal_retro_100.json": "6707c300247f6851aed008ed6c5b9d5c044a4ac3cfb88e4b755316e8d69ce9e7",
+    "B2_20261014_holdout_retro_100.json": "7f53381a996c50d49cbc5a0e1d3cf87de89186a485555b76bb00972c1b5d296c",
+    "B2_20261015_internal_retro_100.json": "328cb94c5cbf92c20e3643f0317f946d01b57d5f08dc0b51fe9b2b891267105d",
+    "B2_20261015_holdout_retro_100.json": "5a3133bf13aaff67595ae4351bed7eae5e27547b89eef2c69259711fbb452076",
+    "B4_20261013_internal_retro_100.json": "a6ac74b2a1b96df0712d46263aa518351764e8f1c8d8d198cf89964f986718d2",
+    "B4_20261013_internal_retro_0.json": "54b1878747cd7c1ce9251a335b6de5eab0b31cebd35fb4f378061e74de84fdf9",
+    "B4_20261013_holdout_retro_100.json": "9b088c5df50a232d7ebc8107615293c426f9b3222cd1dfede2c4dc32d5a47707",
+    "B4_20261013_holdout_retro_0.json": "0bd7284b7bdbe3381695dbb72057c16283b9d727aaebdaf61000b96fbdd6a7f9",
+    "B4_20261014_internal_retro_100.json": "59ee6f4e7eca6ff23c8c9ba1737d30742269557d28a662079c58bf67eef4249b",
+    "B4_20261014_internal_retro_0.json": "5be655aec2dbfcfe35d2f80ee5b53020b77ee8d50fb7272649aef3dd14ca8a82",
+    "B4_20261014_holdout_retro_100.json": "2f6094c434839121073acebcbeb335d6a4d1fb302db42c8477e0dcf8fda99f59",
+    "B4_20261014_holdout_retro_0.json": "d6e40bba672979d17947f27bece7749560ca4f6dab616ac87c4e45191bf79440",
+    "B4_20261015_internal_retro_100.json": "8fde7ff307f02da296bb58adeb24c9a4579a16075d3b86a063c88052b616ca96",
+    "B4_20261015_internal_retro_0.json": "7b450e742109eecd00a87dc6a9b941a687ec960fcda433fc42181d5fdcbb3fb6",
+    "B4_20261015_holdout_retro_100.json": "463b6ea6fe0adee7526a84eda2616e5bc3b77f3a3a432977f829efc0c6bc3f03",
+    "B4_20261015_holdout_retro_0.json": "1ba7974db7070499fb8be16ed964a7f63b6bd4fe39aa86c53f3a59f8d01d93f8"
+  },
+  "class_process_sha256": "81b61ee0dbc9a25abaaf8ef14303586ccf874e7547ad6415dcb46d5db0f86ab1",
+  "script_sha256": "03b858e213171f932d90f91614bee636d616871a0ee2d2325576ffd8c28873f8"
+}

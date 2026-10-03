@@ -1,0 +1,133 @@
+{
+  "cross_role_sample_id_intersections": {
+    "calibration__holdout_retro": 0,
+    "calibration__internal_retro": 0,
+    "fit__calibration": 0,
+    "fit__holdout_retro": 0,
+    "fit__internal_retro": 0,
+    "internal_retro__holdout_retro": 0
+  },
+  "cross_role_spatial_recheck_from_exhaustive_header_audit": {
+    "calibration__holdout_retro": {
+      "pairwise_shared_10m_grid_cells": 0,
+      "positive_area_tile_pairs": 0
+    },
+    "calibration__internal_retro": {
+      "pairwise_shared_10m_grid_cells": 0,
+      "positive_area_tile_pairs": 0
+    },
+    "fit__calibration": {
+      "pairwise_shared_10m_grid_cells": 0,
+      "positive_area_tile_pairs": 0
+    },
+    "fit__holdout_retro": {
+      "pairwise_shared_10m_grid_cells": 0,
+      "positive_area_tile_pairs": 0
+    },
+    "fit__internal_retro": {
+      "pairwise_shared_10m_grid_cells": 0,
+      "positive_area_tile_pairs": 0
+    },
+    "internal_retro__holdout_retro": {
+      "pairwise_shared_10m_grid_cells": 0,
+      "positive_area_tile_pairs": 0
+    }
+  },
+  "output_files": {
+    "calibration": "g3_rule_a_derived_candidate_calibration.csv",
+    "excluded_tiles": "g3_rule_a_derived_candidate_excluded_tiles.csv",
+    "fit": "g3_rule_a_derived_candidate_fit.csv",
+    "holdout_retro": "g3_rule_a_derived_candidate_holdout_retro.csv",
+    "internal_retro": "g3_rule_a_derived_candidate_internal_retro.csv"
+  },
+  "output_sha256": {
+    "calibration": "6d8f0fa9270bda3098aaca87ffb63defc72223d07b29591ebba2adfda3656b28",
+    "excluded_tiles": "66265b63812bc7d733034ab9ccb381c4deb3915f84ad08787ee347df85920e23",
+    "fit": "c6c71467f9d535ff07493e7356f107aa3d99d07721ba48facc2358d53758ad9c",
+    "holdout_retro": "bed3cba0a85a2da4d24a26e1b38065fe47a211f61f93e88752361628849e4df3",
+    "internal_retro": "91f5d87c8fad9c491cfe1612b76641f5a71f4ffca893e22610ff3ea5325dfc0e"
+  },
+  "purpose": "Derived retrospective candidate manifests under independently reviewed G3 Rule A",
+  "read_boundary": {
+    "dataset_reader_called": false,
+    "imagery_pixels_read": false,
+    "label_pixels_read": false,
+    "manifest_and_audited_geometry_metadata_only": true,
+    "predictions_or_scores_read": false
+  },
+  "reproduction": {
+    "script": "scripts/derive_g3_rule_a_candidate.py",
+    "script_sha256": "7541bde55b8aee65c77a831b0e222412f0bea978a1ea89485a78c515e6f66ef7",
+    "source_order": "Rows preserve source-candidate file order after deterministic whole-tile exclusion; derived_sample_order is consecutive within each role.",
+    "unit_order": "derived_unit_order is the first-occurrence order in the retained source order; derived_within_unit_order is consecutive within that unit."
+  },
+  "role_report": {
+    "calibration": {
+      "activations": 20,
+      "activations_at_minimum_tiles": [
+        "EMSR858"
+      ],
+      "excluded_rows": 29,
+      "minimum_tiles_per_activation": 7,
+      "retained_rows": 2117,
+      "source_rows": 2146,
+      "units": 19
+    },
+    "fit": {
+      "activations": 66,
+      "activations_at_minimum_tiles": [
+        "EMSR231"
+      ],
+      "excluded_rows": 0,
+      "minimum_tiles_per_activation": 5,
+      "retained_rows": 3525,
+      "source_rows": 3525,
+      "units": 60
+    },
+    "holdout_retro": {
+      "activations": 9,
+      "activations_at_minimum_tiles": [
+        "EMSR841"
+      ],
+      "excluded_rows": 0,
+      "minimum_tiles_per_activation": 2,
+      "retained_rows": 492,
+      "source_rows": 492,
+      "units": 9
+    },
+    "internal_retro": {
+      "activations": 18,
+      "activations_at_minimum_tiles": [
+        "EMSR385"
+      ],
+      "excluded_rows": 188,
+      "minimum_tiles_per_activation": 5,
+      "retained_rows": 1906,
+      "source_rows": 2094,
+      "units": 18
+    }
+  },
+  "rule": {
+    "definition": "Fit is retained. Each later-role tile is excluded if the complete 509-row audited header-only overlap table records one or more shared 10 m cells with an already retained earlier-role tile.",
+    "name": "whole_tile_exclude_if_shared_10m_cell_with_retained_prior_role",
+    "role_order": [
+      "fit",
+      "calibration",
+      "internal_retro",
+      "holdout_retro"
+    ]
+  },
+  "source_sha256": {
+    "calibration": "9186134cb5b13126ea870aef1ab78b3b20c0d3f184878f649ea9ae923a96a4be",
+    "fit": "d9eec725011706e500996a2472144281c4588f26a718aec14112f5fe916d09fc",
+    "holdout_retro": "46a520224ed096fa8712e8def637824dab42f5c7e712982b041d71645480789d",
+    "internal_retro": "596c8019f9062443ed351ae947630792eac8fd44a86029116f9460594bac24fd",
+    "spatial_overlap_audit": "26cfe8be090e8dbb3a6a738ca25c1156da16b611d86b95d637e3366122ef67f6"
+  },
+  "status": "CANDIDATE_RETROSPECTIVE_ONLY_NOT_FROZEN",
+  "unverified_boundaries": [
+    "CEMS process-family/source relationship for the overlapping activation pairs remains UNVERIFIED.",
+    "Per-tile CEMS label-product and label-reference-time linkage remains UNVERIFIED.",
+    "This is retrospective candidate material only and is not authorization for training, calibration, scoring, or confirmation claims."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "purpose": "frozen 30d/50% rules applied to locked official holdout inputs",
+  "official_holdout_tiles": 562,
+  "paired_eligible_tiles": 443,
+  "activation_eligible_counts": {
+    "EMSR251": 98,
+    "EMSR321": 109,
+    "EMSR358": 33,
+    "EMSR556": 13,
+    "EMSR757": 3,
+    "EMSR763": 6,
+    "EMSR766": 2,
+    "EMSR841": 2,
+    "EMSR844": 5,
+    "EMSR845": 22,
+    "EMSR860": 142,
+    "EMSR867": 8
+  },
+  "paired_eligible_activations_at_least_5": 9,
+  "test_label_pixels_read": false,
+  "test_quality_threshold_chosen": false,
+  "archive_expected_sha256": {
+    "S1RTC": "2c056513a05edc4ee2db474c33af5ce0f7d7b89256ae60811726db64b63cdcde",
+    "S2L2A": "a001c7165c4264ae119a013c396a2e54e1f4fdfab48b55e704f4238c78906829",
+    "MASK": "8e2b805020e9ef7adda33856e579fdb454a07f7c6469f30cfb8a92a5b52597aa"
+  },
+  "official_ids_sha256": "8d095b68b271fbe6e7735175d265fb6e3d27634405a31a3ced61cf6b09cbab64",
+  "output_sha256": "9c50d14ad19b5d26ec93d28e2933dc66f477b7a968da424156e3e1f918e47859",
+  "completed_utc": "2026-09-27T04:20:58.669068+00:00"
+}

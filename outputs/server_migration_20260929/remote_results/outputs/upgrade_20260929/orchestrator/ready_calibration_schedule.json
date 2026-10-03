@@ -1,0 +1,24 @@
+{
+  "status": "INCOMPLETE_DEFERRED_MANDATORY_FIT",
+  "interpretation": "retrospective descriptive only; no results summary authorized",
+  "planned_fit_count": 18,
+  "planned_temperature_count": 24,
+  "planned_neural_evaluation_count": 48,
+  "missing_mandatory_fits": [
+    "SMAGNet_seed_20261013"
+  ],
+  "ready_temperature_count": 23,
+  "deferred_temperature_jobs": [
+    {
+      "model": "SMAGNet",
+      "seed": 20261013,
+      "strategy": "original",
+      "job_id": "SMAGNet_seed_20261013_original"
+    }
+  ],
+  "config_sha256": "72af5dc7d742fe2f3f21acf72f6bdffc7226d9068a5d699db49eaae48b3c7549",
+  "freeze_sha256": "2e2c75ab0d1cfc783b735d7eaa341432d5ef4ef71820d7cde06ff5bfdd4abf8b",
+  "scheduler_sha256": "ab54f8d5d1146ecbfc46daf461521af0169c08468629891f07d7358f6ae9ae59",
+  "purpose": "advance fixed independent calibration while failed fit exception is pending",
+  "ready_jobs_completed": true
+}

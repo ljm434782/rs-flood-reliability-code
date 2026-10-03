@@ -1,0 +1,10 @@
+{
+  "source": "ImpactMesh-Flood v1 official train/S2L2A.tar, candidate training role only",
+  "sample_count": 12305,
+  "rows": 49220,
+  "s2_tar_sha256": "0a58335297971c4a6e5e4f4e4aa8d2afe9201dedaad35e08babd03f3a1bb0c6f",
+  "mask_input_sha256": "7708dffd3c337652614dae6ff2cebcd7c3f37696ddcc47ffb9875fb9c7cc9751",
+  "output_sha256": "7189cd8334f2abbbae3282a1fe813f4906394e69c5e94aac822b7060782d8980",
+  "joint_visible_definition": "SCL in {4,5,6} AND cloud_mask==0 AND nan_mask==0 AND all 12 bands finite and !=-9999 AND data_mask==1",
+  "use_limit": "Candidate training-role audit only; no held-out role read and no eligibility threshold selected"
+}

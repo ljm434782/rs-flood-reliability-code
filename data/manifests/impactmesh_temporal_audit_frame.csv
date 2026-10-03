@@ -1,0 +1,25 @@
+rank,activation,sample_id,train_mask_tar_ordinal,train_activation_sample_count,selection_state
+1,EMSR156,EMSR156_1_29UNV_x545285_y5951505,108,12,fixed before S1/S2 pilot retrieval; label pixels unread
+2,EMSR636,EMSR636_9_51PUS_x348445_y1633025,12087,8,fixed before S1/S2 pilot retrieval; label pixels unread
+3,EMSR640,EMSR640_2_30VWJ_x547805_y6332575,12335,58,fixed before S1/S2 pilot retrieval; label pixels unread
+4,EMSR424,EMSR424_1_38LQH_x786235_y8282875,6765,539,fixed before S1/S2 pilot retrieval; label pixels unread
+5,EMSR480,EMSR480_1_35SLV_x353295_y3909345,9678,12,fixed before S1/S2 pilot retrieval; label pixels unread
+6,EMSR868,EMSR868_1_35TMF_x440035_y4571445,19339,105,fixed before S1/S2 pilot retrieval; label pixels unread
+7,EMSR468,EMSR468_2_32TMP_x410975_y4893975,8887,23,fixed before S1/S2 pilot retrieval; label pixels unread
+8,EMSR554,EMSR554_2_56JKP_x241845_y6830575,11065,141,fixed before S1/S2 pilot retrieval; label pixels unread
+9,EMSR243,EMSR243_3_19QHA_x815785_y1997425,1514,49,fixed before S1/S2 pilot retrieval; label pixels unread
+10,EMSR838,EMSR838_7_43RCP_x327085_y3332525,17044,286,fixed before S1/S2 pilot retrieval; label pixels unread
+11,EMSR813,EMSR813_1_17MQR_x738105_y9559115,16767,1,fixed before S1/S2 pilot retrieval; label pixels unread
+12,EMSR203,EMSR203_1_14SQF_x732085_y4027095,690,77,fixed before S1/S2 pilot retrieval; label pixels unread
+13,EMSR323,EMSR323_5_31SED_x524615_y4398675,5159,4,fixed before S1/S2 pilot retrieval; label pixels unread
+14,EMSR642,EMSR642_3_32TQQ_x279785_y4928275,12387,33,fixed before S1/S2 pilot retrieval; label pixels unread
+15,EMSR637,EMSR637_12_55HBA_x303975_y6006605,12108,17,fixed before S1/S2 pilot retrieval; label pixels unread
+16,EMSR502,EMSR502_3_29UNT_x558575_y5776795,10293,17,fixed before S1/S2 pilot retrieval; label pixels unread
+17,EMSR414,EMSR414_2_33TVM_x404775_y5167735,6067,16,fixed before S1/S2 pilot retrieval; label pixels unread
+18,EMSR851,EMSR851_2_44NLN_x387545_y767665,17407,28,fixed before S1/S2 pilot retrieval; label pixels unread
+19,EMSR283,EMSR283_10_32VNP_x524975_y6853225,4212,14,fixed before S1/S2 pilot retrieval; label pixels unread
+20,EMSR694,EMSR694_3_30TVK_x418245_y4462945,13847,8,fixed before S1/S2 pilot retrieval; label pixels unread
+21,EMSR192,EMSR192_5_32TLR_x388535_y5006795,519,22,fixed before S1/S2 pilot retrieval; label pixels unread
+22,EMSR850,EMSR850_6_34TCM_x363545_y4645875,17363,39,fixed before S1/S2 pilot retrieval; label pixels unread
+23,EMSR166,EMSR166_4_33UUP_x375705_y5347715,145,29,fixed before S1/S2 pilot retrieval; label pixels unread
+24,EMSR864,EMSR864_3_29SNC_x510605_y4284775,18584,347,fixed before S1/S2 pilot retrieval; label pixels unread

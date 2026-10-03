@@ -1,0 +1,32 @@
+{
+  "split": "val",
+  "source_tar_sha256": "c5675b95582b86341f12fe07a16963ae4b1e3d7f1c5f5fbb5c943eb8bbf1bdf9",
+  "source_index_sha256": "930066a673f389b5977d7904ea7b02d2892b0c0f2a8629bc00d879cc40547c5a",
+  "grid_index_sha256": "ad2c61a360214471799f26e0eab85b2adc853032ae082f88fee19f0148470b70",
+  "member_count": 2171,
+  "id_zone_crs_mismatch_count": 424,
+  "id_zone_crs_mismatch_examples": [
+    "EMSR411_1_31TGJ_x300545_y4808185",
+    "EMSR411_1_31TGJ_x300545_y4810745",
+    "EMSR411_1_31TGJ_x300545_y4813305",
+    "EMSR411_1_31TGJ_x300545_y4815865",
+    "EMSR411_1_31TGJ_x300545_y4818425",
+    "EMSR411_1_31TGJ_x303105_y4813305",
+    "EMSR411_1_31TGJ_x303105_y4815865",
+    "EMSR411_1_31TGJ_x303105_y4818425",
+    "EMSR411_1_31TGJ_x303105_y4820985",
+    "EMSR411_1_31TGJ_x305665_y4810745",
+    "EMSR411_1_31TGJ_x305665_y4813305",
+    "EMSR411_1_31TGJ_x305665_y4820985",
+    "EMSR411_1_31TGJ_x308225_y4808185",
+    "EMSR411_1_31TGJ_x308225_y4813305",
+    "EMSR411_1_31TGJ_x308225_y4815865",
+    "EMSR411_1_31TGJ_x308225_y4818425",
+    "EMSR411_1_31TGJ_x308225_y4820985",
+    "EMSR411_1_31TGJ_x310785_y4808185",
+    "EMSR411_1_31TGJ_x310785_y4813305",
+    "EMSR411_1_31TGJ_x310785_y4815865"
+  ],
+  "header_only": true,
+  "scope": "Grid CRS and bounds from each TIFF header; no label pixel values read"
+}

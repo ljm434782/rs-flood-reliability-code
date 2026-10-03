@@ -1,0 +1,33 @@
+{
+  "created_utc": "2026-09-27T06:48:12.750678+00:00",
+  "choice": "P_residual_v3",
+  "ranking": [
+    {
+      "candidate": "P_residual_v3",
+      "dev_score": 0.0723533766503762,
+      "epoch": 6,
+      "checkpoint_sha256": "e0a4ab877da478329ebf106c07d330a904b6f3b9727010e94d55cefae1ac08e0"
+    },
+    {
+      "candidate": "P_sigmoid_v3",
+      "dev_score": 0.07276321987244294,
+      "epoch": 5,
+      "checkpoint_sha256": "ae051e0a3a3c8ecb5e31add6866d59f60f2052ff6d6ee70ea0b325a3607f52ff"
+    },
+    {
+      "candidate": "B5_v3",
+      "dev_score": 0.07435972835846752,
+      "epoch": 8,
+      "checkpoint_sha256": "4135afba38a5007e8702522a50a647602042f8c23fb412a0ac9e6bf0212b8a5c"
+    },
+    {
+      "candidate": "B4_v3",
+      "dev_score": 0.09218388774161818,
+      "epoch": 5,
+      "checkpoint_sha256": "e180b8b726ccb69a2be1a422e8606b59cd3e04b6d21b723f91bf90716c2d1ad7"
+    }
+  ],
+  "basis": "new 16-process training-only development fold",
+  "config_sha256": "55105dfc97aac48cbac5fbc722bbfb1f180870ed013a2a84581209abdcb87c2d",
+  "selection_uses_viewed_validation": false
+}

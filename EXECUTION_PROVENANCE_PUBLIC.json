@@ -1,0 +1,87 @@
+{
+  "kind": "objective public provenance summary; not an execution authorization",
+  "release_date": "2026-10-02",
+  "source_package": "rs-flood-reliability-code-20261002.zip",
+  "source_zip_sha256": "c3c52c705b31bda47672b91fe59bb639362f0a1aad9182477b9e7c8e285a6d82",
+  "original_frozen_experiment_date": "2026-09-29",
+  "execution_authorization": "researcher-directed",
+  "independent_review_passed": false,
+  "independent_pre_run_review_passed": false,
+  "interpretation": "retrospective descriptive only",
+  "new_blind_confirmation": false,
+  "scientific_configuration_parameters_unchanged": true,
+  "cached_numerical_outputs_unchanged": true,
+  "original_archive_unchanged": true,
+  "historical_execution_control_records_distributed": false,
+  "public_archive_is_not_an_executable_historical_freeze": true,
+  "config_projections": [
+    {
+      "public_path": "configs/upgrade_20260929.json",
+      "historical_config_sha256": "d1c211b5e8931b4faf6f3e186180455d3e54fb4b25d795351db9bbcc90ea17f1",
+      "public_config_sha256": "951dc3cff3afa69aed8dbb88af6db2876f0a076952552de994ef8f3d1eb6c93f",
+      "scientific_json_fields_unchanged": true
+    },
+    {
+      "public_path": "outputs/server_migration_20260929/package/configs/upgrade_20260929.json",
+      "historical_config_sha256": "72af5dc7d742fe2f3f21acf72f6bdffc7226d9068a5d699db49eaae48b3c7549",
+      "public_config_sha256": "399976970f1ad6e1944a4c3141fdd3972c0de67c89dd819ae3c643ac21245479",
+      "scientific_json_fields_unchanged": true
+    }
+  ],
+  "historical_freeze_digests": [
+    {
+      "original_path": "G3_FREEZE_MANIFEST.json",
+      "original_sha256": "d70964c1533a78c84c78b8970ab893748b555c62c7ff3d0860c3cd0a3993cd0b",
+      "original_config_sha256": "d1c211b5e8931b4faf6f3e186180455d3e54fb4b25d795351db9bbcc90ea17f1",
+      "original_created_utc": "2026-09-29T08:57:15.413288+00:00",
+      "original_locked_file_count": 73,
+      "distributed_as_executable_freeze": false
+    },
+    {
+      "original_path": "outputs/server_migration_20260929/package/G3_FREEZE_MANIFEST.json",
+      "original_sha256": "2e2c75ab0d1cfc783b735d7eaa341432d5ef4ef71820d7cde06ff5bfdd4abf8b",
+      "original_config_sha256": "72af5dc7d742fe2f3f21acf72f6bdffc7226d9068a5d699db49eaae48b3c7549",
+      "original_created_utc": "2026-09-29T08:57:15.413288+00:00",
+      "original_locked_file_count": 95,
+      "distributed_as_executable_freeze": false
+    },
+    {
+      "original_path": "outputs/server_migration_20260929/package/migration_source/G3_FREEZE_MANIFEST.json",
+      "original_sha256": "d70964c1533a78c84c78b8970ab893748b555c62c7ff3d0860c3cd0a3993cd0b",
+      "original_config_sha256": "d1c211b5e8931b4faf6f3e186180455d3e54fb4b25d795351db9bbcc90ea17f1",
+      "original_created_utc": "2026-09-29T08:57:15.413288+00:00",
+      "original_locked_file_count": 73,
+      "distributed_as_executable_freeze": false
+    },
+    {
+      "original_path": "outputs/server_migration_20260929/remote_results/G3_FREEZE_MANIFEST.json",
+      "original_sha256": "2e2c75ab0d1cfc783b735d7eaa341432d5ef4ef71820d7cde06ff5bfdd4abf8b",
+      "original_config_sha256": "72af5dc7d742fe2f3f21acf72f6bdffc7226d9068a5d699db49eaae48b3c7549",
+      "original_created_utc": "2026-09-29T08:57:15.413288+00:00",
+      "original_locked_file_count": 95,
+      "distributed_as_executable_freeze": false
+    }
+  ],
+  "hardware": {
+    "imported_completed_XPU_models": [
+      "B2_seed_20261013",
+      "B2_seed_20261014"
+    ],
+    "remaining_neural_fits": 16,
+    "remaining_device": "CUDA RTX A5000",
+    "original_XPU_runtime": "Windows; torch 2.14.0+xpu",
+    "CUDA_runtime": "Linux; Python 3.11; torch 2.5.1+cu124",
+    "common_hardware_for_all_models": false,
+    "cross_device_bitwise_recomputation_claimed": false
+  },
+  "historical_technical_restart": {
+    "run_id": "SMAGNet_seed_20261013",
+    "researcher_authorized": true,
+    "allowed_total_starts": 3,
+    "scientific_model_data_and_parameters_changed": false,
+    "source_record_sha256": "f1fbb61e84b6c626c48c86a3dc3a22ec7ab29561e82b18eb442664c97336c656"
+  },
+  "model_tensors_distributed": false,
+  "raw_imagery_distributed": false,
+  "full_raw_checkpoint_recomputation_verified": false
+}

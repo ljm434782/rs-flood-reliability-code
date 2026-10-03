@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "purpose": "missing dependency recovery check",
+  "data_access": "none; synthetic tensors only",
+  "model": "SMAGNet",
+  "precision": "FP32; no AMP; TF32 disabled",
+  "batch_size": 4,
+  "duration_seconds": 6.403764702845365,
+  "step": {
+    "mean_batch_loss": 1.603860855102539,
+    "batches": 1,
+    "non_ignore_pixels": 262140,
+    "duration_seconds": 1.031712552998215
+  },
+  "added_packages": [
+    "Markdown==3.11",
+    "Werkzeug==3.1.9",
+    "absl-py==2.5.0",
+    "grpcio==1.84.0",
+    "protobuf==7.36.2",
+    "tensorboard-data-server==0.7.2",
+    "tensorboard==2.21.0"
+  ],
+  "changed_existing_packages": [],
+  "environment_before_sha256": "a95b98ed870135fced57308a64051b45596630a02a09c0c7e3a2b3bf84bfb92e",
+  "environment_after_sha256": "cc41dadf25e90fdf08bbde8489f963e618bfec7ed4b9993d417801dfcfa6e85e"
+}

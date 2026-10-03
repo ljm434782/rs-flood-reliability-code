@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "device": "cuda",
+  "torch": "2.5.1+cu124",
+  "device_name": "NVIDIA RTX A5000",
+  "precision": "FP32; no AMP; TF32 disabled on CUDA",
+  "batch_size": 4,
+  "data_access": "none; synthetic tensors only",
+  "models": {
+    "B2": {
+      "mean_batch_loss": 1.7278283834457397,
+      "batches": 1,
+      "non_ignore_pixels": 262140,
+      "duration_seconds": 1.6404430670663714,
+      "resume_step": 1.4691369533538818
+    },
+    "B5_whole": {
+      "mean_batch_loss": 1.338839054107666,
+      "batches": 1,
+      "non_ignore_pixels": 262140,
+      "duration_seconds": 0.10414206702262163,
+      "resume_step": 1.2805901765823364
+    },
+    "B5_local": {
+      "mean_batch_loss": 1.6016998291015625,
+      "batches": 1,
+      "non_ignore_pixels": 262140,
+      "duration_seconds": 0.1069563371129334,
+      "resume_step": 1.3783634901046753
+    },
+    "P": {
+      "mean_batch_loss": 1.208700180053711,
+      "batches": 1,
+      "non_ignore_pixels": 262140,
+      "duration_seconds": 0.11770570115186274,
+      "resume_step": 1.2262027263641357
+    }
+  }
+}

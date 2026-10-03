@@ -1,0 +1,23 @@
+{
+  "version": "impactmesh-exploratory-v2-20260927",
+  "status": "post-v1-test exploratory; validation-only selection",
+  "seed": 20260928,
+  "sample_order_seed": "impactmesh-v1-process-balanced-tile-order-20260927",
+  "base_width": 16,
+  "epochs": 8,
+  "batch_size": 4,
+  "learning_rate": 0.001,
+  "training_chips_per_process_per_epoch": 4,
+  "validation_paired_chips_per_process": 2,
+  "validation_real_missing_chips_per_process": 2,
+  "selection_states": ["full", "half", "zero", "real_missing"],
+  "selection_metric": "equal_mean_of_process_equal_raw_nll_across_four_states",
+  "selection_tie_break": "earliest_epoch",
+  "candidates": {
+    "B4_bestval": {"model": "B4", "dropout": 0.0, "gate_sar": false},
+    "B5_drop050": {"model": "B5", "dropout": 0.5, "gate_sar": false},
+    "B5_drop025": {"model": "B5", "dropout": 0.25, "gate_sar": false},
+    "P_gate_both": {"model": "P", "dropout": 0.5, "gate_sar": true},
+    "P_no_sar_gate": {"model": "P", "dropout": 0.5, "gate_sar": false}
+  }
+}

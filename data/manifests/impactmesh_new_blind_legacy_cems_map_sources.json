@@ -1,0 +1,8 @@
+{
+  "completed_utc": "2026-09-27T06:43:04.012473+00:00",
+  "source": "CEMS official activation pages and linked AOI delineation maps",
+  "map_count": 5,
+  "output_sha256": "945cd1db4aab3023c95f03db8d6f7eea6a0bac026ccbb3b90145df0a2334dd4c",
+  "impactmesh_label_pixels_read": false,
+  "model_outputs_read": false
+}

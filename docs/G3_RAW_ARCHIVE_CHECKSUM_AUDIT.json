@@ -1,0 +1,61 @@
+{
+  "archives": [
+    {
+      "expected_size_bytes": 48650240,
+      "path": "data/raw/impactmesh/train/MASK.tar",
+      "publisher_git_oid": "54e47e22c4a3afd016d7525f4d27f9b2c0294316",
+      "publisher_lfs_sha256": "dc9f2003ac8a1e55511d98f00564f5d967564deb8be41d4270a55192a53c1876",
+      "sha256": "dc9f2003ac8a1e55511d98f00564f5d967564deb8be41d4270a55192a53c1876",
+      "size_bytes": 48650240
+    },
+    {
+      "expected_size_bytes": 13719961600,
+      "path": "data/raw/impactmesh/train/S1RTC.tar",
+      "publisher_git_oid": "eba5f8c00fd15b4b7ce45fc57a6117651120d318",
+      "publisher_lfs_sha256": "f742b9b2f9362c0635d372129b640b525e0d300d062d72cc647f864fc20a28ee",
+      "sha256": "f742b9b2f9362c0635d372129b640b525e0d300d062d72cc647f864fc20a28ee",
+      "size_bytes": 13719961600
+    },
+    {
+      "expected_size_bytes": 42587596800,
+      "path": "data/raw/impactmesh/train/S2L2A.tar",
+      "publisher_git_oid": "3424f101a8a0560f360eb9da22adea6ae152a668",
+      "publisher_lfs_sha256": "0a58335297971c4a6e5e4f4e4aa8d2afe9201dedaad35e08babd03f3a1bb0c6f",
+      "sha256": "0a58335297971c4a6e5e4f4e4aa8d2afe9201dedaad35e08babd03f3a1bb0c6f",
+      "size_bytes": 42587596800
+    },
+    {
+      "expected_size_bytes": 7608320,
+      "path": "data/raw/impactmesh/test/MASK.tar",
+      "publisher_git_oid": "c1669cadf03529ba48c4374bfec282f3bd89382b",
+      "publisher_lfs_sha256": "8e2b805020e9ef7adda33856e579fdb454a07f7c6469f30cfb8a92a5b52597aa",
+      "sha256": "8e2b805020e9ef7adda33856e579fdb454a07f7c6469f30cfb8a92a5b52597aa",
+      "size_bytes": 7608320
+    },
+    {
+      "expected_size_bytes": 2087639040,
+      "path": "data/raw/impactmesh/test/S1RTC.tar",
+      "publisher_git_oid": "f1a7a235a21dc7f68484a19c3c14a5080bc5b06e",
+      "publisher_lfs_sha256": "2c056513a05edc4ee2db474c33af5ce0f7d7b89256ae60811726db64b63cdcde",
+      "sha256": "2c056513a05edc4ee2db474c33af5ce0f7d7b89256ae60811726db64b63cdcde",
+      "size_bytes": 2087639040
+    },
+    {
+      "expected_size_bytes": 6395484160,
+      "path": "data/raw/impactmesh/test/S2L2A.tar",
+      "publisher_git_oid": "044350705d3e10ef09b4f7b9cffce4e2adfa6a2f",
+      "publisher_lfs_sha256": "a001c7165c4264ae119a013c396a2e54e1f4fdfab48b55e704f4238c78906829",
+      "sha256": "a001c7165c4264ae119a013c396a2e54e1f4fdfab48b55e704f4238c78906829",
+      "size_bytes": 6395484160
+    }
+  ],
+  "checked_utc": "2026-09-29T06:39:03.044567+00:00",
+  "license": "CC-BY-4.0",
+  "mismatches": [],
+  "publisher_asset_manifest": "data/manifests/impactmesh_assets.json",
+  "publisher_asset_manifest_sha256": "e9a3c894d178d77bd5e63a2a1ccaa981fe0a53c637543b3c0408360b59c698db",
+  "raw_archives_overwritten": false,
+  "source_repository": "ibm-esa-geospatial/ImpactMesh-Flood",
+  "source_version": "ImpactMesh-Flood v1",
+  "status": "PASS"
+}

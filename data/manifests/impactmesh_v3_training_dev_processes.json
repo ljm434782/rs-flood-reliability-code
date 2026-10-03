@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-09-27T06:02:22.104926+00:00",
+  "method": "hash-only split of original training process IDs; no label pixels read",
+  "config_sha256": "55105dfc97aac48cbac5fbc722bbfb1f180870ed013a2a84581209abdcb87c2d",
+  "original_split_sha256": "537617bdabeaa2e0fd1c01a11282d425d31c1d477315159aad0b68eb62e52e95",
+  "eligibility_sha256": "92925c8289c81041d99a8b67131de7e025861094386881daf44d12511b30d9a0",
+  "output_sha256": "c33b85be14b3244776e25d30c387df3aa2a048370ae04f9237783cbcacffbead",
+  "fit_processes": 65,
+  "dev_processes": 16,
+  "fit_paired_tiles": 3982,
+  "dev_paired_tiles": 416,
+  "dev_real_missing_processes": 10,
+  "dev_real_missing_tiles": 213,
+  "test_labels_or_metrics_read": false
+}

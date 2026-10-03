@@ -1,0 +1,34 @@
+{
+  "status": "INCOMPLETE_DEFERRED_MANDATORY_FIT",
+  "interpretation": "retrospective descriptive only; no partial result summary authorized",
+  "result_scores_embargoed_until_complete_matrix": true,
+  "planned_fit_count": 18,
+  "planned_temperature_count": 24,
+  "planned_neural_evaluation_count": 48,
+  "planned_B1_evaluation_count": 2,
+  "missing_mandatory_fits": [
+    "SMAGNet_seed_20261013"
+  ],
+  "ready_temperature_count": 23,
+  "ready_neural_evaluation_count": 46,
+  "ready_B1_evaluation_count": 2,
+  "deferred_evaluation_jobs": [
+    {
+      "model": "SMAGNet",
+      "seed": 20261013,
+      "strategy": "original",
+      "role": "internal_retro"
+    },
+    {
+      "model": "SMAGNet",
+      "seed": 20261013,
+      "strategy": "original",
+      "role": "holdout_retro"
+    }
+  ],
+  "config_sha256": "72af5dc7d742fe2f3f21acf72f6bdffc7226d9068a5d699db49eaae48b3c7549",
+  "freeze_sha256": "2e2c75ab0d1cfc783b735d7eaa341432d5ef4ef71820d7cde06ff5bfdd4abf8b",
+  "scheduler_sha256": "6b2b2ca8e349217b87849a93110ae8819143e771861df2e14d5083f67ee932bd",
+  "purpose": "advance fixed independent evaluations while failed fit exception is pending",
+  "ready_jobs_completed": false
+}

@@ -1,0 +1,22 @@
+{
+  "completed_utc": "2026-09-27T06:18:25.582148+00:00",
+  "purpose": "candidate geometry metadata spatial overlap only",
+  "candidate_tiles": 202,
+  "overlap_activation_ids_by_candidate": {
+    "EMSR410": [],
+    "EMSR411": [],
+    "EMSR496": [],
+    "EMSR559": [],
+    "EMSR788": [],
+    "EMSR843": []
+  },
+  "source_sha256": {
+    "train": "1319ba52972add2ea4f5069830bb69eae748263b7021d7dc7218006a0f9c132b",
+    "val": "ad2c61a360214471799f26e0eab85b2adc853032ae082f88fee19f0148470b70",
+    "test": "076f6cb08b7a76ca9de37fc3853225ae12099bba5a2b9005158c4d9ea5ab61ca"
+  },
+  "output_sha256": "17173aecec408144022b52207d47c989316e205aeaa02a5b22f12ed0c1480ab9",
+  "label_pixels_read": false,
+  "model_outputs_read": false,
+  "limitation": "geometric overlap alone does not establish a shared flood event"
+}

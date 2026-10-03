@@ -1,0 +1,473 @@
+{
+  "canonical_record_sha256": "b9ae636afb50895ea820ba012a897bcf46fea51eded2e638c54d06540f20e757",
+  "cross_role_pair_summary": {
+    "calibration__fit": {
+      "activation_pairs": [
+        [
+          "EMSR260",
+          "EMSR487"
+        ],
+        [
+          "EMSR429",
+          "EMSR849"
+        ],
+        [
+          "EMSR778",
+          "EMSR482"
+        ],
+        [
+          "EMSR795",
+          "EMSR705"
+        ],
+        [
+          "EMSR858",
+          "EMSR486"
+        ]
+      ],
+      "affected_unique_sample_ids": 54,
+      "intersection_grid_cells_10m": 979317,
+      "max_intersection_grid_cells_10m": 57112,
+      "tile_pairs": 48
+    },
+    "fit__internal_retro": {
+      "activation_pairs": [
+        [
+          "EMSR424",
+          "EMSR645"
+        ],
+        [
+          "EMSR586",
+          "EMSR504"
+        ],
+        [
+          "EMSR864",
+          "EMSR417"
+        ]
+      ],
+      "affected_unique_sample_ids": 385,
+      "intersection_grid_cells_10m": 7290174,
+      "max_intersection_grid_cells_10m": 45400,
+      "tile_pairs": 461
+    }
+  },
+  "cross_role_records": 509,
+  "cross_role_records_csv": "G3_CANDIDATE_SPATIAL_OVERLAP_AUDIT.csv",
+  "cross_role_records_csv_sha256": "26cfe8be090e8dbb3a6a738ca25c1156da16b611d86b95d637e3366122ef67f6",
+  "header_validation": {
+    "all_cross_role_intersection_areas_are_integer_10m_cells": true,
+    "all_cross_role_overlaps_share_one_recorded_CRS": true,
+    "all_headers_match_index_bounds_crs_and_10m_north_up_transform": true,
+    "header_shapes": {
+      "('calibration', 256, 256, 10.0, 10.0, 10.0, -10.0, 0.0, 0.0)": 2146,
+      "('fit', 256, 256, 10.0, 10.0, 10.0, -10.0, 0.0, 0.0)": 3525,
+      "('holdout_retro', 256, 256, 10.0, 10.0, 10.0, -10.0, 0.0, 0.0)": 492,
+      "('internal_retro', 256, 256, 10.0, 10.0, 10.0, -10.0, 0.0, 0.0)": 2094
+    }
+  },
+  "limitations": [
+    "Grid cells, not valid/non-ignore label pixels; label values were not read.",
+    "Rule B is a spatial-owner support calculation, not a cure for process or imagery dependence.",
+    "No pixel-exact mask file was written; materializing it still requires a frozen transform/shape/nodata specification and owner rule.",
+    "CEMS activity names/dates/countries do not establish tile-level source or label-product independence.",
+    "Sequential rule drops a complete candidate tile on any prior-role shared 10 m cell; it is a proposed audit calculation, not a revised candidate manifest."
+  ],
+  "method": {
+    "header_count": 8257,
+    "label_values_read": false,
+    "model_outputs_read": false,
+    "pixel_values_read": false,
+    "source": "MASK TIFF headers only; exact native-CRS rectangles; equal-area index EPSG:6933 only for candidate search"
+  },
+  "overlap_activation_cems_context": [
+    {
+      "activation_a": "EMSR260",
+      "activation_b": "EMSR487",
+      "activation_time_a": "2017-12-12T14:57:00",
+      "activation_time_b": "2020-12-06T14:26:00",
+      "classification": "UNVERIFIED: no direct documented CEMS process-family edge; activity metadata supports distinct dates/names as noted but not independence or source separation.",
+      "countries_a": "Italy",
+      "countries_b": "Italy",
+      "evidence_note": "Northern Italy / Emilia-Romagna, 2017-12-12 versus 2020-12-06: repeated broad region at distinct dates; no direct CEMS family edge recorded.",
+      "name_a": "Flood in Northern Italy",
+      "name_b": "Flood in Emilia-Romagna Region- Italy"
+    },
+    {
+      "activation_a": "EMSR429",
+      "activation_b": "EMSR849",
+      "activation_time_a": "2020-02-24T18:56:00",
+      "activation_time_b": "2025-11-14T12:15:00",
+      "classification": "UNVERIFIED: no direct documented CEMS process-family edge; activity metadata supports distinct dates/names as noted but not independence or source separation.",
+      "countries_a": "Ireland",
+      "countries_b": "Ireland",
+      "evidence_note": "Ireland, 2020-02-24 versus Storm Claudia 2025-11-14: distinct dates/names; no direct CEMS family edge recorded.",
+      "name_a": "Flood in Clare- Ireland",
+      "name_b": "Storm Claudia in Ireland"
+    },
+    {
+      "activation_a": "EMSR778",
+      "activation_b": "EMSR482",
+      "activation_time_a": "2024-11-16T23:16:00",
+      "activation_time_b": "2020-11-17T14:23:00",
+      "classification": "UNVERIFIED: no direct documented CEMS process-family edge; activity metadata supports distinct dates/names as noted but not independence or source separation.",
+      "countries_a": "Honduras",
+      "countries_b": "Guatemala;Honduras;Nicaragua",
+      "evidence_note": "Tropical Storm Sara 2024-11-16 versus Tropical Cyclone Iota 2020-11-17: distinct named storms/dates; no direct CEMS family edge recorded.",
+      "name_a": "Tropical Storm Sara in Honduras",
+      "name_b": "Tropical Cyclone Iota in Central America"
+    },
+    {
+      "activation_a": "EMSR795",
+      "activation_b": "EMSR705",
+      "activation_time_a": "2025-03-14T16:07:00",
+      "activation_time_b": "2023-11-03T03:21:00",
+      "classification": "UNVERIFIED: no direct documented CEMS process-family edge; activity metadata supports distinct dates/names as noted but not independence or source separation.",
+      "countries_a": "Italy",
+      "countries_b": "Italy",
+      "evidence_note": "Italy/Tuscany, 2025-03-14 versus 2023-11-03: repeated broad region at distinct dates; no direct CEMS family edge recorded.",
+      "name_a": "Flood in Italy",
+      "name_b": "Flood in Tuscany region, Italy"
+    },
+    {
+      "activation_a": "EMSR858",
+      "activation_b": "EMSR486",
+      "activation_time_a": "2026-01-19T10:40:00",
+      "activation_time_b": "2020-11-28T16:19:00",
+      "classification": "UNVERIFIED: no direct documented CEMS process-family edge; activity metadata supports distinct dates/names as noted but not independence or source separation.",
+      "countries_a": "Italy",
+      "countries_b": "Italy",
+      "evidence_note": "Southern Italy 2026-01-19 versus eastern Sardinia 2020-11-28: distinct dates; no direct CEMS family edge recorded.",
+      "name_a": "Flood in Southern Italy",
+      "name_b": "Flood in Eastern Sardinia- Italy"
+    },
+    {
+      "activation_a": "EMSR424",
+      "activation_b": "EMSR645",
+      "activation_time_a": "2020-01-30T12:35:00",
+      "activation_time_b": "2023-01-25T10:39:00",
+      "classification": "UNVERIFIED: no direct documented CEMS process-family edge; activity metadata supports distinct dates/names as noted but not independence or source separation.",
+      "countries_a": "Madagascar",
+      "countries_b": "Madagascar",
+      "evidence_note": "Madagascar, 2020-01-30 tropical disturbance versus 2023-01-25 Tropical Storm Cheneso: distinct dates/names; no direct CEMS family edge recorded.",
+      "name_a": "Flood and Landslide in Madagascar",
+      "name_b": "Tropical Storm Cheneso in Madagascar"
+    },
+    {
+      "activation_a": "EMSR586",
+      "activation_b": "EMSR504",
+      "activation_time_a": "2022-07-03T08:40:00",
+      "activation_time_b": "2021-03-20T12:40:00",
+      "classification": "UNVERIFIED: no direct documented CEMS process-family edge; activity metadata supports distinct dates/names as noted but not independence or source separation.",
+      "countries_a": "Australia",
+      "countries_b": "Australia",
+      "evidence_note": "New South Wales, 2022-07-03 versus 2021-03-20: repeated region at distinct dates; no direct CEMS family edge recorded.",
+      "name_a": "Flood in New South Wales- Australia",
+      "name_b": "Floods- Australia"
+    },
+    {
+      "activation_a": "EMSR864",
+      "activation_b": "EMSR417",
+      "activation_time_a": "2026-02-03T20:22:00",
+      "activation_time_b": "2019-12-23T14:22:00",
+      "classification": "UNVERIFIED: no direct documented CEMS process-family edge; activity metadata supports distinct dates/names as noted but not independence or source separation.",
+      "countries_a": "Portugal",
+      "countries_b": "Portugal",
+      "evidence_note": "Portugal/Spain 2026-02-03 versus Portugal 2019-12-23: repeated region at distinct dates; no direct CEMS family edge recorded. EMSR864 separately has an unresolved recorded edge to EMSR861, not to EMSR417.",
+      "name_a": "Flood in Portugal and Spain",
+      "name_b": "Flood in Portugal"
+    }
+  ],
+  "purpose": "Metadata-only precise MASK-grid spatial-overlap audit for G3 candidate lists; no raster values read",
+  "rule_a_fit_only_tile_filter_support": {
+    "calibration": {
+      "affected_activations": [
+        "EMSR260",
+        "EMSR429",
+        "EMSR778",
+        "EMSR795",
+        "EMSR858"
+      ],
+      "candidate_tiles": 2146,
+      "candidate_units": 19,
+      "removed_tiles": 29,
+      "retained_raw_grid_cells": 138739712,
+      "retained_tiles": 2117,
+      "retained_unique_grid_cells": 137276776,
+      "retained_units": 19
+    },
+    "fit": {
+      "affected_activations": [],
+      "candidate_tiles": 3525,
+      "candidate_units": 60,
+      "removed_tiles": 0,
+      "retained_raw_grid_cells": 231014400,
+      "retained_tiles": 3525,
+      "retained_unique_grid_cells": 227902756,
+      "retained_units": 60
+    },
+    "holdout_retro": {
+      "affected_activations": [],
+      "candidate_tiles": 492,
+      "candidate_units": 9,
+      "removed_tiles": 0,
+      "retained_raw_grid_cells": 32243712,
+      "retained_tiles": 492,
+      "retained_unique_grid_cells": 31960502,
+      "retained_units": 9
+    },
+    "internal_retro": {
+      "affected_activations": [
+        "EMSR417",
+        "EMSR504",
+        "EMSR645"
+      ],
+      "candidate_tiles": 2094,
+      "candidate_units": 18,
+      "removed_tiles": 188,
+      "retained_raw_grid_cells": 124911616,
+      "retained_tiles": 1906,
+      "retained_unique_grid_cells": 116600926,
+      "retained_units": 18
+    }
+  },
+  "rule_a_remove_any_evaluation_tile_with_fit_pixel_center_overlap": {
+    "calibration": {
+      "affected_activations": [
+        "EMSR260",
+        "EMSR429",
+        "EMSR778",
+        "EMSR795",
+        "EMSR858"
+      ],
+      "candidate_tiles": 2146,
+      "candidate_units": 19,
+      "removed_tiles": 29,
+      "retained_raw_grid_cells": 138739712,
+      "retained_tiles": 2117,
+      "retained_unique_grid_cells": 137276776,
+      "retained_units": 19
+    },
+    "fit": {
+      "affected_activations": [],
+      "candidate_tiles": 3525,
+      "candidate_units": 60,
+      "removed_tiles": 0,
+      "retained_raw_grid_cells": 231014400,
+      "retained_tiles": 3525,
+      "retained_unique_grid_cells": 227902756,
+      "retained_units": 60
+    },
+    "holdout_retro": {
+      "affected_activations": [],
+      "candidate_tiles": 492,
+      "candidate_units": 9,
+      "removed_tiles": 0,
+      "retained_raw_grid_cells": 32243712,
+      "retained_tiles": 492,
+      "retained_unique_grid_cells": 31960502,
+      "retained_units": 9
+    },
+    "internal_retro": {
+      "affected_activations": [
+        "EMSR417",
+        "EMSR504",
+        "EMSR645"
+      ],
+      "candidate_tiles": 2094,
+      "candidate_units": 18,
+      "removed_tiles": 188,
+      "retained_raw_grid_cells": 124911616,
+      "retained_tiles": 1906,
+      "retained_unique_grid_cells": 116600926,
+      "retained_units": 18
+    }
+  },
+  "rule_b_fixed_role_precedence_fit_then_calibration_then_internal_then_holdout": {
+    "calibration": {
+      "candidate_tiles": 2146,
+      "candidate_units": 19,
+      "owned_unique_grid_cells": 138198003,
+      "tiles_with_any_owned_pixel": 2146,
+      "units_with_any_owned_pixel": 19,
+      "units_zero_owned_pixels": []
+    },
+    "holdout_retro": {
+      "candidate_tiles": 492,
+      "candidate_units": 9,
+      "owned_unique_grid_cells": 31960502,
+      "tiles_with_any_owned_pixel": 492,
+      "units_with_any_owned_pixel": 9,
+      "units_zero_owned_pixels": []
+    },
+    "internal_retro": {
+      "candidate_tiles": 2094,
+      "candidate_units": 18,
+      "owned_unique_grid_cells": 121637454,
+      "tiles_with_any_owned_pixel": 2047,
+      "units_with_any_owned_pixel": 18,
+      "units_zero_owned_pixels": []
+    }
+  },
+  "sequential_whole_tile_rule_fit_then_calibration_then_internal_then_holdout": {
+    "calibration": {
+      "activations_at_minimum_retained_tiles": [
+        "EMSR858"
+      ],
+      "candidate_activations": 20,
+      "candidate_tiles": 2146,
+      "candidate_units": 19,
+      "minimum_retained_tiles_per_activation": 7,
+      "minimum_retained_tiles_per_unit": 7,
+      "removed_tiles": 29,
+      "retained_activations": 20,
+      "retained_tiles": 2117,
+      "retained_units": 19,
+      "units_at_minimum_retained_tiles": [
+        "PROC_EMSR858"
+      ]
+    },
+    "fit": {
+      "activations_at_minimum_retained_tiles": [
+        "EMSR231"
+      ],
+      "candidate_activations": 66,
+      "candidate_tiles": 3525,
+      "candidate_units": 60,
+      "minimum_retained_tiles_per_activation": 5,
+      "minimum_retained_tiles_per_unit": 6,
+      "removed_tiles": 0,
+      "retained_activations": 66,
+      "retained_tiles": 3525,
+      "retained_units": 60,
+      "units_at_minimum_retained_tiles": [
+        "PROC_EMSR150",
+        "PROC_EMSR870"
+      ]
+    },
+    "holdout_retro": {
+      "activations_at_minimum_retained_tiles": [
+        "EMSR841"
+      ],
+      "candidate_activations": 9,
+      "candidate_tiles": 492,
+      "candidate_units": 9,
+      "minimum_retained_tiles_per_activation": 2,
+      "minimum_retained_tiles_per_unit": 2,
+      "removed_tiles": 0,
+      "retained_activations": 9,
+      "retained_tiles": 492,
+      "retained_units": 9,
+      "units_at_minimum_retained_tiles": [
+        "PROC_EMSR841"
+      ]
+    },
+    "internal_retro": {
+      "activations_at_minimum_retained_tiles": [
+        "EMSR385"
+      ],
+      "candidate_activations": 18,
+      "candidate_tiles": 2094,
+      "candidate_units": 18,
+      "minimum_retained_tiles_per_activation": 5,
+      "minimum_retained_tiles_per_unit": 5,
+      "removed_tiles": 188,
+      "retained_activations": 18,
+      "retained_tiles": 1906,
+      "retained_units": 18,
+      "units_at_minimum_retained_tiles": [
+        "PROC_EMSR385"
+      ]
+    }
+  },
+  "six_role_pair_matrix_after_sequential_whole_tile_rule": {
+    "calibration__holdout_retro": {
+      "pairwise_shared_10m_grid_cells": 0,
+      "positive_area_tile_pairs": 0
+    },
+    "calibration__internal_retro": {
+      "pairwise_shared_10m_grid_cells": 0,
+      "positive_area_tile_pairs": 0
+    },
+    "fit__calibration": {
+      "pairwise_shared_10m_grid_cells": 0,
+      "positive_area_tile_pairs": 0
+    },
+    "fit__holdout_retro": {
+      "pairwise_shared_10m_grid_cells": 0,
+      "positive_area_tile_pairs": 0
+    },
+    "fit__internal_retro": {
+      "pairwise_shared_10m_grid_cells": 0,
+      "positive_area_tile_pairs": 0
+    },
+    "internal_retro__holdout_retro": {
+      "pairwise_shared_10m_grid_cells": 0,
+      "positive_area_tile_pairs": 0
+    }
+  },
+  "six_role_pair_matrix_before_repair": {
+    "calibration__holdout_retro": {
+      "pairwise_shared_10m_grid_cells": 0,
+      "positive_area_tile_pairs": 0,
+      "unique_affected_tiles": {
+        "calibration": 0,
+        "holdout_retro": 0
+      },
+      "unique_affected_tiles_total": 0
+    },
+    "calibration__internal_retro": {
+      "pairwise_shared_10m_grid_cells": 0,
+      "positive_area_tile_pairs": 0,
+      "unique_affected_tiles": {
+        "calibration": 0,
+        "internal_retro": 0
+      },
+      "unique_affected_tiles_total": 0
+    },
+    "fit__calibration": {
+      "pairwise_shared_10m_grid_cells": 979317,
+      "positive_area_tile_pairs": 48,
+      "unique_affected_tiles": {
+        "calibration": 29,
+        "fit": 25
+      },
+      "unique_affected_tiles_total": 54
+    },
+    "fit__holdout_retro": {
+      "pairwise_shared_10m_grid_cells": 0,
+      "positive_area_tile_pairs": 0,
+      "unique_affected_tiles": {
+        "fit": 0,
+        "holdout_retro": 0
+      },
+      "unique_affected_tiles_total": 0
+    },
+    "fit__internal_retro": {
+      "pairwise_shared_10m_grid_cells": 7290174,
+      "positive_area_tile_pairs": 461,
+      "unique_affected_tiles": {
+        "fit": 197,
+        "internal_retro": 188
+      },
+      "unique_affected_tiles_total": 385
+    },
+    "internal_retro__holdout_retro": {
+      "pairwise_shared_10m_grid_cells": 0,
+      "positive_area_tile_pairs": 0,
+      "unique_affected_tiles": {
+        "holdout_retro": 0,
+        "internal_retro": 0
+      },
+      "unique_affected_tiles_total": 0
+    }
+  },
+  "source_sha256": {
+    "g3_conservative_candidate_calibration.csv": "9186134cb5b13126ea870aef1ab78b3b20c0d3f184878f649ea9ae923a96a4be",
+    "g3_conservative_candidate_fit.csv": "d9eec725011706e500996a2472144281c4588f26a718aec14112f5fe916d09fc",
+    "g3_conservative_candidate_holdout_retro.csv": "46a520224ed096fa8712e8def637824dab42f5c7e712982b041d71645480789d",
+    "g3_conservative_candidate_internal_retro.csv": "596c8019f9062443ed351ae947630792eac8fd44a86029116f9460594bac24fd",
+    "impactmesh_cems_activations.csv": "dcadc14a4a7353c1169ed057ea83a3e455285fa97b77a5738ad1d83cf988a531",
+    "impactmesh_test_mask_grid_index.csv": "076f6cb08b7a76ca9de37fc3853225ae12099bba5a2b9005158c4d9ea5ab61ca",
+    "impactmesh_train_mask_grid_index.csv": "1319ba52972add2ea4f5069830bb69eae748263b7021d7dc7218006a0f9c132b"
+  },
+  "status": "candidate_only_not_frozen"
+}

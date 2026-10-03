@@ -1,0 +1,138 @@
+{
+  "purpose": "training-fit-only gate factor diagnostic",
+  "completed_utc": "2026-09-27T06:50:42.241749+00:00",
+  "sample_rule": "first hash-ordered paired chip in each of 65 fit processes",
+  "sample_ids": [
+    "EMSR150_4_30UWE_x567025_y5959215",
+    "EMSR192_5_32TLR_x388535_y5001675",
+    "EMSR203_1_14SQE_x742325_y3975895",
+    "EMSR228_3_29UPA_x629725_y6085665",
+    "EMSR243_1_19QGA_x756395_y2000395",
+    "EMSR261_3_32UPC_x605945_y5771065",
+    "EMSR265_26_31UDQ_x416135_y5427395",
+    "EMSR273_1_34TCM_x370445_y4670085",
+    "EMSR283_9_32VPM_x616855_y6648885",
+    "EMSR287_5_32UQA_x292605_y5594015",
+    "EMSR314_3_32NKN_x265575_y729425",
+    "EMSR329_3_32SMJ_x503035_y4334845",
+    "EMSR339_1_37KBA_x276455_y8024615",
+    "EMSR347_6_36LYJ_x717565_y8306125",
+    "EMSR352_8_39RTQ_x272525_y3473895",
+    "EMSR388_1_30SXH_x676405_y4297305",
+    "EMSR399_1_48PWS_x581235_y1112985",
+    "EMSR402_2_49PBS_x266295_y1670225",
+    "EMSR414_2_33TVM_x409895_y5167735",
+    "EMSR419_1_40REP_x577205_y2839965",
+    "EMSR424_1_38KPG_x668475_y8185595",
+    "EMSR427_4_33VUE_x714475_y6427475",
+    "EMSR437_2_30TXP_x648795_y4851345",
+    "EMSR438_2_36NVF_x488915_y6595",
+    "EMSR445_2_34TFQ_x681925_y4989875",
+    "EMSR472_1_48QXD_x695045_y1896795",
+    "EMSR477_1_16PHA_x873575_y1583435",
+    "EMSR479_1_15QVA_x434225_y2027565",
+    "EMSR480_1_35SLV_x363535_y3909345",
+    "EMSR482_10_16PHA_x220045_y1562455",
+    "EMSR486_2_32TNK_x541225_y4499425",
+    "EMSR487_1_32TPQ_x650985_y4945215",
+    "EMSR492_1_30TXP_x649985_y4843945",
+    "EMSR495_1_36JVT_x499115_y7274665",
+    "EMSR514_3_20NQM_x771495_y622775",
+    "EMSR517_5_31UGS_x298935_y5661165",
+    "EMSR554_3_55JGG_x726545_y6647985",
+    "EMSR555_1_30TWM_x577825_y4694565",
+    "EMSR561_3_36KYG_x741185_y8115935",
+    "EMSR565_5_38KQV_x790985_y7478025",
+    "EMSR570_1_56JNP_x522805_y6800625",
+    "EMSR586_6_56HLJ_x379315_y6379005",
+    "EMSR634_8_33TUJ_x348835_y4848975",
+    "EMSR637_12_55HBA_x301415_y6004045",
+    "EMSR640_2_30VWJ_x537565_y6347935",
+    "EMSR642_3_32TQQ_x287465_y4907595",
+    "EMSR661_1_46QDH_x487865_y2226515",
+    "EMSR696_1_34SFB_x647655_y3630295",
+    "EMSR705_3_32TPP_x621495_y4833175",
+    "EMSR706_3_31UDS_x443675_y5619935",
+    "EMSR708_1_31UDS_x474205_y5637765",
+    "EMSR712_5_32UPD_x640115_y5806825",
+    "EMSR728_4_32UPU_x603605_y5376885",
+    "EMSR773_1_30SYJ_x730965_y4307665",
+    "EMSR799_4_19KFA_x642815_y7994435",
+    "EMSR802_3_35TML_x421405_y5078045",
+    "EMSR838_3_43RBP_x290895_y3320165",
+    "EMSR848_16_49PBR_x297805_y1531075",
+    "EMSR849_1_29UNU_x570635_y5898445",
+    "EMSR850_6_34TCM_x389205_y4617665",
+    "EMSR853_2_20KMG_x421335_y8117465",
+    "EMSR861_3_30SVG_x468945_y4190185",
+    "EMSR864_3_29SND_x525965_y4336035",
+    "EMSR865_1_18PVQ_x431545_y987995",
+    "EMSR870_13_17MPU_x661805_y9800095"
+  ],
+  "config_sha256": "55105dfc97aac48cbac5fbc722bbfb1f180870ed013a2a84581209abdcb87c2d",
+  "stats_sha256": "8be7dce1a38b382c6998adaa3fb82a59115bec4e0fb3a5ae4c17961cd249e377",
+  "label_values_not_used": true,
+  "validation_or_test_not_used": true,
+  "results": {
+    "P_sigmoid_v3": {
+      "checkpoint_sha256": "ae051e0a3a3c8ecb5e31add6866d59f60f2052ff6d6ee70ea0b325a3607f52ff",
+      "selected_epoch": 5,
+      "levels": [
+        {
+          "mean": 0.532143692786877,
+          "std": 0.13586664353036843,
+          "minimum": 0.01466165017336607,
+          "maximum": 0.9990160465240479,
+          "fraction_above_one": 0.0,
+          "feature_values": 68157440
+        },
+        {
+          "mean": 0.49979183582159187,
+          "std": 0.14336192443689802,
+          "minimum": 0.04718562215566635,
+          "maximum": 0.9064263701438904,
+          "fraction_above_one": 0.0,
+          "feature_values": 34078720
+        },
+        {
+          "mean": 0.5255940781189845,
+          "std": 0.15764949846482754,
+          "minimum": 0.12523368000984192,
+          "maximum": 0.9971068501472473,
+          "fraction_above_one": 0.0,
+          "feature_values": 17039360
+        }
+      ]
+    },
+    "P_residual_v3": {
+      "checkpoint_sha256": "e0a4ab877da478329ebf106c07d330a904b6f3b9727010e94d55cefae1ac08e0",
+      "selected_epoch": 6,
+      "levels": [
+        {
+          "mean": 0.9964133299314059,
+          "std": 0.09290465352993779,
+          "minimum": 0.5638130903244019,
+          "maximum": 1.3929659128189087,
+          "fraction_above_one": 0.4555848195002629,
+          "feature_values": 68157440
+        },
+        {
+          "mean": 0.993326526421767,
+          "std": 0.12224761561138558,
+          "minimum": 0.5225488543510437,
+          "maximum": 1.4469393491744995,
+          "fraction_above_one": 0.45505033639761117,
+          "feature_values": 34078720
+        },
+        {
+          "mean": 0.9982825957811796,
+          "std": 0.16971333042164194,
+          "minimum": 0.5089170932769775,
+          "maximum": 1.4719475507736206,
+          "fraction_above_one": 0.39194024892953727,
+          "feature_values": 17039360
+        }
+      ]
+    }
+  }
+}

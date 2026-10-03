@@ -1,0 +1,26 @@
+{
+  "b1_thresholds_unchanged": true,
+  "cuda_runtime_config_sha256": "72af5dc7d742fe2f3f21acf72f6bdffc7226d9068a5d699db49eaae48b3c7549",
+  "imported_models": [
+    {
+      "completed_epochs": 24,
+      "device": "xpu",
+      "model_sha256": "6feaa95052b8194dd1bab2e87f5199c2dbfde10f643eb3ff9724b82b21a4752f",
+      "run_id": "B2_seed_20261013",
+      "source_sha256": "5449e3fd39bc1dafbab940eaa072e595d38fb8e6f21959296f9df3d672166844",
+      "tensors_bitwise_unchanged": true
+    },
+    {
+      "completed_epochs": 24,
+      "device": "xpu",
+      "model_sha256": "25ce0ff25515e313d7b93d21f0db127413e8db02af418e1df06260899c5cc905",
+      "run_id": "B2_seed_20261014",
+      "source_sha256": "5f92a045c336a5aedfc79e94d3f1b1291682d3a45ca179b1c82f4a48360e4e85",
+      "tensors_bitwise_unchanged": true
+    }
+  ],
+  "mixed_training_devices_disclosed": true,
+  "remaining_fits_device": "cuda",
+  "source_original_config_sha256": "d1c211b5e8931b4faf6f3e186180455d3e54fb4b25d795351db9bbcc90ea17f1",
+  "status": "COMPLETE"
+}

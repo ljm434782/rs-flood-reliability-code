@@ -1,0 +1,113 @@
+{
+  "holdout_id_list_sha256": "8d095b68b271fbe6e7735175d265fb6e3d27634405a31a3ced61cf6b09cbab64",
+  "mask_grid_index_sha256": {
+    "train": "1319ba52972add2ea4f5069830bb69eae748263b7021d7dc7218006a0f9c132b",
+    "val": "ad2c61a360214471799f26e0eab85b2adc853032ae082f88fee19f0148470b70",
+    "test": "076f6cb08b7a76ca9de37fc3853225ae12099bba5a2b9005158c4d9ea5ab61ca"
+  },
+  "sen1_manifest_sha256": "279fd5a7f21f66b86d2209b676683fe6c8ae4dde7691f815d64a297e2921b6c1",
+  "holdout_activation_count": 12,
+  "holdout_sample_count": 562,
+  "sen1_event_count": 10,
+  "sen1_scene_count": 90,
+  "distance_crs": "EPSG:6933",
+  "distance_limit": "Equal-area projected polygon gap is diagnostic, not precise geodesic distance or proof of process/source independence. ImpactMesh bounds and CRS come from verified official TIFF headers; Sen1 bounds are read from test labels. Test label pixel values are not read.",
+  "rows": [
+    {
+      "activation": "EMSR251",
+      "holdout_sample_count": 121,
+      "nearest_sen1_event": "Spain",
+      "nearest_holdout_sample": "EMSR251_3_32VML_x473405_y6512885",
+      "nearest_sen1_scene": "Spain_6860600",
+      "projected_minimum_gap_km": 1946.901
+    },
+    {
+      "activation": "EMSR321",
+      "holdout_sample_count": 110,
+      "nearest_sen1_event": "USA",
+      "nearest_holdout_sample": "EMSR321_2_16PDV_x464255_y1479305",
+      "nearest_sen1_scene": "USA_527077",
+      "projected_minimum_gap_km": 2969.299
+    },
+    {
+      "activation": "EMSR358",
+      "holdout_sample_count": 33,
+      "nearest_sen1_event": "Spain",
+      "nearest_holdout_sample": "EMSR358_5_33TYK_x280925_y4993305",
+      "nearest_sen1_scene": "Spain_5650136",
+      "projected_minimum_gap_km": 1929.522
+    },
+    {
+      "activation": "EMSR556",
+      "holdout_sample_count": 38,
+      "nearest_sen1_event": "Mekong",
+      "nearest_holdout_sample": "EMSR556_1_51PYM_x712615_y1149415",
+      "nearest_sen1_scene": "Mekong_45934",
+      "projected_minimum_gap_km": 1847.373
+    },
+    {
+      "activation": "EMSR757",
+      "holdout_sample_count": 3,
+      "nearest_sen1_event": "Spain",
+      "nearest_holdout_sample": "EMSR757_1_33UXQ_x661235_y5415585",
+      "nearest_sen1_scene": "Spain_5650136",
+      "projected_minimum_gap_km": 1980.9
+    },
+    {
+      "activation": "EMSR763",
+      "holdout_sample_count": 65,
+      "nearest_sen1_event": "Spain",
+      "nearest_holdout_sample": "EMSR763_1_33UVU_x424525_y5856455",
+      "nearest_sen1_scene": "Spain_5650136",
+      "projected_minimum_gap_km": 1915.718
+    },
+    {
+      "activation": "EMSR766",
+      "holdout_sample_count": 2,
+      "nearest_sen1_event": "Spain",
+      "nearest_holdout_sample": "EMSR766_1_34TCR_x346495_y5040375",
+      "nearest_sen1_scene": "Spain_5650136",
+      "projected_minimum_gap_km": 2017.246
+    },
+    {
+      "activation": "EMSR841",
+      "holdout_sample_count": 2,
+      "nearest_sen1_event": "Spain",
+      "nearest_holdout_sample": "EMSR841_1_33VXL_x653225_y7041355",
+      "nearest_sen1_scene": "Spain_6860600",
+      "projected_minimum_gap_km": 2714.83
+    },
+    {
+      "activation": "EMSR844",
+      "holdout_sample_count": 5,
+      "nearest_sen1_event": "Mekong",
+      "nearest_holdout_sample": "EMSR844_1_48QXJ_x631365_y2338755",
+      "nearest_sen1_scene": "Mekong_333434",
+      "projected_minimum_gap_km": 955.153
+    },
+    {
+      "activation": "EMSR845",
+      "holdout_sample_count": 32,
+      "nearest_sen1_event": "USA",
+      "nearest_holdout_sample": "EMSR845_6_14QPJ_x673475_y2321165",
+      "nearest_sen1_scene": "USA_595451",
+      "projected_minimum_gap_km": 1951.044
+    },
+    {
+      "activation": "EMSR860",
+      "holdout_sample_count": 142,
+      "nearest_sen1_event": "Spain",
+      "nearest_holdout_sample": "EMSR860_2_29UPU_x634045_y5794035",
+      "nearest_sen1_scene": "Spain_6860600",
+      "projected_minimum_gap_km": 1400.708
+    },
+    {
+      "activation": "EMSR867",
+      "holdout_sample_count": 9,
+      "nearest_sen1_event": "Somalia",
+      "nearest_holdout_sample": "EMSR867_4_38KQE_x758735_y7909735",
+      "nearest_sen1_scene": "Somalia_322855",
+      "projected_minimum_gap_km": 2771.77
+    }
+  ]
+}

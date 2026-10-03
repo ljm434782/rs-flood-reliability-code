@@ -1,0 +1,765 @@
+{
+  "completed_utc": "2026-09-30T14:49:58.275003+00:00",
+  "config_sha256": "72af5dc7d742fe2f3f21acf72f6bdffc7226d9068a5d699db49eaae48b3c7549",
+  "fit_manifest_sha256": "c6c71467f9d535ff07493e7356f107aa3d99d07721ba48facc2358d53758ad9c",
+  "grid_sha256": "550552544f59e0bf4d1be6696ee404e5512c27fda89a54d1137f77e9a7c8df61",
+  "interpretation": "retrospective descriptive only",
+  "locked_input_hashes": {
+    "data/manifests/g3_rule_a_derived_candidate_calibration.csv": "6d8f0fa9270bda3098aaca87ffb63defc72223d07b29591ebba2adfda3656b28",
+    "data/manifests/g3_rule_a_derived_candidate_fit.csv": "c6c71467f9d535ff07493e7356f107aa3d99d07721ba48facc2358d53758ad9c",
+    "data/manifests/g3_rule_a_derived_candidate_holdout_retro.csv": "bed3cba0a85a2da4d24a26e1b38065fe47a211f61f93e88752361628849e4df3",
+    "data/manifests/g3_rule_a_derived_candidate_internal_retro.csv": "91f5d87c8fad9c491cfe1612b76641f5a71f4ffca893e22610ff3ea5325dfc0e",
+    "data/manifests/impactmesh_assets.json": "e9a3c894d178d77bd5e63a2a1ccaa981fe0a53c637543b3c0408360b59c698db",
+    "data/manifests/impactmesh_holdout_frozen_eligibility.csv": "9c50d14ad19b5d26ec93d28e2933dc66f477b7a968da424156e3e1f918e47859",
+    "data/manifests/impactmesh_test_mask_grid_index.csv": "076f6cb08b7a76ca9de37fc3853225ae12099bba5a2b9005158c4d9ea5ab61ca",
+    "data/manifests/impactmesh_train_event_times.csv.gz": "59dcc31e9871f2361a2ac7fb8791d733c3d7f0de2b171cee7440db3d00fad99b",
+    "data/manifests/impactmesh_train_mask_grid_index.csv": "1319ba52972add2ea4f5069830bb69eae748263b7021d7dc7218006a0f9c132b",
+    "data/manifests/upgrade_20260929_candidate_calibration_grids.csv": "9c9f69904c85f09f6358accbd9333a8712d51b36dbb3836c3b65525d6d5d5970",
+    "data/manifests/upgrade_20260929_candidate_fit_grids.csv": "754f534777026244f06a6d60e76519b56518d10971d834971a3cc4d968b1b652",
+    "data/manifests/upgrade_20260929_candidate_holdout_retro_grids.csv": "0e2334aef6a77c9504318ed9b41372ae3a5c3594594d07a7f41cb4e6d4f2ea3a",
+    "data/manifests/upgrade_20260929_candidate_internal_retro_grids.csv": "550552544f59e0bf4d1be6696ee404e5512c27fda89a54d1137f77e9a7c8df61",
+    "docs/G3_RAW_ARCHIVE_CHECKSUM_AUDIT.json": "bf3bc05a5a26c621d266e873800a38ee57d3feefa7e024dbf2a1df30b3944713",
+    "docs/G3_RULE_A_HOLDOUT_S1_ANCHOR_METADATA_AUDIT.csv": "f0500699958b7285d55b89ba5e2726c6cede5c2872fb729b8e54f622612236a1",
+    "docs/G3_RULE_A_HOLDOUT_S1_ANCHOR_METADATA_AUDIT.json": "c1be977eebb164f041206803c588d9152414b197d75a419e9b85928b941097b8",
+    "scripts/upgrade_b1_fit.py": "5ea2fc582dca5b4c5bc05282e5155d9720113e37a977415cf527d2d35e307b4f"
+  },
+  "metric_scope": "hard-label segmentation only; no probability or calibration metrics",
+  "model": "B1",
+  "optical_states": "not applicable; fixed SAR-only rule evaluated once",
+  "results": {
+    "internal_retro": {
+      "processes": {
+        "PROC_EMSR184": {
+          "confusion": [
+            [
+              5250171,
+              158786,
+              233059
+            ],
+            [
+              80218,
+              1840,
+              9135
+            ],
+            [
+              23207,
+              70995,
+              48709
+            ]
+          ],
+          "flood_f1": 0.22456167850737874,
+          "flood_iou": 0.1264823879201776,
+          "flood_precision": 0.16744069328951575,
+          "flood_recall": 0.3408345053914674,
+          "macro_iou": 0.3486708930914571,
+          "nonwater_iou": 0.9137977398079625,
+          "permanent_iou": 0.005732551546231159,
+          "pixels": 5876120,
+          "pre_event_fallback_tiles": 0,
+          "tiles": 91
+        },
+        "PROC_EMSR200": {
+          "confusion": [
+            [
+              4996696,
+              25628,
+              13677
+            ],
+            [
+              80171,
+              2111803,
+              284916
+            ],
+            [
+              189920,
+              157149,
+              65826
+            ]
+          ],
+          "flood_f1": 0.1693678487715389,
+          "flood_iou": 0.09251877754789961,
+          "flood_precision": 0.18063273319997036,
+          "flood_recall": 0.15942551980527736,
+          "macro_iou": 0.609406499860104,
+          "nonwater_iou": 0.9416904192388673,
+          "permanent_iou": 0.7940103027935452,
+          "pixels": 7925786,
+          "pre_event_fallback_tiles": 0,
+          "tiles": 121
+        },
+        "PROC_EMSR312": {
+          "confusion": [
+            [
+              408341,
+              3017,
+              1278
+            ],
+            [
+              10867,
+              22049,
+              2579
+            ],
+            [
+              4132,
+              4032,
+              2457
+            ]
+          ],
+          "flood_f1": 0.29016829052258636,
+          "flood_iou": 0.1697057604641525,
+          "flood_precision": 0.38913525498891355,
+          "flood_recall": 0.23133414932680538,
+          "macro_iou": 0.5476170964628343,
+          "nonwater_iou": 0.9548820840202509,
+          "permanent_iou": 0.5182634449040993,
+          "pixels": 458752,
+          "pre_event_fallback_tiles": 0,
+          "tiles": 7
+        },
+        "PROC_EMSR342": {
+          "confusion": [
+            [
+              579347,
+              2414,
+              2930
+            ],
+            [
+              7091,
+              243489,
+              16697
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "flood_f1": 0.0,
+          "flood_iou": 0.0,
+          "flood_precision": 0.0,
+          "flood_recall": null,
+          "macro_iou": 0.6272771869797271,
+          "nonwater_iou": 0.9789871946088256,
+          "permanent_iou": 0.9028443663303558,
+          "pixels": 851968,
+          "pre_event_fallback_tiles": 0,
+          "tiles": 13
+        },
+        "PROC_EMSR385": {
+          "confusion": [
+            [
+              75376,
+              3158,
+              5444
+            ],
+            [
+              657,
+              81722,
+              66718
+            ],
+            [
+              1059,
+              83,
+              258
+            ]
+          ],
+          "flood_f1": 0.006989975616364129,
+          "flood_iou": 0.0035072455887550638,
+          "flood_precision": 0.0035625517812758905,
+          "flood_recall": 0.18428571428571427,
+          "macro_iou": 0.4731846401317578,
+          "nonwater_iou": 0.879594837444862,
+          "permanent_iou": 0.5364518373616564,
+          "pixels": 234475,
+          "pre_event_fallback_tiles": 0,
+          "tiles": 5
+        },
+        "PROC_EMSR413": {
+          "confusion": [
+            [
+              250712,
+              961,
+              1382
+            ],
+            [
+              12927,
+              105145,
+              1311
+            ],
+            [
+              784,
+              9,
+              5
+            ]
+          ],
+          "flood_f1": 0.002860411899313501,
+          "flood_iou": 0.0014322543683758235,
+          "flood_precision": 0.0018532246108228317,
+          "flood_recall": 0.006265664160401002,
+          "macro_iou": 0.6049635172933875,
+          "nonwater_iou": 0.9398199170808874,
+          "permanent_iou": 0.8736383804308991,
+          "pixels": 373236,
+          "pre_event_fallback_tiles": 0,
+          "tiles": 8
+        },
+        "PROC_EMSR417": {
+          "confusion": [
+            [
+              1978865,
+              25088,
+              10277
+            ],
+            [
+              29416,
+              44219,
+              3058
+            ],
+            [
+              13437,
+              24834,
+              21820
+            ]
+          ],
+          "flood_f1": 0.4581819708964156,
+          "flood_iou": 0.2971699398033394,
+          "flood_precision": 0.6206798463945384,
+          "flood_recall": 0.363115940823085,
+          "macro_iou": 0.5361286720117416,
+          "nonwater_iou": 0.9619762547257451,
+          "permanent_iou": 0.34923982150614064,
+          "pixels": 2151014,
+          "pre_event_fallback_tiles": 0,
+          "tiles": 33
+        },
+        "PROC_EMSR465": {
+          "confusion": [
+            [
+              6283071,
+              456162,
+              248144
+            ],
+            [
+              33435,
+              132576,
+              12069
+            ],
+            [
+              54666,
+              3119,
+              3178
+            ]
+          ],
+          "flood_f1": 0.01959587364422822,
+          "flood_iou": 0.00989488629287369,
+          "flood_precision": 0.012065712192140202,
+          "flood_recall": 0.052129980479963256,
+          "macro_iou": 0.3686363900511449,
+          "nonwater_iou": 0.888006577082142,
+          "permanent_iou": 0.20800770677841915,
+          "pixels": 7226420,
+          "pre_event_fallback_tiles": 0,
+          "tiles": 119
+        },
+        "PROC_EMSR471": {
+          "confusion": [
+            [
+              2900953,
+              22537,
+              17905
+            ],
+            [
+              29072,
+              24876,
+              6175
+            ],
+            [
+              1576,
+              636,
+              710
+            ]
+          ],
+          "flood_f1": 0.05124133949191686,
+          "flood_iou": 0.026294348566772832,
+          "flood_precision": 0.02864058087938685,
+          "flood_recall": 0.242984257357974,
+          "macro_iou": 0.4336735229043831,
+          "nonwater_iou": 0.9760804268309712,
+          "permanent_iou": 0.2986457933154053,
+          "pixels": 3004440,
+          "pre_event_fallback_tiles": 0,
+          "tiles": 46
+        },
+        "PROC_EMSR504": {
+          "confusion": [
+            [
+              4484943,
+              59438,
+              64842
+            ],
+            [
+              130653,
+              567063,
+              46946
+            ],
+            [
+              303155,
+              100286,
+              451056
+            ]
+          ],
+          "flood_f1": 0.6364819757560107,
+          "flood_iou": 0.46679395830422704,
+          "flood_precision": 0.8013872405142455,
+          "flood_recall": 0.5278614202273384,
+          "macro_iou": 0.6610477050524685,
+          "nonwater_iou": 0.8893348067858398,
+          "permanent_iou": 0.6270143500673385,
+          "pixels": 6208382,
+          "pre_event_fallback_tiles": 0,
+          "tiles": 96
+        },
+        "PROC_EMSR629": {
+          "confusion": [
+            [
+              4646217,
+              854954,
+              708263
+            ],
+            [
+              203031,
+              555756,
+              180747
+            ],
+            [
+              3168029,
+              3168537,
+              4536866
+            ]
+          ],
+          "flood_f1": 0.5566943087399784,
+          "flood_iou": 0.3857078317580652,
+          "flood_precision": 0.8361536459734796,
+          "flood_recall": 0.41724324022075093,
+          "macro_iou": 0.32755114901426036,
+          "nonwater_iou": 0.4849663284586369,
+          "permanent_iou": 0.11197928682607886,
+          "pixels": 18022400,
+          "pre_event_fallback_tiles": 0,
+          "tiles": 275
+        },
+        "PROC_EMSR645": {
+          "confusion": [
+            [
+              7450434,
+              60693,
+              113400
+            ],
+            [
+              73790,
+              179771,
+              114984
+            ],
+            [
+              382781,
+              165778,
+              1124515
+            ]
+          ],
+          "flood_f1": 0.7432419258202237,
+          "flood_iou": 0.5913961812461805,
+          "flood_precision": 0.8311891722885448,
+          "flood_recall": 0.6721250823334772,
+          "macro_iou": 0.6051607737321553,
+          "nonwater_iou": 0.9219581299471928,
+          "permanent_iou": 0.30212801000309236,
+          "pixels": 9666146,
+          "pre_event_fallback_tiles": 0,
+          "tiles": 149
+        },
+        "PROC_EMSR649": {
+          "confusion": [
+            [
+              705614,
+              7573,
+              4573
+            ],
+            [
+              22174,
+              88111,
+              3190
+            ],
+            [
+              4357,
+              794,
+              2391
+            ]
+          ],
+          "flood_f1": 0.27023056057866185,
+          "flood_iou": 0.1562234563868017,
+          "flood_precision": 0.2354737049438645,
+          "flood_recall": 0.31702466189339695,
+          "macro_iou": 0.6091388088299273,
+          "nonwater_iou": 0.9480351099234036,
+          "permanent_iou": 0.7231578601795768,
+          "pixels": 838777,
+          "pre_event_fallback_tiles": 0,
+          "tiles": 14
+        },
+        "PROC_EMSR650": {
+          "confusion": [
+            [
+              14615802,
+              156917,
+              186597
+            ],
+            [
+              570850,
+              3581108,
+              207395
+            ],
+            [
+              727120,
+              303833,
+              607112
+            ]
+          ],
+          "flood_f1": 0.460078153388434,
+          "flood_iou": 0.2987672097780722,
+          "flood_precision": 0.6064424874938068,
+          "flood_recall": 0.3706275392002149,
+          "macro_iou": 0.6469168898620411,
+          "nonwater_iou": 0.8990308714504992,
+          "permanent_iou": 0.7429525883575517,
+          "pixels": 20956734,
+          "pre_event_fallback_tiles": 0,
+          "tiles": 320
+        },
+        "PROC_EMSR692": {
+          "confusion": [
+            [
+              15680795,
+              467740,
+              215726
+            ],
+            [
+              150225,
+              898382,
+              57907
+            ],
+            [
+              1714430,
+              648070,
+              1550825
+            ]
+          ],
+          "flood_f1": 0.5405659293842239,
+          "flood_iou": 0.3703942098296663,
+          "flood_precision": 0.8500195674551018,
+          "flood_recall": 0.3962934333335463,
+          "macro_iou": 0.5449543450509418,
+          "nonwater_iou": 0.8602154401282007,
+          "permanent_iou": 0.40425338519495807,
+          "pixels": 21384100,
+          "pre_event_fallback_tiles": 0,
+          "tiles": 402
+        },
+        "PROC_EMSR779": {
+          "confusion": [
+            [
+              8887206,
+              881069,
+              607158
+            ],
+            [
+              354346,
+              592256,
+              40349
+            ],
+            [
+              200239,
+              115954,
+              6057
+            ]
+          ],
+          "flood_f1": 0.012414251076537127,
+          "flood_iou": 0.006245894590088032,
+          "flood_precision": 0.009267646320788784,
+          "flood_recall": 0.018795965865011637,
+          "macro_iou": 0.37262223364322566,
+          "nonwater_iou": 0.8131007652503408,
+          "permanent_iou": 0.2985200410892481,
+          "pixels": 11684634,
+          "pre_event_fallback_tiles": 0,
+          "tiles": 180
+        },
+        "PROC_EMSR783": {
+          "confusion": [
+            [
+              650590,
+              6388,
+              6599
+            ],
+            [
+              4225,
+              1855,
+              613
+            ],
+            [
+              3936,
+              2264,
+              5904
+            ]
+          ],
+          "flood_f1": 0.4681998413957177,
+          "flood_iou": 0.30565334437771796,
+          "flood_precision": 0.4501372369624886,
+          "flood_recall": 0.48777263714474556,
+          "macro_iou": 0.46501903800903904,
+          "nonwater_iou": 0.9685174874727944,
+          "permanent_iou": 0.12088628217660476,
+          "pixels": 682374,
+          "pre_event_fallback_tiles": 0,
+          "tiles": 12
+        },
+        "PROC_EMSR797": {
+          "confusion": [
+            [
+              906621,
+              2679,
+              6778
+            ],
+            [
+              4422,
+              203,
+              359
+            ],
+            [
+              4858,
+              1315,
+              5014
+            ]
+          ],
+          "flood_f1": 0.42968549147313395,
+          "flood_iou": 0.2736302117441607,
+          "flood_precision": 0.41264093490247716,
+          "flood_recall": 0.4481988021811031,
+          "macro_iou": 0.4253308862209246,
+          "nonwater_iou": 0.9797516204539216,
+          "permanent_iou": 0.022610826464691466,
+          "pixels": 932249,
+          "pre_event_fallback_tiles": 0,
+          "tiles": 15
+        }
+      },
+      "summary": {
+        "flood_f1": {
+          "ci95": [
+            0.1855068010106932,
+            0.40861005303403075
+          ],
+          "mean": 0.2966977681645925,
+          "n_processes": 18,
+          "process_ids": [
+            "PROC_EMSR184",
+            "PROC_EMSR200",
+            "PROC_EMSR312",
+            "PROC_EMSR342",
+            "PROC_EMSR385",
+            "PROC_EMSR413",
+            "PROC_EMSR417",
+            "PROC_EMSR465",
+            "PROC_EMSR471",
+            "PROC_EMSR504",
+            "PROC_EMSR629",
+            "PROC_EMSR645",
+            "PROC_EMSR649",
+            "PROC_EMSR650",
+            "PROC_EMSR692",
+            "PROC_EMSR779",
+            "PROC_EMSR783",
+            "PROC_EMSR797"
+          ]
+        },
+        "flood_iou": {
+          "ci95": [
+            0.11924077159831964,
+            0.28345265700061556
+          ],
+          "mean": 0.19898988325374034,
+          "n_processes": 18,
+          "process_ids": [
+            "PROC_EMSR184",
+            "PROC_EMSR200",
+            "PROC_EMSR312",
+            "PROC_EMSR342",
+            "PROC_EMSR385",
+            "PROC_EMSR413",
+            "PROC_EMSR417",
+            "PROC_EMSR465",
+            "PROC_EMSR471",
+            "PROC_EMSR504",
+            "PROC_EMSR629",
+            "PROC_EMSR645",
+            "PROC_EMSR649",
+            "PROC_EMSR650",
+            "PROC_EMSR692",
+            "PROC_EMSR779",
+            "PROC_EMSR783",
+            "PROC_EMSR797"
+          ]
+        },
+        "flood_precision": {
+          "ci95": [
+            0.21280294533977676,
+            0.5068644962154834
+          ],
+          "mean": 0.35759567967729783,
+          "n_processes": 18,
+          "process_ids": [
+            "PROC_EMSR184",
+            "PROC_EMSR200",
+            "PROC_EMSR312",
+            "PROC_EMSR342",
+            "PROC_EMSR385",
+            "PROC_EMSR413",
+            "PROC_EMSR417",
+            "PROC_EMSR465",
+            "PROC_EMSR471",
+            "PROC_EMSR504",
+            "PROC_EMSR629",
+            "PROC_EMSR645",
+            "PROC_EMSR649",
+            "PROC_EMSR650",
+            "PROC_EMSR692",
+            "PROC_EMSR779",
+            "PROC_EMSR783",
+            "PROC_EMSR797"
+          ]
+        },
+        "flood_recall": {
+          "ci95": [
+            0.22238960698250046,
+            0.39247852812068657
+          ],
+          "mean": 0.30801873611942776,
+          "n_processes": 17,
+          "process_ids": [
+            "PROC_EMSR184",
+            "PROC_EMSR200",
+            "PROC_EMSR312",
+            "PROC_EMSR385",
+            "PROC_EMSR413",
+            "PROC_EMSR417",
+            "PROC_EMSR465",
+            "PROC_EMSR471",
+            "PROC_EMSR504",
+            "PROC_EMSR629",
+            "PROC_EMSR645",
+            "PROC_EMSR649",
+            "PROC_EMSR650",
+            "PROC_EMSR692",
+            "PROC_EMSR779",
+            "PROC_EMSR783",
+            "PROC_EMSR797"
+          ]
+        },
+        "macro_iou": {
+          "ci95": [
+            0.46083673622884563,
+            0.5610654156944724
+          ],
+          "mean": 0.5115166804556401,
+          "n_processes": 18,
+          "process_ids": [
+            "PROC_EMSR184",
+            "PROC_EMSR200",
+            "PROC_EMSR312",
+            "PROC_EMSR342",
+            "PROC_EMSR385",
+            "PROC_EMSR413",
+            "PROC_EMSR417",
+            "PROC_EMSR465",
+            "PROC_EMSR471",
+            "PROC_EMSR504",
+            "PROC_EMSR629",
+            "PROC_EMSR645",
+            "PROC_EMSR649",
+            "PROC_EMSR650",
+            "PROC_EMSR692",
+            "PROC_EMSR779",
+            "PROC_EMSR783",
+            "PROC_EMSR797"
+          ]
+        },
+        "nonwater_iou": {
+          "ci95": [
+            0.84055322129411,
+            0.9397314082662092
+          ],
+          "mean": 0.8999858894839635,
+          "n_processes": 18,
+          "process_ids": [
+            "PROC_EMSR184",
+            "PROC_EMSR200",
+            "PROC_EMSR312",
+            "PROC_EMSR342",
+            "PROC_EMSR385",
+            "PROC_EMSR413",
+            "PROC_EMSR417",
+            "PROC_EMSR465",
+            "PROC_EMSR471",
+            "PROC_EMSR504",
+            "PROC_EMSR629",
+            "PROC_EMSR645",
+            "PROC_EMSR649",
+            "PROC_EMSR650",
+            "PROC_EMSR692",
+            "PROC_EMSR779",
+            "PROC_EMSR783",
+            "PROC_EMSR797"
+          ]
+        },
+        "permanent_iou": {
+          "ci95": [
+            0.30593715232504787,
+            0.5672750850081386
+          ],
+          "mean": 0.4355742686292162,
+          "n_processes": 18,
+          "process_ids": [
+            "PROC_EMSR184",
+            "PROC_EMSR200",
+            "PROC_EMSR312",
+            "PROC_EMSR342",
+            "PROC_EMSR385",
+            "PROC_EMSR413",
+            "PROC_EMSR417",
+            "PROC_EMSR465",
+            "PROC_EMSR471",
+            "PROC_EMSR504",
+            "PROC_EMSR629",
+            "PROC_EMSR645",
+            "PROC_EMSR649",
+            "PROC_EMSR650",
+            "PROC_EMSR692",
+            "PROC_EMSR779",
+            "PROC_EMSR783",
+            "PROC_EMSR797"
+          ]
+        }
+      }
+    }
+  },
+  "role": "internal_retro",
+  "role_manifest_sha256": "91f5d87c8fad9c491cfe1612b76641f5a71f4ffca893e22610ff3ea5325dfc0e",
+  "strata_counts": {
+    "internal_retro": 1906
+  },
+  "strata_not_pooled": false,
+  "thresholds": {
+    "change_threshold_db": 4.2734375,
+    "water_threshold_db": -20.125
+  },
+  "thresholds_sha256": "b87765b0ca7158d9a9c18c697bdd98ad7e55c80ea93d1c4057cc87d8736c7403"
+}

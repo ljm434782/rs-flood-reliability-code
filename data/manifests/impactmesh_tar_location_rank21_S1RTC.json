@@ -1,0 +1,14 @@
+{
+  "frame_rank": 21,
+  "sample_id": "EMSR192_5_32TLR_x388535_y5006795",
+  "tar_path": "train/S1RTC.tar",
+  "tar_source_url": "https://huggingface.co/datasets/ibm-esa-geospatial/ImpactMesh-Flood/resolve/main/train/S1RTC.tar",
+  "tar_lfs_sha256": "f742b9b2f9362c0635d372129b640b525e0d300d062d72cc647f864fc20a28ee",
+  "tar_full_sha256_verified": false,
+  "tar_header_offset_bytes": 362846720,
+  "member_offset_bytes": 362847232,
+  "member_size_bytes": 700297,
+  "range_requests": 4,
+  "range_bytes_read": 12583424,
+  "state": "location-only record; consult sample manifest for payload download status"
+}

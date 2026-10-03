@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-09-27T08:31:34.832974+00:00",
+  "method": "hash-only 16 development IDs from prior v4 fit; no label pixels or scores read",
+  "config_sha256": "c37809c88f9583d8d2fa63fa063ebdcfd757f0ddb11d8fd8a9bb913c9805caec",
+  "original_split_sha256": "537617bdabeaa2e0fd1c01a11282d425d31c1d477315159aad0b68eb62e52e95",
+  "v4_split_sha256": "7cbb3a870fd2df8aac53c1d17039b3c2b2f9386db8171dbfbae330e7988348ea",
+  "eligibility_sha256": "92925c8289c81041d99a8b67131de7e025861094386881daf44d12511b30d9a0",
+  "output_sha256": "6ab6186699e2e22bc672e54ec5f3ba0efdc4e7edb3fc17a7667b29a4f080e0a9",
+  "fit_processes": 65,
+  "dev_processes": 16,
+  "fit_paired_tiles": 3531,
+  "dev_paired_tiles": 867,
+  "planned_unique_fit_tiles": 2552,
+  "dev_real_missing_processes_at_least_two": 11,
+  "dev_real_missing_tiles": 1279,
+  "test_labels_or_metrics_read": false
+}

@@ -1,0 +1,18 @@
+{
+  "status": "COMPLETE",
+  "interpretation": "retrospective descriptive only",
+  "source_class_process_sha256": "81b61ee0dbc9a25abaaf8ef14303586ccf874e7547ad6415dcb46d5db0f86ab1",
+  "source_provenance_sha256": "bb1d7a745b1464b39f498dcbbbe5720efa2c47f94d6bd33ae78fdce81ec09534",
+  "source_benefit_summary_sha256": "91f2bfb73de61ff032c1bd6d4ac8cd83f2b9ac577f37da70a290d17aa7409551",
+  "script_sha256": "2f7e1594554631aeb95e0ded2ee6163b54ae758608b61f1226ab43482c967604",
+  "generated_hashes": {
+    "class_gain_process_seed.csv": "8e3963c7af301ecb65cdecf247469bc8820fb45aa26878fc754ab47a243cd79a",
+    "class_gain_summary.csv": "be4266685698da9f48615acfd150fa340af9f9335aefa0789ba3738fae7bed43",
+    "class_brier_contributions.pdf": "1160bb0cd756d2d27ab3addb8955326edf7c9393a59c02b7de84667868e6723d",
+    "class_brier_contributions.png": "b01699392d461b1b765ffa632b920ca840846be48bf771a1cf4cf74b849e8a72"
+  },
+  "paper_artifact_hashes": {
+    "paper/tables/optical_class_contributions.tex": "74c14abc3415e851c5a0fcbe867420e2b2adc660b5689445105c565c54089737",
+    "paper/figures/optical_class_contributions.pdf": "1160bb0cd756d2d27ab3addb8955326edf7c9393a59c02b7de84667868e6723d"
+  }
+}

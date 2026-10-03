@@ -1,0 +1,9 @@
+{
+  "source_url": "https://huggingface.co/datasets/ibm-esa-geospatial/ImpactMesh-Flood/resolve/main/val/MASK.tar",
+  "lfs_sha256": "c5675b95582b86341f12fe07a16963ae4b1e3d7f1c5f5fbb5c943eb8bbf1bdf9",
+  "downloaded_sha256": "c5675b95582b86341f12fe07a16963ae4b1e3d7f1c5f5fbb5c943eb8bbf1bdf9",
+  "size_bytes": 5877760,
+  "member_count": 2171,
+  "activation_count": 49,
+  "selection": "all mask member names indexed; label pixels not read"
+}

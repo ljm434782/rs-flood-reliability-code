@@ -1,0 +1,33 @@
+{
+  "purpose": "Metadata-only label/product/time-chain audit for locked v1 independent evaluation processes",
+  "created_utc": "2026-09-28T17:38:49.514717+08:00",
+  "classification_rule": {
+    "direct_product_mapping": "Requires a documented ImpactMesh tile-to-CEMS product identifier; none found in this audit.",
+    "spatial_temporal_match_unverified": "Existing AOI and reference-image metadata are close to an S1 event for a documented convenience sample, but the tile-to-product link is not direct.",
+    "unable_to_confirm": "No frozen tile-level product mapping; activation dates are not used as satellite acquisition dates."
+  },
+  "counts": {
+    "internal_test|unable_to_confirm": 19,
+    "official_test_holdout|spatial_temporal_match_unverified": 1,
+    "official_test_holdout|unable_to_confirm": 7
+  },
+  "process_counts": {
+    "internal_test": 19,
+    "official_test_holdout": 8
+  },
+  "label_pixels_read": false,
+  "model_scores_read": false,
+  "s2_pixels_read": false,
+  "sources": {
+    "impactmesh_process_split_grouped.csv": "537617bdabeaa2e0fd1c01a11282d425d31c1d477315159aad0b68eb62e52e95",
+    "impactmesh_evaluation_process_exclusions.csv": "9db408f7762065e736c9dc3ef14388d6af2836232892bca89f894f0e13ff4b4b",
+    "impactmesh_holdout_frozen_eligibility.csv": "9c50d14ad19b5d26ec93d28e2933dc66f477b7a968da424156e3e1f918e47859",
+    "impactmesh_cems_activations.csv": "dcadc14a4a7353c1169ed057ea83a3e455285fa97b77a5738ad1d83cf988a531",
+    "cems_index.csv": "463e07fbbcdc8317373227736174a0a0f1855eb734b0c2ce7e9ac7ff928213a9",
+    "impactmesh_train_event_times.csv.gz": "59dcc31e9871f2361a2ac7fb8791d733c3d7f0de2b171cee7440db3d00fad99b",
+    "impactmesh_test_S1RTC.tar": "2c056513a05edc4ee2db474c33af5ce0f7d7b89256ae60811726db64b63cdcde"
+  },
+  "output_sha256": {
+    "csv": "7b591c1c6cf9d4d0a93f5edfadbb043859f937919c4ae4bd70123450bb01bde7"
+  }
+}

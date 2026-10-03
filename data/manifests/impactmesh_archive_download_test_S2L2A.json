@@ -1,0 +1,15 @@
+{
+  "repository": "ibm-esa-geospatial/ImpactMesh-Flood",
+  "version": "v1",
+  "license": "CC-BY-4.0",
+  "license_source": "https://huggingface.co/datasets/ibm-esa-geospatial/ImpactMesh-Flood",
+  "path": "test/S2L2A.tar",
+  "source_url": "https://hf-mirror.com/datasets/ibm-esa-geospatial/ImpactMesh-Flood/resolve/main/test/S2L2A.tar",
+  "download_endpoint": "https://hf-mirror.com",
+  "proxy_environment_used": false,
+  "downloaded_utc": "2026-09-27T04:18:54.717269+00:00",
+  "size_bytes": 6395484160,
+  "sha256": "a001c7165c4264ae119a013c396a2e54e1f4fdfab48b55e704f4238c78906829",
+  "local_path": "data/raw/impactmesh/test/S2L2A.tar",
+  "state": "full-official-archive-verified"
+}

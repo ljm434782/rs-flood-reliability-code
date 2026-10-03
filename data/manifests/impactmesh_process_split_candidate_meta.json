@@ -1,0 +1,17 @@
+{
+  "state": "candidate process split only; no sample admission or preregistration freeze",
+  "seed": "impactmesh-v1-process-split-20260926",
+  "rule": "24 already inspected train activations locked to train; remaining official-train activations SHA256 sorted, first 20 internal test, next 20 calibration, next 20 validation, rest train; 12 official test_holdout activations locked final",
+  "official_train_sha256": "f7b0d7b9650171b97ac65a1d1543c504cd46855ac221c2864e78d4d38a871038",
+  "official_test_holdout_sha256": "8d095b68b271fbe6e7735175d265fb6e3d27634405a31a3ced61cf6b09cbab64",
+  "fixed_audit_frame_sha256": "72528576a595ff05493efd01fc53d6555c1aef3b6a75105b3981e96dc197fb39",
+  "counts": {
+    "train": 122,
+    "validation": 20,
+    "calibration": 20,
+    "internal_test": 20,
+    "official_test_holdout": 12
+  },
+  "use_limit": "No eligibility threshold may be chosen using internal_test or official_test_holdout; process identity still needs CEMS date/space review",
+  "output_sha256": "eca7d82279fed979ac517112c897c310d34215963237d43400b0af3821878c25"
+}

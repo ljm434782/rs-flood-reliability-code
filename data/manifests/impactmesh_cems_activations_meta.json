@@ -1,0 +1,10 @@
+{
+  "source_url": "https://mapping.emergency.copernicus.eu/activations/api/activations/?limit=2000",
+  "indexed_utc": "2026-09-27T03:27:53.638356+00:00",
+  "raw_path": "data/raw/cems/activations_api_20260927.json",
+  "raw_sha256": "859ab6a22017f9ef53d1ca1f8d9a7e467f2d945fd4b9f4e844dd54947beda11e",
+  "raw_count": 1065,
+  "impactmesh_train_activation_count": 182,
+  "output_sha256": "dcadc14a4a7353c1169ed057ea83a3e455285fa97b77a5738ad1d83cf988a531",
+  "use": "process identity review only; no test labels or model tuning"
+}

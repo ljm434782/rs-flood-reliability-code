@@ -1,0 +1,14 @@
+{
+  "purpose": "train-only feasibility pilot for S1/S2 timing, SCL/cloud/nodata, and label-source follow-up",
+  "seed": "impactmesh-temporal-pilot-v1-20260926",
+  "source_index": "impactmesh_train_mask_index.csv",
+  "source_index_sha256": "e81fd40e937a99ab0622afe66b726c5d102d28df7a891454e55dd4902c47d048",
+  "source_mask_tar_lfs_sha256": "dc9f2003ac8a1e55511d98f00564f5d967564deb8be41d4270a55192a53c1876",
+  "source_train_split_sha256": "f7b0d7b9650171b97ac65a1d1543c504cd46855ac221c2864e78d4d38a871038",
+  "eligible_train_activations": 182,
+  "selected_activations": 24,
+  "selection_rule": "sort all train activations by SHA256(seed|activation|ID), take first 24; within each, choose minimum SHA256(seed|sample|ID)",
+  "selection_inputs": "official train sample IDs and TAR member names/ordinals only; no labels, imagery, clouds, timestamps, validation or test results enter the hash ranking",
+  "prior_audit_context": "four convenience triplets from train/val/test/test_holdout had been inspected before this frame was generated; none are selected by their observed quality",
+  "use_limit": "pilot, not final training split; report all 24 activations including unusable ones; no model selection or test-threshold tuning"
+}

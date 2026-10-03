@@ -1,0 +1,33 @@
+{
+  "conclusion": "All 11 direct S1 event timestamps are recoverable from the selected S1 ZIP .zattrs datetime attribute at event index 2. The matched MASK sample IDs and precomputed grid headers provide a grid association. Neither source supplies a tile-to-CEMS-product mapping or label reference/acquisition time; those remain UNVERIFIED.",
+  "counts": {
+    "confirmed_cems_product_mapping": 0,
+    "direct_s1_event_timestamps_recovered": 11,
+    "target_rows": 11
+  },
+  "output_sha256": {
+    "G3_RULE_A_HOLDOUT_S1_ANCHOR_METADATA_AUDIT.csv": "f0500699958b7285d55b89ba5e2726c6cede5c2872fb729b8e54f622612236a1"
+  },
+  "purpose": "Metadata-only direct S1 event-anchor recovery for 11 Rule-A holdout rows without frozen S2/age anchors",
+  "read_boundary": {
+    "allowed_metadata": [
+      "TAR member names/offsets",
+      "S1 ZIP .zattrs",
+      "precomputed MASK TIFF-header grid index"
+    ],
+    "dataset_reader_called": false,
+    "label_pixels_read": false,
+    "prediction_or_score_read": false,
+    "s1_s2_mask_array_values_read": false
+  },
+  "reproduction_script": "scripts/audit_g3_holdout_s1_anchor_metadata.py",
+  "reproduction_script_sha256": "5d512bdcced928072601d2684a49c8b1a6c645b739b35aaa5909fcd6212a8eac",
+  "source_sha256": {
+    "data/manifests/g3_rule_a_derived_candidate_holdout_retro.csv": "bed3cba0a85a2da4d24a26e1b38065fe47a211f61f93e88752361628849e4df3",
+    "data/manifests/impactmesh_archive_download_test_S1RTC.json": "3bcf2c6395ef20cd08c344a9692bc8ec738cab3c40842f7bf0ec6bed120e135c",
+    "data/manifests/impactmesh_holdout_frozen_eligibility_meta.json": "69a7a8332aaa21cb46ae0e879c6d7db02da3136647d5c777b15ee08c2e609c13",
+    "data/manifests/impactmesh_test_mask_grid_index.csv": "076f6cb08b7a76ca9de37fc3853225ae12099bba5a2b9005158c4d9ea5ab61ca",
+    "docs/G3_RULE_A_SOURCE_TIME_CHAIN_TILE_AUDIT.csv": "26ea9a9b444b8981ce9dccba793659da82ca0fea493d846c442065df7e1aacee"
+  },
+  "status": "CANDIDATE_RETROSPECTIVE_ONLY_NOT_FROZEN"
+}

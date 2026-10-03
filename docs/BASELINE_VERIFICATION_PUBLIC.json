@@ -1,0 +1,58 @@
+{
+  "source_zip_sha256": "c3c52c705b31bda47672b91fe59bb639362f0a1aad9182477b9e7c8e285a6d82",
+  "source_file_count": 853,
+  "original_manifest_sha256": "5cddb1f12d2327cf95d4a158c2f08c0d98efe69e6b687edc7f2990053e0a9b25",
+  "original_verification_sha256": "50bb8ba0f369b2e7b9857447688093b364ac36859dccfeed4cc4791f26b12f5d",
+  "install": {
+    "status": "PASS",
+    "editable": true,
+    "extras": [
+      "dev",
+      "impactmesh_audit"
+    ],
+    "environment": "editable installation in separate venv; tests/rendering use existing Windows/XPU runtime with extracted source; no dependency upgrades",
+    "native_dependency_note": "The new venv alone could not load reused XPU DLLs; original established runtime used for checks"
+  },
+  "pytest": {
+    "exit_code": 0,
+    "passed": 59,
+    "deselected": 1,
+    "command_relative": [
+      "-m",
+      "pytest",
+      "-q",
+      "tests/test_availability.py",
+      "tests/test_split_isolation.py",
+      "tests/test_evaluation_counts.py",
+      "tests/test_probability_counts.py",
+      "tests/test_overlap.py",
+      "tests/test_formal_metrics.py",
+      "tests/test_external_binary.py",
+      "tests/test_optical_benefit.py",
+      "tests/test_upgrade_masks.py",
+      "tests/test_upgrade_metrics.py",
+      "tests/test_upgrade_20260929_runner.py",
+      "tests/test_upgrade_b1_eval.py",
+      "-k",
+      "not xpu_budget_blocks_unresolved_live_child"
+    ]
+  },
+  "cached_renderer": {
+    "exit_code": 0,
+    "tables_byte_identical": {
+      "optical_benefit_table.tex": false,
+      "optical_class_contributions.tex": false
+    },
+    "tables_identical_after_line_ending_normalization": true,
+    "table_hashes": {
+      "optical_benefit_table.tex": "23cc7c93e61004d1b40218ff64d04edc6de51fb5eafdec415bf67caf93b7ca8f",
+      "optical_class_contributions.tex": "74c14abc3415e851c5a0fcbe867420e2b2adc660b5689445105c565c54089737"
+    },
+    "note": "Only Windows CRLF vs archived LF differs; all text and numerical tokens are identical"
+  },
+  "raw_data_access": false,
+  "training": false,
+  "study_temperature_refit": false,
+  "inference": false,
+  "source_install_location_and_private_logs_distributed": false
+}

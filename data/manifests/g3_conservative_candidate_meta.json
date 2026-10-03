@@ -1,0 +1,55 @@
+{
+  "status": "candidate_only_not_frozen",
+  "generated_utc": "2026-09-29T03:47:19.360Z",
+  "purpose": "G3 conservative process-family candidate manifests; metadata/IDs only",
+  "no_imagery_labels_predictions_or_scores_read": true,
+  "source_sha256": {
+    "impactmesh_all_train_frozen_eligibility.csv.gz": "92925c8289c81041d99a8b67131de7e025861094386881daf44d12511b30d9a0",
+    "impactmesh_process_split_frozen.csv": "f0a687ac62581e139a27a7e747261cc6a0f18d45a05728ec2893442f386a696e",
+    "impactmesh_process_split_grouped.csv": "537617bdabeaa2e0fd1c01a11282d425d31c1d477315159aad0b68eb62e52e95",
+    "impactmesh_v5_training_dev_processes.csv": "6ab6186699e2e22bc672e54ec5f3ba0efdc4e7edb3fc17a7667b29a4f080e0a9",
+    "impactmesh_evaluation_process_exclusions.csv": "9db408f7762065e736c9dc3ef14388d6af2836232892bca89f894f0e13ff4b4b",
+    "impactmesh_flood_test_holdout.txt": "8d095b68b271fbe6e7735175d265fb6e3d27634405a31a3ced61cf6b09cbab64"
+  },
+  "output_sha256": {
+    "relationships": "195e923e7b9ccadc0ce36e874cfcff5fd579b9e197b3d6beed92966af03e2ffa",
+    "fit": "d9eec725011706e500996a2472144281c4588f26a718aec14112f5fe916d09fc",
+    "calibration": "9186134cb5b13126ea870aef1ab78b3b20c0d3f184878f649ea9ae923a96a4be",
+    "internal": "596c8019f9062443ed351ae947630792eac8fd44a86029116f9460594bac24fd",
+    "holdout": "46a520224ed096fa8712e8def637824dab42f5c7e712982b041d71645480789d",
+    "historical_dev": "c6347d9a1dd28f10c211deaa50bba9b132f37c0a0a3cb9b7bf09f9d28f4592fe",
+    "excluded": "8bcd85a0db223a390adfeeb72879d1105258dc48a848c1e940014326db5a1a1e"
+  },
+  "ordering": {
+    "unit_seed": "g3-conservative-candidate-unit-order-v1",
+    "tile_seed": "g3-conservative-candidate-tile-order-v1",
+    "fit_rule": "sort units by SHA256(unit_seed|unit_id), tiles within each unit by SHA256(tile_seed|unit_id|sample_id)"
+  },
+  "conservative_rules": [
+    "Use grouped process roles and recorded evaluation-family exclusions.",
+    "Exclude EMSR324 and EMSR329 for the unresolved EMSR323/324/329 cross-primary-role component.",
+    "Keep historical development inaccessible.",
+    "Treat specified same-role unresolved pairs as potential-dependence units for fit aggregation/sampling."
+  ],
+  "counts": {
+    "relationships": 194,
+    "fit": 3525,
+    "calibration": 2146,
+    "internal": 2094,
+    "holdout": 492,
+    "historical_dev": 867,
+    "excluded_train": 101,
+    "excluded_total": 171,
+    "fit_units": 60
+  },
+  "assets": {
+    "relationships": "data/manifests/g3_conservative_candidate_relationships.csv",
+    "fit": "data/manifests/g3_conservative_candidate_fit.csv",
+    "calibration": "data/manifests/g3_conservative_candidate_calibration.csv",
+    "internal": "data/manifests/g3_conservative_candidate_internal_retro.csv",
+    "holdout": "data/manifests/g3_conservative_candidate_holdout_retro.csv",
+    "historical_dev": "data/manifests/g3_conservative_candidate_historical_dev_inaccessible.csv",
+    "excluded": "data/manifests/g3_conservative_candidate_excluded.csv"
+  },
+  "relationship_fields_added": "screened_distinct_edges records every endpoint of the 12 screened-distinct proximity pairs"
+}

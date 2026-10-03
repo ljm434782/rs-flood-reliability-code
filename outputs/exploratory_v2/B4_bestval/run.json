@@ -1,0 +1,28 @@
+{
+  "candidate": "B4_bestval",
+  "spec": {
+    "model": "B4",
+    "dropout": 0.0,
+    "gate_sar": false
+  },
+  "seed": 20260928,
+  "completed_utc": "2026-09-27T05:05:44.934256+00:00",
+  "selection": "equal_mean_of_process_equal_raw_nll_across_four_states",
+  "selected_epoch": 6,
+  "selected_score": 0.40623389261896536,
+  "selected_sha256": "3e1788baea907505f41255e0ed0ce219b38aafc5d332b1438a2ba50199302988",
+  "config_sha256": "9a5882645864045703f4387c94367c10889b7b0c4ae8876c4ead0cd67ff7ddbb",
+  "frame_sha256": "eb4b7bd65e07c802f520d629879251c2bcc4bac68dfcabec4718f828143248ef",
+  "stats_sha256": "7095d9658cde9d42956ac5e9f3c9b94c02c645be9e4948ae474a75a2ab1f0757",
+  "split_sha256": "537617bdabeaa2e0fd1c01a11282d425d31c1d477315159aad0b68eb62e52e95",
+  "eligibility_sha256": "92925c8289c81041d99a8b67131de7e025861094386881daf44d12511b30d9a0",
+  "code_sha256": {
+    "scripts/train_impactmesh_exploratory_v2.py": "2dcc0ca78b93b5357c8e9b78f77ec958c85797d712769ad14e674633f13f6e34",
+    "src/flood_reliability/exploratory_models.py": "59921b4d99b035193a024a64d9b3091aa6c0d84e476d3efb3cc47667500ad039",
+    "src/flood_reliability/models.py": "205e1091f8941d4f20d67d601c6f3e4b6e9a2d09d41ce988b2193c8ac6a9e8d7"
+  },
+  "train_processes": 81,
+  "validation_processes": 20,
+  "real_missing_validation_processes": 13,
+  "no_test_labels_or_metrics_used_for_selection": true
+}

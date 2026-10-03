@@ -1,0 +1,14 @@
+{
+  "frame_rank": 19,
+  "sample_id": "EMSR283_10_32VNP_x524975_y6853225",
+  "tar_path": "train/S2L2A.tar",
+  "tar_source_url": "https://huggingface.co/datasets/ibm-esa-geospatial/ImpactMesh-Flood/resolve/main/train/S2L2A.tar",
+  "tar_lfs_sha256": "0a58335297971c4a6e5e4f4e4aa8d2afe9201dedaad35e08babd03f3a1bb0c6f",
+  "tar_full_sha256_verified": false,
+  "tar_header_offset_bytes": 9304792576,
+  "member_offset_bytes": 9304793088,
+  "member_size_bytes": 2310197,
+  "range_requests": 3,
+  "range_bytes_read": 12582912,
+  "state": "location-only record; consult sample manifest for payload download status"
+}

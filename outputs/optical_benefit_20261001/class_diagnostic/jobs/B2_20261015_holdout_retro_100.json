@@ -1,0 +1,204 @@
+{
+  "status": "COMPLETE",
+  "interpretation": "retrospective descriptive only",
+  "identity": {
+    "model": "B2",
+    "seed": 20261015,
+    "role": "holdout_retro",
+    "state": "100"
+  },
+  "hashes": {
+    "config": "72af5dc7d742fe2f3f21acf72f6bdffc7226d9068a5d699db49eaae48b3c7549",
+    "checkpoint": "0285613146c9bdb4f03dd593e214eaded9d791cdee20fd92a9df1c8778b79754",
+    "temperature": "31f4ea5e3efd168b260c0211a041ae43a90b4ae675d0abfeea1c0d84a0f2e1a6",
+    "reference_evaluation": "53f880c4b30bc77467d5cf03896bc1a69cb01af0d26103888ac215a53238b85b",
+    "manifest": "bed3cba0a85a2da4d24a26e1b38065fe47a211f61f93e88752361628849e4df3",
+    "grid": "0e2334aef6a77c9504318ed9b41372ae3a5c3594594d07a7f41cb4e6d4f2ea3a"
+  },
+  "temperature": 0.7877966752228461,
+  "process_totals": {
+    "PROC_EMSR251": {
+      "0": {
+        "pixels": 5820325,
+        "binary_flood_brier_sum": 22562.543709735928,
+        "multiclass_brier_sum": 87417.20711953902,
+        "multiclass_nll_sum": 255328.39118430877
+      },
+      "1": {
+        "pixels": 596962,
+        "binary_flood_brier_sum": 193430.77490885567,
+        "multiclass_brier_sum": 521385.58599798294,
+        "multiclass_nll_sum": 753357.4825478477
+      },
+      "2": {
+        "pixels": 5241,
+        "binary_flood_brier_sum": 1118.0385614418049,
+        "multiclass_brier_sum": 1949.1927038072172,
+        "multiclass_nll_sum": 3375.4502879575284
+      }
+    },
+    "PROC_EMSR321": {
+      "0": {
+        "pixels": 6036969,
+        "binary_flood_brier_sum": 28988.775137620316,
+        "multiclass_brier_sum": 104390.56281713089,
+        "multiclass_nll_sum": 278272.51068510895
+      },
+      "1": {
+        "pixels": 353354,
+        "binary_flood_brier_sum": 117693.61400140819,
+        "multiclass_brier_sum": 350414.78531961766,
+        "multiclass_nll_sum": 532466.0588300256
+      },
+      "2": {
+        "pixels": 469891,
+        "binary_flood_brier_sum": 88624.7997979321,
+        "multiclass_brier_sum": 153524.47613855632,
+        "multiclass_nll_sum": 281091.7238092164
+      }
+    },
+    "PROC_EMSR358": {
+      "0": {
+        "pixels": 2051824,
+        "binary_flood_brier_sum": 12692.604636245866,
+        "multiclass_brier_sum": 49790.947279386884,
+        "multiclass_nll_sum": 131328.79822535097
+      },
+      "1": {
+        "pixels": 96312,
+        "binary_flood_brier_sum": 30764.677447880204,
+        "multiclass_brier_sum": 96680.52471492167,
+        "multiclass_nll_sum": 142838.03707390974
+      },
+      "2": {
+        "pixels": 7849,
+        "binary_flood_brier_sum": 1529.4358173831813,
+        "multiclass_brier_sum": 2705.3930677494936,
+        "multiclass_nll_sum": 4680.0849124212145
+      }
+    },
+    "PROC_EMSR556": {
+      "0": {
+        "pixels": 630739,
+        "binary_flood_brier_sum": 1318.7793735073462,
+        "multiclass_brier_sum": 7192.019981789956,
+        "multiclass_nll_sum": 25210.056355907866
+      },
+      "1": {
+        "pixels": 194899,
+        "binary_flood_brier_sum": 68327.90291936853,
+        "multiclass_brier_sum": 166031.14719131123,
+        "multiclass_nll_sum": 236978.9418986813
+      },
+      "2": {
+        "pixels": 0,
+        "binary_flood_brier_sum": 0.0,
+        "multiclass_brier_sum": 0.0,
+        "multiclass_nll_sum": 0.0
+      }
+    },
+    "PROC_EMSR841": {
+      "0": {
+        "pixels": 44974,
+        "binary_flood_brier_sum": 351.285616130677,
+        "multiclass_brier_sum": 1794.4758742998092,
+        "multiclass_nll_sum": 4509.847096079664
+      },
+      "1": {
+        "pixels": 6387,
+        "binary_flood_brier_sum": 1641.79164879839,
+        "multiclass_brier_sum": 6003.266234255732,
+        "multiclass_nll_sum": 9933.655915199972
+      },
+      "2": {
+        "pixels": 94,
+        "binary_flood_brier_sum": 20.87331901682829,
+        "multiclass_brier_sum": 36.45884864466421,
+        "multiclass_nll_sum": 59.83094557877958
+      }
+    },
+    "PROC_EMSR844": {
+      "0": {
+        "pixels": 282840,
+        "binary_flood_brier_sum": 7989.986691882135,
+        "multiclass_brier_sum": 25927.606630247108,
+        "multiclass_nll_sum": 63089.2360311667
+      },
+      "1": {
+        "pixels": 28221,
+        "binary_flood_brier_sum": 10436.047519147478,
+        "multiclass_brier_sum": 31257.85425935605,
+        "multiclass_nll_sum": 47459.1964163779
+      },
+      "2": {
+        "pixels": 9633,
+        "binary_flood_brier_sum": 1399.2807051525208,
+        "multiclass_brier_sum": 2450.9184581048485,
+        "multiclass_nll_sum": 4724.447277502303
+      }
+    },
+    "PROC_EMSR845": {
+      "0": {
+        "pixels": 968308,
+        "binary_flood_brier_sum": 8979.80377644735,
+        "multiclass_brier_sum": 32904.1337295967,
+        "multiclass_nll_sum": 87451.89108296447
+      },
+      "1": {
+        "pixels": 122501,
+        "binary_flood_brier_sum": 47554.91009166825,
+        "multiclass_brier_sum": 108010.00571272972,
+        "multiclass_nll_sum": 146540.21946838286
+      },
+      "2": {
+        "pixels": 268369,
+        "binary_flood_brier_sum": 71991.48161868559,
+        "multiclass_brier_sum": 126966.24203161562,
+        "multiclass_nll_sum": 219312.85768653871
+      }
+    },
+    "PROC_EMSR860": {
+      "0": {
+        "pixels": 8957083,
+        "binary_flood_brier_sum": 30031.873038758662,
+        "multiclass_brier_sum": 133878.60325293406,
+        "multiclass_nll_sum": 365737.49201007944
+      },
+      "1": {
+        "pixels": 123189,
+        "binary_flood_brier_sum": 26565.826290131325,
+        "multiclass_brier_sum": 104761.10552502546,
+        "multiclass_nll_sum": 178267.3714779296
+      },
+      "2": {
+        "pixels": 177648,
+        "binary_flood_brier_sum": 37426.39948466011,
+        "multiclass_brier_sum": 66609.14744956023,
+        "multiclass_nll_sum": 109350.4579286786
+      }
+    },
+    "PROC_EMSR867": {
+      "0": {
+        "pixels": 298559,
+        "binary_flood_brier_sum": 3301.19788085588,
+        "multiclass_brier_sum": 12064.85257407488,
+        "multiclass_nll_sum": 31639.17978727151
+      },
+      "1": {
+        "pixels": 2240,
+        "binary_flood_brier_sum": 184.38890695162266,
+        "multiclass_brier_sum": 2966.293904958933,
+        "multiclass_nll_sum": 5181.539009338055
+      },
+      "2": {
+        "pixels": 55130,
+        "binary_flood_brier_sum": 24344.62114899614,
+        "multiclass_brier_sum": 44632.9136505592,
+        "multiclass_nll_sum": 87239.28194187988
+      }
+    }
+  },
+  "process_count": 9,
+  "tile_count": 432,
+  "score_reconstruction_tolerance": 5e-05
+}

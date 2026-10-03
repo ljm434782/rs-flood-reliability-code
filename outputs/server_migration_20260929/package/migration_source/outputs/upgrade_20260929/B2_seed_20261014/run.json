@@ -1,0 +1,31 @@
+{
+  "completed_epochs": 24,
+  "device": "xpu",
+  "evaluation_roles_read": [],
+  "finished_utc": "2026-09-29T09:33:20.294240+00:00",
+  "fit_tile_count": 3525,
+  "full_resume_checkpoint_retired": true,
+  "hashes": {
+    "code": {
+      "scripts/upgrade_train.py": "02ca4bd748831472dd6f52bb02f4d67f716570baaa8c919a37eec1db2d221bb8",
+      "src/flood_reliability/availability.py": "a1b4e2d1681c16c17d9752aba6cd85fc1febd4427e4d7b707bc058e64f5faaf1",
+      "src/flood_reliability/impactmesh_io.py": "664705e07f84402230bfa5ad272e862047868aefcf90fe92b40ad6904a59f54d",
+      "src/flood_reliability/models.py": "205e1091f8941d4f20d67d601c6f3e4b6e9a2d09d41ce988b2193c8ac6a9e8d7",
+      "src/flood_reliability/smagnet_adapter.py": "2e237fffb16cacde60590641f54e81273469129918cf24301b92b6445775705e",
+      "src/flood_reliability/upgrade_masks.py": "155a258714d2cd6d8503cc51d8bbd1649a1f26d9701b37677b861f9154f5123e",
+      "third_party/smagnet/smagnet.py": "0f2bc65ba0b163c475772bbb3171a818e3947c29fbc5ec54f7bc5c479e4a4a58"
+    },
+    "config": "d1c211b5e8931b4faf6f3e186180455d3e54fb4b25d795351db9bbcc90ea17f1",
+    "fit_manifest": "c6c71467f9d535ff07493e7356f107aa3d99d07721ba48facc2358d53758ad9c",
+    "freeze": "d70964c1533a78c84c78b8970ab893748b555c62c7ff3d0860c3cd0a3993cd0b",
+    "independent_review": "e1bb6a0d061c2cb06eb9e02431af6d90ea13e83027ee05983af2cd83c92079f9",
+    "statistics": "48b47d165661223a8dd7f46b58a6fb3320559a5882172551c778ca2aa80c1cd8"
+  },
+  "model": "B2",
+  "model_only_sha256": "5f92a045c336a5aedfc79e94d3f1b1291682d3a45ca179b1c82f4a48360e4e85",
+  "reserved_incremental_bytes": 70910560,
+  "run_id": "B2_seed_20261014",
+  "seed": 20261014,
+  "status": "FIT_COMPLETE",
+  "torch": "2.14.0+xpu"
+}

@@ -1,0 +1,302 @@
+{
+  "status": "FROZEN",
+  "purpose": "Bounded retrospective experiment matrix; researcher directed immediate start; independent pre-run review deferred",
+  "execution_authorization": {
+    "kind": "RESEARCHER_DIRECTED_START",
+    "independent_pre_run_review": "DEFERRED_NOT_PASSED",
+    "scope": "existing finite matrix and retrospective descriptive claims only"
+  },
+  "seeds": [
+    20261013,
+    20261014,
+    20261015
+  ],
+  "epochs": 24,
+  "units_per_epoch": 60,
+  "tiles_per_unit_per_epoch": 8,
+  "batch_size": 4,
+  "optimizer": {
+    "name": "Adam",
+    "foreach": false,
+    "lr_epochs_1_6": 0.001,
+    "lr_epochs_7_24": 0.0003
+  },
+  "normalization_chips_per_process": 4,
+  "maximum_class_weight": 10,
+  "loss": {
+    "weighted_ce": true,
+    "flood_dice_weight": 0.3,
+    "ignore_index": 255,
+    "all_ignore": "fail"
+  },
+  "models": {
+    "B2": {
+      "constructor": "SmallUNet(2,3,width=16)",
+      "runs_per_seed": 1,
+      "dropout": 0.0,
+      "local_mask": false,
+      "calibration": [
+        "original"
+      ]
+    },
+    "B4": {
+      "constructor": "DualUNet(2,12,3,width=16,gated=false)",
+      "runs_per_seed": 1,
+      "dropout": 0.0,
+      "local_mask": false,
+      "calibration": [
+        "original"
+      ]
+    },
+    "P": {
+      "constructor": "DualUNet(2,12,3,width=16,gated=true)",
+      "runs_per_seed": 1,
+      "dropout": 0.25,
+      "local_mask": false,
+      "calibration": [
+        "original"
+      ]
+    },
+    "B5_whole": {
+      "constructor": "DualUNet(2,12,3,width=16,gated=false)",
+      "runs_per_seed": 1,
+      "dropout": 0.25,
+      "local_mask": false,
+      "calibration": [
+        "original",
+        "multistate"
+      ]
+    },
+    "B5_local": {
+      "constructor": "DualUNet(2,12,3,width=16,gated=false)",
+      "runs_per_seed": 1,
+      "dropout": 0.25,
+      "local_mask": true,
+      "calibration": [
+        "original",
+        "multistate"
+      ]
+    },
+    "SMAGNet": {
+      "constructor": "SMAGNet(resnet50,classes=3,encoder_weights=None)",
+      "s2_bands": [
+        "B04",
+        "B03",
+        "B02",
+        "B08"
+      ],
+      "two_head_weights": [
+        0.5,
+        0.5
+      ],
+      "runs_per_seed": 1,
+      "dropout": 0.25,
+      "local_mask": false,
+      "calibration": [
+        "original"
+      ]
+    }
+  },
+  "manifests": {
+    "fit": {
+      "path": "data/manifests/g3_rule_a_derived_candidate_fit.csv",
+      "sha256": "c6c71467f9d535ff07493e7356f107aa3d99d07721ba48facc2358d53758ad9c"
+    },
+    "calibration": {
+      "path": "data/manifests/g3_rule_a_derived_candidate_calibration.csv",
+      "sha256": "6d8f0fa9270bda3098aaca87ffb63defc72223d07b29591ebba2adfda3656b28"
+    },
+    "internal_retro": {
+      "path": "data/manifests/g3_rule_a_derived_candidate_internal_retro.csv",
+      "sha256": "91f5d87c8fad9c491cfe1612b76641f5a71f4ffca893e22610ff3ea5325dfc0e"
+    },
+    "holdout_retro": {
+      "path": "data/manifests/g3_rule_a_derived_candidate_holdout_retro.csv",
+      "sha256": "bed3cba0a85a2da4d24a26e1b38065fe47a211f61f93e88752361628849e4df3"
+    }
+  },
+  "role_grids": {
+    "fit": {
+      "path": "data/manifests/upgrade_20260929_candidate_fit_grids.csv",
+      "source": "data/manifests/impactmesh_train_mask_grid_index.csv",
+      "sha256": "754f534777026244f06a6d60e76519b56518d10971d834971a3cc4d968b1b652",
+      "source_sha256": "1319ba52972add2ea4f5069830bb69eae748263b7021d7dc7218006a0f9c132b",
+      "grid_size": 256,
+      "resolution_m": 10
+    },
+    "calibration": {
+      "path": "data/manifests/upgrade_20260929_candidate_calibration_grids.csv",
+      "source": "data/manifests/impactmesh_train_mask_grid_index.csv",
+      "sha256": "9c9f69904c85f09f6358accbd9333a8712d51b36dbb3836c3b65525d6d5d5970",
+      "source_sha256": "1319ba52972add2ea4f5069830bb69eae748263b7021d7dc7218006a0f9c132b",
+      "grid_size": 256,
+      "resolution_m": 10
+    },
+    "internal_retro": {
+      "path": "data/manifests/upgrade_20260929_candidate_internal_retro_grids.csv",
+      "source": "data/manifests/impactmesh_train_mask_grid_index.csv",
+      "sha256": "550552544f59e0bf4d1be6696ee404e5512c27fda89a54d1137f77e9a7c8df61",
+      "source_sha256": "1319ba52972add2ea4f5069830bb69eae748263b7021d7dc7218006a0f9c132b",
+      "grid_size": 256,
+      "resolution_m": 10
+    },
+    "holdout_retro": {
+      "path": "data/manifests/upgrade_20260929_candidate_holdout_retro_grids.csv",
+      "source": "data/manifests/impactmesh_test_mask_grid_index.csv",
+      "sha256": "0e2334aef6a77c9504318ed9b41372ae3a5c3594594d07a7f41cb4e6d4f2ea3a",
+      "source_sha256": "076f6cb08b7a76ca9de37fc3853225ae12099bba5a2b9005158c4d9ea5ab61ca",
+      "grid_size": 256,
+      "resolution_m": 10
+    }
+  },
+  "auxiliary_metadata": {
+    "fit_s1_event_times": {
+      "path": "data/manifests/impactmesh_train_event_times.csv.gz",
+      "sha256": "59dcc31e9871f2361a2ac7fb8791d733c3d7f0de2b171cee7440db3d00fad99b",
+      "purpose": "direct per-sample S1 event time metadata for fit-only input smoke and S1-anchored input semantics"
+    },
+    "holdout_eligibility": {
+      "path": "data/manifests/impactmesh_holdout_frozen_eligibility.csv",
+      "sha256": "9c50d14ad19b5d26ec93d28e2933dc66f477b7a968da424156e3e1f918e47859",
+      "purpose": "pre-score 432 paired / 49 low-visible / 11 no-qualifying-S2 strata and selected S2 metadata"
+    },
+    "holdout_s1_anchor_audit_csv": {
+      "path": "docs/G3_RULE_A_HOLDOUT_S1_ANCHOR_METADATA_AUDIT.csv",
+      "sha256": "f0500699958b7285d55b89ba5e2726c6cede5c2872fb729b8e54f622612236a1",
+      "purpose": "direct S1 timestamp metadata for 11 no-qualifying-S2 retrospective tiles"
+    },
+    "holdout_s1_anchor_audit_json": {
+      "path": "docs/G3_RULE_A_HOLDOUT_S1_ANCHOR_METADATA_AUDIT.json",
+      "sha256": "c1be977eebb164f041206803c588d9152414b197d75a419e9b85928b941097b8",
+      "purpose": "summary provenance for holdout S1 timestamp metadata audit"
+    }
+  },
+  "data_source": {
+    "repository": "ibm-esa-geospatial/ImpactMesh-Flood",
+    "version": "v1",
+    "license": "CC-BY-4.0",
+    "publisher_asset_manifest": {
+      "path": "data/manifests/impactmesh_assets.json",
+      "sha256": "e9a3c894d178d77bd5e63a2a1ccaa981fe0a53c637543b3c0408360b59c698db"
+    },
+    "archive_audit": {
+      "path": "docs/G3_RAW_ARCHIVE_CHECKSUM_AUDIT.json",
+      "sha256": "bf3bc05a5a26c621d266e873800a38ee57d3feefa7e024dbf2a1df30b3944713"
+    },
+    "raw_archives": [
+      {
+        "path": "data/raw/impactmesh/train/MASK.tar",
+        "size_bytes": 48650240,
+        "sha256": "dc9f2003ac8a1e55511d98f00564f5d967564deb8be41d4270a55192a53c1876"
+      },
+      {
+        "path": "data/raw/impactmesh/train/S1RTC.tar",
+        "size_bytes": 13719961600,
+        "sha256": "f742b9b2f9362c0635d372129b640b525e0d300d062d72cc647f864fc20a28ee"
+      },
+      {
+        "path": "data/raw/impactmesh/train/S2L2A.tar",
+        "size_bytes": 42587596800,
+        "sha256": "0a58335297971c4a6e5e4f4e4aa8d2afe9201dedaad35e08babd03f3a1bb0c6f"
+      },
+      {
+        "path": "data/raw/impactmesh/test/MASK.tar",
+        "size_bytes": 7608320,
+        "sha256": "8e2b805020e9ef7adda33856e579fdb454a07f7c6469f30cfb8a92a5b52597aa"
+      },
+      {
+        "path": "data/raw/impactmesh/test/S1RTC.tar",
+        "size_bytes": 2087639040,
+        "sha256": "2c056513a05edc4ee2db474c33af5ce0f7d7b89256ae60811726db64b63cdcde"
+      },
+      {
+        "path": "data/raw/impactmesh/test/S2L2A.tar",
+        "size_bytes": 6395484160,
+        "sha256": "a001c7165c4264ae119a013c396a2e54e1f4fdfab48b55e704f4238c78906829"
+      }
+    ]
+  },
+  "runtime": {
+    "device": "cuda"
+  },
+  "migration": {
+    "authorization": "researcher authorized transfer and training on RTX A5000 server",
+    "scope": "execution backend and artifact identity migration only; scientific parameters unchanged",
+    "precision": "FP32; TF32 disabled; no autocast",
+    "completed_weights": "root imports verified completed model artifacts; unfinished cross-device RNG checkpoints cannot resume",
+    "resource_keys": "historical *_xpu_hours keys now cap combined XPU/CUDA accelerator wall hours at the unchanged 47 total / 24 SMAGNet / 23 others",
+    "reproducibility": "common seeds, samples, masks and epochs retained; XPU and CUDA arithmetic need not be bitwise identical"
+  },
+  "checkpoint_policy": "atomic rolling full resume; fixed epoch-24 model-only per completed seed",
+  "evaluation_protocol": {
+    "interpretation": "retrospective descriptive only; no confirmation or independent generalization claim",
+    "primary_role": "internal_retro",
+    "primary_metric": "binary_flood_brier",
+    "primary_contrast": "(D-C)-(B-A)",
+    "primary_aggregation": "pixel mean within process×state; equal mean over five states; then equal process mean; seedwise contrast then equal seed mean",
+    "primary_states": [
+      "100",
+      "75",
+      "50",
+      "25",
+      "0"
+    ],
+    "secondary_irregular_states": [
+      "irregular_75",
+      "irregular_50",
+      "irregular_25"
+    ],
+    "flood_iou_guardrail": {
+      "contrast": "C-A at 100% optical availability",
+      "tolerance": -0.02,
+      "interpretation": "project-defined descriptive tolerance, not a journal standard"
+    },
+    "bootstrap": {
+      "unit": "process",
+      "replicates": 10000,
+      "rng": "PCG64",
+      "seed": 20261029,
+      "interval": 0.95
+    },
+    "holdout_strata": {
+      "paired_eligible": 432,
+      "low_visible": 49,
+      "no_qualifying_s2": 11
+    },
+    "temperature": {
+      "one_positive_global_scalar_per_model_seed_policy": true,
+      "multistate_states_equal_weight": true,
+      "never_state_specific": true
+    },
+    "b1": {
+      "report_hard_label_metrics_only": true,
+      "exclude_from_probability_comparison": true
+    }
+  },
+  "reproducibility": {
+    "deterministic_algorithms": true,
+    "warn_only": true,
+    "limitation": "XPU NLL kernels may be non-bitwise deterministic; seeds, intervention masks and checkpoint RNG are fixed"
+  },
+  "resources": {
+    "smagnet_stop_xpu_hours": 24,
+    "other_stop_xpu_hours": 23,
+    "total_stop_xpu_hours": 47,
+    "durable_incremental_disk_bytes": 3000000000,
+    "calibration_free_ram_min_gib": 12
+  },
+  "fixed_baselines": {
+    "B1": {
+      "type": "hard_label_sar_threshold",
+      "thresholds_path": "outputs/upgrade_20260929/B1/thresholds.json",
+      "fit_script_path": "scripts/upgrade_b1_fit.py",
+      "fit_script_sha256": "5ea2fc582dca5b4c5bc05282e5155d9720113e37a977415cf527d2d35e307b4f",
+      "temperature": false,
+      "probability_metrics": false
+    }
+  },
+  "freeze_required_files": [
+    "G3_FREEZE_MANIFEST.json",
+    "G3_INDEPENDENT_REVIEW.json"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "activation": "EMSR865",
+  "calibration_labels_read": false,
+  "code_sha256": {
+    "scripts/smoke_upgrade_fit.py": "b8555225df328440437291781af204dead0726f9b8574ba3dd7b928f65a2e65f",
+    "src/flood_reliability/impactmesh_io.py": "664705e07f84402230bfa5ad272e862047868aefcf90fe92b40ad6904a59f54d",
+    "src/flood_reliability/models.py": "205e1091f8941d4f20d67d601c6f3e4b6e9a2d09d41ce988b2193c8ac6a9e8d7"
+  },
+  "completed_utc": "2026-09-29T08:53:00.830325+00:00",
+  "config_sha256": "d1c211b5e8931b4faf6f3e186180455d3e54fb4b25d795351db9bbcc90ea17f1",
+  "device": "xpu",
+  "evaluation_roles_opened": [],
+  "fit_manifest_sha256": "c6c71467f9d535ff07493e7356f107aa3d99d07721ba48facc2358d53758ad9c",
+  "forward_models": [
+    "B2",
+    "B5"
+  ],
+  "internal_or_holdout_labels_read": false,
+  "label_codes": [
+    0,
+    1,
+    2
+  ],
+  "label_product_reference_time": "UNVERIFIED; this smoke checks array contract only",
+  "optical_valid_fraction": 0.965087890625,
+  "optimizer_steps": 0,
+  "purpose": "one fit tile I/O and B2/B5 forward compatibility only",
+  "s1_event_utc": "2026-02-08T10:49:19.446169Z",
+  "s2_age_days": 18.800560430196757,
+  "s2_time_index": 1,
+  "s2_utc": "2026-01-20T15:36:31.025000Z",
+  "sample_id": "EMSR865_1_18PVR_x403145_y1023835",
+  "scores_read_or_written": false,
+  "shapes": {
+    "label": [
+      256,
+      256
+    ],
+    "optical_valid": [
+      256,
+      256
+    ],
+    "s1": [
+      2,
+      256,
+      256
+    ],
+    "s2": [
+      12,
+      256,
+      256
+    ]
+  },
+  "status": "PASS_FIT_ONLY_INPUT_SMOKE"
+}

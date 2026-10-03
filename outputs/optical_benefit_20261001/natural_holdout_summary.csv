@@ -1,0 +1,3 @@
+role,stratum,comparator,state,process_n_brier,process_n_joint,flood_iou_gain_mean,flood_iou_gain_ci95_low,flood_iou_gain_ci95_high,binary_flood_brier_gain_mean,binary_flood_brier_gain_ci95_low,binary_flood_brier_gain_ci95_high,outcome_both_better,outcome_segmentation_only,outcome_probability_only,outcome_both_worse,outcome_tie,outcome_undefined_iou
+holdout_retro,low_visible,B4,observed,5,5,0.028523584100688004,0.005708448213243231,0.05525312710787524,-0.003180657249269237,-0.0200950943606479,0.011581573228127806,2,1,0,0,2,0
+holdout_retro,no_qualifying_s2,B4,observed_absent,1,1,6.006658515786946e-05,6.006658515786946e-05,6.006658515786946e-05,-0.04031002394731059,-0.04031002394731059,-0.04031002394731059,0,1,0,0,0,0

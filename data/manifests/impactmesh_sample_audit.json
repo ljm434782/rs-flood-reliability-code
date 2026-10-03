@@ -1,0 +1,217 @@
+{
+  "sample_id": "EMSR264_16_38KMD_x493425_y7815805",
+  "selection": "first member in official validation tar; convenience sample only",
+  "S1RTC": {
+    "bands_shape": [
+      4,
+      2,
+      256,
+      256
+    ],
+    "band_names": [
+      "vv",
+      "vh"
+    ],
+    "timestamps_utc": [
+      "2017-11-18T02:27:55.703581Z",
+      "2017-12-12T02:27:54.934084Z",
+      "2018-01-11T02:27:03.804252Z",
+      "2018-01-29T02:27:53.150028Z"
+    ],
+    "data_mask_values": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "nan_mask_value_counts_by_time": [
+      {
+        "0": 65536
+      },
+      {
+        "0": 65536
+      },
+      {
+        "0": 65536
+      },
+      {
+        "0": 65536
+      }
+    ],
+    "event_index_2_band0_finite_fraction": 1.0,
+    "event_index_2_band0_quantiles_finite": [
+      -29.171875,
+      -8.84375,
+      -3.580761718749997,
+      1.6806640625
+    ]
+  },
+  "S2L2A": {
+    "bands_shape": [
+      4,
+      12,
+      256,
+      256
+    ],
+    "band_names": [
+      "B01",
+      "B02",
+      "B03",
+      "B04",
+      "B05",
+      "B06",
+      "B07",
+      "B08",
+      "B8A",
+      "B09",
+      "B11",
+      "B12"
+    ],
+    "timestamps_utc": [
+      "2017-12-05T07:12:09.027000Z",
+      "2017-12-25T07:12:09.027000Z",
+      "2018-01-14T07:12:09.027000Z",
+      "2018-02-03T07:12:09.027000Z"
+    ],
+    "data_mask_values": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "nan_mask_value_counts_by_time": [
+      {
+        "0": 65536
+      },
+      {
+        "0": 65536
+      },
+      {
+        "0": 65536
+      },
+      {
+        "0": 65536
+      }
+    ],
+    "event_index_2_band0_finite_fraction": 1.0,
+    "event_index_2_band0_quantiles_finite": [
+      272.0,
+      675.0,
+      910.0,
+      1049.0
+    ],
+    "cloud_mask_attributes": {
+      "_ARRAY_DIMENSIONS": [
+        "time",
+        "y",
+        "x"
+      ],
+      "coordinates": "spatial_ref",
+      "description": "SCL cloud mask",
+      "labels": "-1: No data/NaNs; 0: No cloud; 1: Cloud (medium or high probability); 2: Thin cirrus."
+    },
+    "cloud_mask_value_counts_by_time": [
+      {
+        "0.0": 65162,
+        "1.0": 374
+      },
+      {
+        "0.0": 65164,
+        "1.0": 372
+      },
+      {
+        "1.0": 30044,
+        "2.0": 35492
+      },
+      {
+        "0.0": 65248,
+        "1.0": 288
+      }
+    ],
+    "SCL_value_counts_by_time": [
+      {
+        "4.0": 19094,
+        "5.0": 37676,
+        "6.0": 7018,
+        "7.0": 1374,
+        "8.0": 374
+      },
+      {
+        "4.0": 37970,
+        "5.0": 18880,
+        "6.0": 7996,
+        "7.0": 318,
+        "8.0": 372
+      },
+      {
+        "8.0": 30044,
+        "10.0": 35492
+      },
+      {
+        "2.0": 56,
+        "4.0": 46972,
+        "5.0": 8312,
+        "6.0": 9142,
+        "7.0": 766,
+        "8.0": 288
+      }
+    ],
+    "scene_cloud_metadata": {
+      "s2_high_proba_clouds_percentage": [
+        "0.700032",
+        "5.363403",
+        "5.578578",
+        "1.876138"
+      ],
+      "s2_medium_proba_clouds_percentage": [
+        "0.440004",
+        "1.291194",
+        "54.022151",
+        "0.976819"
+      ],
+      "s2_cloud_shadow_percentage": [
+        "0.229399",
+        "1.279939",
+        "0.016636",
+        "0.746982"
+      ],
+      "s2_nodata_pixel_percentage": [
+        "20.665078",
+        "19.935657",
+        "19.825926",
+        "20.131923"
+      ]
+    }
+  },
+  "s2_minus_s1_days_by_index": [
+    17.197376428460647,
+    13.197385334675925,
+    3.197977115138889,
+    5.197405983472223
+  ],
+  "s1_s2_coordinates_match": true,
+  "label": {
+    "shape": [
+      256,
+      256
+    ],
+    "crs": "EPSG:32738",
+    "transform": [
+      10.0,
+      0.0,
+      493420.0,
+      0.0,
+      -10.0,
+      7815810.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "class_counts": {
+      "0": 54259,
+      "1": 10247,
+      "2": 1030
+    },
+    "sensor_grid_matches_label_centers": true
+  }
+}
